@@ -8,7 +8,7 @@ Contributing
 First off, **thank you** for landing here and considering contributing to Unity-Billal-mesloub!
 
 This documentation serves as a guide for first-timer and veteran contributors. As an open-core
-project, Unity Billal mesloub accepts contributions from everyone, Unity-Billal-mesloub employees and members of the Unity-Billal-mesloub community
+project, Unity Billal mesloub accepts contributions from everyone, Unity-Billal-mesloub employees and members of the Unity-Billal-mesloub
 alike. The Unity-Billal-mesloub community comprises users, developers, and other interested parties who contribute
 their time and expertise.
 
