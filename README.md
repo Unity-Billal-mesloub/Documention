@@ -15,8 +15,9 @@
 - A local copy of the [Unity-Billal-mesloub/Software-Development-Project-Structure](https://github.com/Unity-Billal-mesloub/Software-Development-Project-Structure) repository
 - A local copy of the [Unity-Billal-mesloub/Creating-Excel-using-Python](https://github.com/Unity-Billal-mesloub/Creating-Excel-using-Python) repository
 - A local copy of the [Unity-Billal-mesloub/dirlisting](https://github.com/Unity-Billal-mesloub/dirlisting) repository (optional)
-
-
+- A local copy of the [Unity-Billal-mesloub/commons-app-documentation](https://github.com/Unity-Billal-mesloub/commons-app-documentation) repository (optional)
+- A local copy of the [Unity-Billal-mesloub/typing](https://github.com/Unity-Billal-mesloub/typing) repository (optional)
+  
 ### Quick start
 
 1. Create and activate a virtual environment.
