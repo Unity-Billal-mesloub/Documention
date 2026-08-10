@@ -133,63 +133,69 @@ Follow the guide to update the PATH variable on Linux and macOS with the install
 
 
 |Linux and macOS | Windows |
---------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------
 git config --global core.autocrlf input
 git config commit.template `pwd`/commit_template.txt
---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------
 
 
 9- Install the latest release of Python and pip.
 
 10- Install the Python dependencies of the documentation with pip.
 
---------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------
  pip install -r requirements.txt
---------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------
 
 Verify that the installation directory of the Python dependencies is included in your system’s PATH variable.
 
 |Linux and macOS | Windows |
---------------------------------------------------------------------------------------------------------------------------------------
-Follow the guide to update the PATH variable on Linux and macOS with the installation path of the Python dependencies (by default ~/.local/bin).
---------------------------------------------------------------------------------------------------------------------------------------
-
+---------------------------------------------------------------------
+Follow the guide to update the PATH variable on Linux and macOS with 
+the installation path of the Python dependencies (by default ~/.local/bin).
+----------------------------------------------------------------------------
 
 11- Install Make.
 
 |Linux  |  macOS    Windows |
---------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------
 sudo apt install make -y
---------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------
  
 12- Install pngquant.
 
 13- You are now ready to make your first contribution with Git.
 
 |Contributing to the documentation  |  Contribute from the GitHub interface |Contribute with Git
---------------------------------------------------------------------------------------------------------------------------------------
-1-First, create a GitHub account. Odoo uses GitHub to manage the source code of its products, and this is where you will submit your changes.
+---------------------------------------------------------------------------------------------------------
+1-First, create a GitHub account. Odoo uses GitHub to manage the source code of its products, 
+and this is where you will submit your changes.
 
-2-Verify that you are browsing the documentation in the version that you intend to change. The version can be selected from the dropdown in the top menu.
+2-Verify that you are browsing the documentation in the version that you intend to change. The version
+can be selected from the dropdown in the top menu.
 
-3-Head to the page that you want to change and click on the Edit on GitHub button in the top right corner of the page.
+3-Head to the page that you want to change and click on the Edit on GitHub button in the top right corner
+of the page.
 
-4-Click on the Fork this repository button to create a fork (your own copy) of the repository on your account. This creates a copy of the codebase to which you can make changes without affecting the main codebase. Skip this step if you work at Odoo.
+4-Click on the Fork this repository button to create a fork (your own copy) of the repository on your 
+account. This creates a copy of the codebase to which you can make changes without affecting the main 
+codebase. Skip this step if you work at Odoo.
 
-                                             ------------------------------------------------ 
-                                                ../_images/fork-repository.png
-                                            ------------------------------------------------  
+                              ------------------------------------------------ 
+                                        ../_images/fork-repository.png
+                              ------------------------------------------------  
                                             
 5- Make the desired changes while taking care of following the content and RST guidelines.
-                                            ------------------------------------------------               
-                                           Tip
 
-                                           Click on the Preview changes button to review your
-                                           contribution in a more human-readable format. Be aware 
-                                           that the preview is not able to handle all markups correctly.
-                                           Notes and tips, for instance, are shown as plain text.
+                               --------------------------------------------------------               
+                                  Tip
+
+                                 Click on the Preview changes button to review your
+                                 contribution in a more human-readable format. Be aware 
+                                 that the preview is not able to handle all markups correctly.
+                                 Notes and tips, for instance, are shown as plain text.
                                            
-                                            ------------------------------------------------
+                                --------------------------------------------------------
                                             
 6- Scroll to the bottom of the page and fill out the small form to propose your changes. In the first text box, write a very short summary of your changes. For instance, “Fix a typo” or “Add documentation for invoicing of sales orders.” In the second text box, explain why you are proposing these changes. Then, click on the Propose changes button.
 
