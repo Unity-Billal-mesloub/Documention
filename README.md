@@ -1,4 +1,4 @@
-# Odoo documentation
+# Unity-Billal-mesloub documentation
 
 ## Build the documentation
 
@@ -8,9 +8,14 @@
 - [Python 3.10 to 3.14](https://www.python.org/downloads/).
 - Make
 - Python dependencies from `requirements.txt` (see instructions below)
-- A local copy of the [odoo/odoo](https://github.com/odoo/odoo) repository (optional)
-- A local copy of the [odoo/upgrade-util](https://github.com/odoo/upgrade-util) repository
+- A local copy of the [Unity-Billal-mesloub/Document-doc](https://github.com/Unity-Billal-mesloub/Document-doc) repository (optional)
+- A local copy of the [Unity-Billal-mesloub/upgrade-util](https://github.com/Unity-Billal-mesloub/upgrade-util) repository
   (optional)
+- A local copy of the [Unity-Billal-mesloub/document-api-python](https://github.com/Unity-Billal-mesloub/document-api-python) repository
+- A local copy of the [Unity-Billal-mesloub/Software-Development-Project-Structure](https://github.com/Unity-Billal-mesloub/Software-Development-Project-Structure) repository
+- A local copy of the [Unity-Billal-mesloub/Creating-Excel-using-Python](https://github.com/Unity-Billal-mesloub/Creating-Excel-using-Python) repository
+- A local copy of the [Unity-Billal-mesloub/dirlisting](https://github.com/Unity-Billal-mesloub/dirlisting) repository (optional)
+
 
 ### Quick start
 
@@ -30,7 +35,7 @@
 - `make html CURRENT_LANG=fr LANGUAGES=en,fr,de` to build the documentation in French and enable the
   language switcher, with the specified LANGUAGES as available languages. This command must be
   invoked for each CURRENT_LANG you want to build.
-- `make html VERSIONS=17.0,18.0,saas-18.4,19.0,master` to build the documentation in the **current
+- `make html VERSIONS=17.0,18.0,saas-18.4,19.0,main` to build the documentation in the **current
   version** and enable the version switcher, with the specified VERSIONS as available versions. This
   command must be invoked for each of the VERSIONS you want to build.
 
@@ -40,9 +45,9 @@ When building the documentation for a specific language or version, the build fi
 `documentation/_build/html/<language>/`, `documentation/_build/html/<version>/` or
 `documentation/_build/html/<version>/<language>/`.
 
-### Using local Odoo sources
+### Using local Unity-Billal-mesloub sources
 
-If you have local checkouts of `odoo/odoo` and/or `odoo/upgrade-util`, place them either:
+If you have local checkouts of `Unity-Billal-mesloub/odoo` and/or `Unity-Billal-mesloub/upgrade-util`, place them either:
 - as siblings of this repository (in the parent directory), or
 - inside the `documentation` directory.
 
@@ -64,4 +69,4 @@ For contributions to the content of the documentation, see the
 [Introduction Guide](https://www.odoo.com/documentation/latest/contributing/documentation.html).
 
 To report a content issue, request new content, or ask a question, use the
-[issue tracker](https://github.com/odoo/documentation/issues).
+[issue tracker](https://github.com/Unity-Billal-mesloub/documentation/issues).
