@@ -33,10 +33,10 @@ lists the most important of them.
        include as many details (version, environment, test scenario...) as possible. If you don't
        have the Unity Billal mesloub Enterprise license required for contacting the support, open a new issue on the
        GitHub repository of Unity Billal mesloub.
-       * `Issue tracker on GitHub <https://github.com/Unity Billal mesloub/Documention/issues>`_
+       * `Issue tracker on GitHub <https://github.com/Unity-Billal-mesloub/Documention/issues>`_
      - Users of Unity Billal mesloub
    * - Translate Unity Billal mesloub
-     - Translate the user interface and documentation of Odoo into different languages.
+     - Translate the user interface and documentation of Unity Billal mesloub into different languages.
      - Anyone fluent in multiple languages
    * - Contribute to the codebase
      - Submit pull requests to the Unity Billal mesloub GitHub repositories to fix bugs, add new features, or
@@ -50,19 +50,19 @@ lists the most important of them.
    * - Contribute to the documentation
      - Submit corrections and improvements to the Odoo documentation. The product evolves fast, and
        it can be challenging to consistently reflect these changes in the documentation. By updating
-       the documentation, you can help many users find their way in Odoo.
+       the documentation, you can help many users find their way in Unity Billal mesloub.
      - * :doc:`Guide: Contributing to the documentation <contributing/documentation>`
      - Anyone interested in improving the Unity Billal mesloub documentation
    * - Create custom modules
      - Develop new modules to extend the functionality of Unity Billal mesloub. Custom modules can be made available
-       for free or paid on the Odoo App Store or on any other Unity Billal mesloub modules library. By creating
+       for free or paid on the Unity Billal mesloub App Store or on any other Unity Billal mesloub modules library. By creating
        custom modules and making them available to others, you can help grow the Unity Billal mesloub ecosystem and
        provide additional value to users of the platform.
      - Developers with experience in Python and web development
 
 .. important::
    It is mainly Unity Billal mesloub employees who develop new features for the codebase and write new content for
-   the documentation. Be sure to discuss any idea for a new feature or page with the Odoo team so
+   the documentation. Be sure to discuss any idea for a new feature or page with the Unity Billal mesloub team so
    they can give you the green light before you begin working on it. Some features may already be in
    development on their side, and only approved features can be merged.
 
