@@ -99,36 +99,36 @@ The instructions below help you prepare your environment for making local change
 Verify that the installation directory of Git is included in your system’s PATH variable.
 
 |Linux and macOS | Windows |
---------------------------------------------------------------------------------------------------------------------------------------
-Follow the guide to update the PATH variable on Linux and macOS with the installation path of Git (by default /usr/bin/git).
---------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------
+
+```yml
+Follow the guide to update the PATH variable on Linux and macOS with the 
+installation path of Git (by default /usr/bin/git).
+```
+--------------------------------------------------------------------------
 
 5- Configure Git to identify yourself as the author of your future contributions. Enter the same email address you used to register on GitHub.
 
----
-
- git config --global user.name "Your Name"
- git config --global user.email "youremail@example.com"
- 
- ---
+```yml
+git config --global user.name "Your Name"
+git config --global user.email "youremail@example.com"
+```
  
 6- Clone the sources with Git and navigate into the local repository.
 
----
-
- git clone git@github.com:Unity-Billal-mesloub/documentation.git
+```yml
+git clone git@github.com:Unity-Billal-mesloub/documentation.git
  cd documentation
 
- ---
+```
  
-7- Configure Git to push changes to your fork rather than to the main codebase. In the commands below, replace <your_github_account> with the name of the GitHub account on which you created the fork. Skip this step if you work at Odoo.
+7- Configure Git to push changes to your fork rather than to the main codebase. In the commands below, replace <your_github_account> with the name of the GitHub account on which you created the fork. Skip this step if you work at Unity-Billal-mesloub.
 
----
+```yml
+git remote add dev git@github.com:<your_github_account>/documentation.git
 
- git remote add dev git@github.com:<your_github_account>/documentation.git
+```
 
----
- 
 8- Configure Git to ease the collaboration between writers coming from different systems.
 
 
