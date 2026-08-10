@@ -19,7 +19,7 @@
 - A local copy of the [Unity-Billal-mesloub/typing](https://github.com/Unity-Billal-mesloub/typing) repository (optional)
 - A local copy of the [Unity-Billal-mesloub/git-for-windows](https://github.com/Unity-Billal-mesloub/git-for-windows) repository (optional)
 - A local copy of the [Unity-Billal-mesloub/typing_extensions](https://github.com/Unity-Billal-mesloub/typing_extensions) repository (optional) 
-
+- A local copy of the [Unity-Billal-mesloub/format](https://github.com/Unity-Billal-mesloub/format) repository (optional)
  
 ### Quick start
 
