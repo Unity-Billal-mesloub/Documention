@@ -17,7 +17,8 @@
 - A local copy of the [Unity-Billal-mesloub/dirlisting](https://github.com/Unity-Billal-mesloub/dirlisting) repository (optional)
 - A local copy of the [Unity-Billal-mesloub/commons-app-documentation](https://github.com/Unity-Billal-mesloub/commons-app-documentation) repository (optional)
 - A local copy of the [Unity-Billal-mesloub/typing](https://github.com/Unity-Billal-mesloub/typing) repository (optional)
-- A local copy of the [Unity-Billal-mesloub/git-for-windows]( https://github.com/Unity-Billal-mesloub/git-for-windows) repository (optional)
+- A local copy of the [Unity-Billal-mesloub/git-for-windows](https://github.com/Unity-Billal-mesloub/git-for-windows) repository (optional)
+- A local copy of the [Unity-Billal-mesloub/typing_extensions](https://github.com/Unity-Billal-mesloub/typing_extensions) repository (optional) 
 
  
 ### Quick start
