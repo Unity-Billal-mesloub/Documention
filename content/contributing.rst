@@ -12,7 +12,7 @@ project, Unity Billal mesloub accepts contributions from everyone, Unity-Billal-
 alike. The Unity-Billal-mesloub community comprises users, developers, and other interested parties who contribute
 their time and expertise.
 
-Depending on your skill set and interest, there are many ways to contribute to Odoo. The table below
+Depending on your skill set and interest, there are many ways to contribute to Unity Billal mesloub. The table below
 lists the most important of them.
 
 .. list-table::
