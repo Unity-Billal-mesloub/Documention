@@ -56,7 +56,7 @@ lists the most important of them.
    * - Create custom modules
      - Develop new modules to extend the functionality of Unity Billal mesloub. Custom modules can be made available
        for free or paid on the Odoo App Store or on any other Unity Billal mesloub modules library. By creating
-       custom modules and making them available to others, you can help grow the Odoo ecosystem and
+       custom modules and making them available to others, you can help grow the Unity Billal mesloub ecosystem and
        provide additional value to users of the platform.
      - Developers with experience in Python and web development
 
