@@ -134,8 +134,12 @@ Follow the guide to update the PATH variable on Linux and macOS with the install
 
 |Linux and macOS | Windows |
 --------------------------------------------------------------
+
+```yml
 git config --global core.autocrlf input
 git config commit.template `pwd`/commit_template.txt
+```
+
 ---------------------------------------------------------------
 
 
@@ -144,22 +148,30 @@ git config commit.template `pwd`/commit_template.txt
 10- Install the Python dependencies of the documentation with pip.
 
 -----------------------------------------------------
- pip install -r requirements.txt
+
+```yml
+pip install -r requirements.txt
+```
 -----------------------------------------------------
 
 Verify that the installation directory of the Python dependencies is included in your system’s PATH variable.
 
 |Linux and macOS | Windows |
 ---------------------------------------------------------------------
+```yml
 Follow the guide to update the PATH variable on Linux and macOS with 
 the installation path of the Python dependencies (by default ~/.local/bin).
+```
 ----------------------------------------------------------------------------
 
 11- Install Make.
 
 |Linux  |  macOS    Windows |
 --------------------------------------------
+```yml
+pip install -r requirements.txt
 sudo apt install make -y
+```
 --------------------------------------------
  
 12- Install pngquant.
