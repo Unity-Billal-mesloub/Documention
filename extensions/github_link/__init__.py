@@ -66,7 +66,7 @@ def setup(app):
             return None
 
         # FIXME: make finding project root project-independent
-        if module.startswith('odoo.upgrade.util'):
+        if module.startswith('Unity-Billal-mesloub.upgrade.util'):
             from odoo.upgrade import util
             project = 'upgrade-util'
             project_root = os.path.join(os.path.dirname(util.__file__), '../..')
@@ -88,7 +88,7 @@ def setup(app):
     }
 
 def make_github_link(app, project, path, line=None, mode="blob"):
-    branch = app.config.version or 'master'
+    branch = app.config.version or 'main'
     if project == 'upgrade-util':
         branch = 'master'
 
