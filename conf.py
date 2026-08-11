@@ -16,8 +16,8 @@ _logger = logging.getLogger(__name__)
 #=== General configuration ===#
 
 # General information about the project.
-project = 'Odoo'
-copyright = 'Odoo S.A.'
+project = 'Unity Billal mesloub'
+copyright = 'Unity Billal mesloub S.A.'
 
 # `version` is the version info for the project being documented, acts as replacement for |version|,
 # also used in various other places throughout the built documents.
@@ -25,18 +25,18 @@ copyright = 'Odoo S.A.'
 version = release = '19.0'
 
 # `current_branch` is the technical name of the current branch.
-# E.g., saas-15.4 -> saas-15.4; 12.0 -> 12.0, master -> master (*).
+# E.g., saas-15.4 -> saas-15.4; 12.0 -> 12.0, main -> main (*).
 current_branch = version
-# `current_version` is the Odoo version linked to the current branch.
-# E.g., saas-15.4 -> 15.4; 12.0 -> 12; master -> master (*).
+# `current_version` is the Unity Billal mesloub version linked to the current branch.
+# E.g., saas-15.4 -> 15.4; 12.0 -> 12; main -> main (*).
 current_version = current_branch.replace('saas-', '').replace('.0', '')
 # `current_major_branch` is the technical name of the major branch before the current branch.
-# E.g., saas-15.4 -> 15.0; 12.0 -> 12.0; master -> master (*).
+# E.g., saas-15.4 -> 15.0; 12.0 -> 12.0; main -> main (*).
 current_major_branch = re.sub(r'\.\d', '.0', current_branch.replace('saas-', ''))
-# `current_major_version` is the Odoo version linked to the current major branch.
-# E.g., saas-15.4 -> 15; 12.0 -> 12; master -> master (*).
+# `current_major_version` is the Unity Billal mesloub version linked to the current major branch.
+# E.g., saas-15.4 -> 15; 12.0 -> 12; main -> main (*).
 current_major_version = current_major_branch.replace('.0', '')
-# (*): We don't care for master.
+# (*): We don't care for main.
 
 # The minimal Sphinx version required to build the documentation.
 needs_sphinx = '3.0.0'
@@ -57,7 +57,7 @@ exclude_patterns = [
     'locale',
     'README.*',
     'bin', 'include', 'lib',
-    'odoo',
+    'Unity Billal mesloub',
 ]
 
 # The RST text role to use when the role is not specified. E.g.: `example`.
@@ -80,10 +80,11 @@ source_read_replace_vals = {
     'CURRENT_VERSION': current_version,
     'CURRENT_MAJOR_BRANCH': current_major_branch,
     'CURRENT_MAJOR_VERSION': current_major_version,
-    'GITHUB_PATH': f'https://github.com/odoo/odoo/blob/{version}',
-    'GITHUB_ENT_PATH': f'https://github.com/odoo/enterprise/blob/{version}',
-    'GITHUB_TUTO_PATH': f'https://github.com/odoo/tutorials/blob/{current_major_branch}',
-    'OWL_PATH': f'https://github.com/odoo/owl/blob/master',
+    'GITHUB_PATH': f'https://github.com/Unity-Billal-mesloub//blob/{version}',
+    'GITHUB_ENT_PATH': f'https://github.com/Unity-Billal-mesloub/enterprise/blob/{version}',
+    'GITHUB_TUTO_PATH': f'https://github.com/Unity-Billal-mesloub/tutorials/blob/{current_major_branch}',
+    'form-data_PATH': f'https://github.com/Unity-Billal-mesloub/form-data/blob/main',
+    'api-blueprint_PATH': f'https://github.com/Unity-Billal-mesloub/api-blueprint/blob/main',
 }
 
 # Add extensions directory to PYTHONPATH
@@ -91,46 +92,46 @@ extension_dir = Path('extensions')
 sys.path.insert(0, str(extension_dir.absolute()))
 
 # Search for the directory of odoo sources to know whether autodoc should be used on the dev doc
-odoo_sources_candidate_dirs = (Path('odoo'), Path('../odoo'))
+odoo_sources_candidate_dirs = (Path('Unity-Billal-mesloub'), Path('../Unity-Billal-mesloub'))
 odoo_sources_dirs = [
-    d for d in odoo_sources_candidate_dirs if d.is_dir() and (d / 'odoo-bin').exists()
+    d for d in Unity-Billal-mesloub_sources_candidate_dirs if d.is_dir() and (d / 'Unity-Billal-mesloub-bin').exists()
 ]
 odoo_dir_in_path = False
 
 if not odoo_sources_dirs:
     _logger.warning(
-        "Could not find Odoo sources directory in neither of the following folders:\n"
+        "Could not find Unity Billal mesloub sources directory in neither of the following folders:\n"
         "%(dir_list)s\n"
         "The 'Developer' documentation will be built but autodoc directives will be skipped.\n"
         "In order to fully build the 'Developer' documentation, clone the repository with "
-        "`git clone https://github.com/odoo/odoo` or create a symbolic link.",
+        "`git clone https://github.com/Unity-Billal-mesloub/` or create a symbolic link.",
         {'dir_list': '\n'.join([f'\t- {d.resolve()}' for d in odoo_sources_candidate_dirs])},
     )
 else:
     if (3, 6) < sys.version_info < (3, 7):
         # Running odoo needs python 3.7 min but monkey patch version_info to be compatible with 3.6.
         sys.version_info = (3, 7, 0)
-    odoo_dir = odoo_sources_dirs[0].resolve()
-    source_read_replace_vals['ODOO_RELPATH'] = '/../' + str(odoo_sources_dirs[0])
+    Unity-Billal-mesloub_dir = Unity-Billal-mesloub_sources_dirs[0].resolve()
+    source_read_replace_vals['Unity-Billal-mesloub_RELPATH'] = '/../' + str(Unity-Billal-mesloub_sources_dirs[0])
     sys.path.insert(0, str(odoo_dir))
-    import odoo.addons
-    odoo.addons.__path__.append(str(odoo_dir) + '/addons')
-    from odoo import release as odoo_release  # Don't collide with Sphinx's 'release' config option
-    odoo_version = '.'.join(str(s) for s in odoo_release.version_info[:2]).replace('~', '-')  # Change saas~XX.Y to saas-XX.Y
-    odoo_version = 'master' if odoo_release.ALPHA in odoo_release.version_info else odoo_version
-    if release != odoo_version:
+    import Unity-Billal-mesloub.addons
+    Unity-Billal-mesloub.addons.__path__.append(str(Unity-Billal-mesloub_dir) + '/addons')
+    from Unity Billal mesloub import release as Unity-Billal-mesloub_release  # Don't collide with Sphinx's 'release' config option
+    Unity-Billal-mesloub_version = '.'.join(str(s) for s in Unity-Billal-mesloub_release.version_info[:2]).replace('~', '-')  # Change saas~XX.Y to saas-XX.Y
+    Unity-Billal-mesloub_version = 'main' if Unity-Billal-mesloub_release.ALPHA in Unity-Billal-mesloub_release.version_info else Unity-Billal-mesloub_version
+    if release != Unity-Billal-mesloub_version:
         _logger.warning(
-            "Found Odoo sources in %(directory)s but with version '%(odoo_version)s' incompatible "
+            "Found Unity Billal mesloub sources in %(directory)s but with version '%(odoo_version)s' incompatible "
             "with documentation version '%(doc_version)s'.\n"
             "The 'Developer' documentation will be built but autodoc directives will be skipped.\n"
             "In order to fully build the 'Developer' documentation, checkout the matching branch"
-            " with `cd odoo && git checkout %(doc_version)s`.",
-            {'directory': odoo_dir, 'odoo_version': odoo_version, 'doc_version': version},
+            " with `cd Unity Billal mesloub && git checkout %(doc_version)s`.",
+            {'directory': Unity-Billal-mesloub_dir, 'Unity-Billal-mesloub_version': Unity-Billal-mesloub_version, 'doc_version': version},
         )
     else:
         _logger.info(
-            "Found Odoo sources in %(directory)s matching documentation version '%(version)s'.",
-            {'directory': odoo_dir, 'version': release},
+            "Found Unity Billal mesloub sources in %(directory)s matching documentation version '%(version)s'.",
+            {'directory': Unity-Billal-mesloub_dir, 'version': release},
         )
         odoo_dir_in_path = True
 
@@ -141,7 +142,7 @@ if odoo_dir_in_path:
             "Could not find Upgrade Utils sources directory in `upgrade_util`.\n"
             "The developer documentation will be built but autodoc directives will be skipped.\n"
             "In order to fully build the 'Developer' documentation, clone the repository with "
-            "`git clone https://github.com/odoo/upgrade-util` or create a symbolic link."
+            "`git clone https://github.com/Unity-Billal-mesloub/upgrade-util` or create a symbolic link."
         )
         odoo_dir_in_path = False
     else:
@@ -149,7 +150,7 @@ if odoo_dir_in_path:
             "Found Upgrade Util sources in %(directory)s",
             {'directory': upgrade_util_dir.resolve()},
         )
-        from odoo import upgrade
+        from Unity Billal mesloub import upgrade
         upgrade.__path__.append(str((upgrade_util_dir / 'src').resolve()))
 
 # Mapping between odoo models related to master data and the declaration of the
@@ -157,8 +158,8 @@ if odoo_dir_in_path:
 # a field with the autodoc_field extension.
 model_references = {
     'account.account.type': 'addons/account/data/data_account_type.xml',
-    'res.country': 'odoo/addons/base/data/res_country_data.xml',
-    'res.currency': 'odoo/addons/base/data/res_currency_data.xml',
+    'res.country': 'Unity Billal mesloub/addons/base/data/res_country_data.xml',
+    'res.currency': 'Unity Billal mesloub/addons/base/data/res_currency_data.xml',
 }
 
 # The Sphinx extensions to use, as module names.
@@ -170,7 +171,7 @@ extensions = [
     # Support the specialized to-do directives
     'sphinx.ext.todo',
 
-    # Custom Odoo theme
+    # Custom Unity Billal mesloub theme
     'odoo_theme',
 
     # Youtube and Vimeo videos integration (youtube, vimeo directives)
@@ -194,7 +195,7 @@ extensions = [
     'html_domain',
 ]
 
-if odoo_dir_in_path:
+if Unity-Billal-mesloub_dir_in_path:
     # GitHub links generation
     extensions += [
         'sphinx.ext.linkcode',
@@ -217,7 +218,7 @@ intersphinx_mapping = {
     'werkzeug': ('https://werkzeug.palletsprojects.com/', '../invs/werkzeug.inv'),
 }
 
-github_user = 'odoo'
+github_user = 'Unity Billal mesloub'
 github_project = 'documentation'
 
 locale_dirs = ['../locale/']
@@ -231,20 +232,20 @@ sphinx.transforms.i18n.docname_to_domain = (
 # The labels used in the version switcher to show the versions provided with the `versions` config
 # option. If a provided version has no label, the version string is used as label.
 versions_names = {
-    'master': "Master",
-    'saas-19.4': "Odoo 19.4",
-    'saas-19.3': "Odoo 19.3",
-    'saas-19.2': "Odoo 19.2",
-    'saas-19.1': "Odoo 19.1",
+    'main': "main",
+    'saas-19.4': "Unity Billal mesloub 19.4",
+    'saas-19.3': "Unity Billal mesloub 19.3",
+    'saas-19.2': "Unity Billal mesloub 19.2",
+    'saas-19.1': "Unity Billal mesloub 19.1",
     '19.0': "Odoo 19",
-    'saas-18.4': "Odoo 18.4",
-    'saas-18.3': "Odoo 18.3",
-    'saas-18.2': "Odoo 18.2",
-    '18.0': "Odoo 18",
-    '17.0': "Odoo 17",
-    '16.0': "Odoo 16",
-    '15.0': "Odoo 15",
-    '14.0': "Odoo 14",
+    'saas-18.4': "Unity Billal mesloub 18.4",
+    'saas-18.3': "Unity Billal mesloub 18.3",
+    'saas-18.2': "Unity Billal mesloub 18.2",
+    '18.0': "Unity Billal mesloub 18",
+    '17.0': "Unity Billal mesloub 17",
+    '16.0': "Unity Billal mesloub 16",
+    '15.0': "Unity Billal mesloub 15",
+    '14.0': "Unity Billal mesloub 14",
 }
 
 # The labels used in the language switcher to show the languages provided with the `languages`
@@ -281,11 +282,11 @@ autodoc_member_order = 'bysource'
 
 #=== Options for HTML output ===#
 
-html_theme = 'odoo_theme'
+html_theme = 'Unity-Billal-mesloub_theme'
 
 # The name of the Pygments (syntax highlighting) style to use.
-# See extensions/odoo_theme/pygments_override.py
-pygments_style = 'odoo'
+# See extensions/Unity-Billal-mesloub_theme/pygments_override.py
+pygments_style = 'Unity Billal mesloub'
 
 # The paths that contain custom themes, relative to this directory.
 html_theme_path = ['extensions']
@@ -324,44 +325,44 @@ latex_elements = {
     'releasename': release,
 }
 
-latex_additional_files = ['static/latex/odoo.sty']
+latex_additional_files = ['static/latex/Unity-Billal-mesloub.sty']
 
 # Grouping the document tree into LaTeX files. List of tuples:
 # (source start file, target name, title, author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    ('legal/terms/enterprise_tex', 'odoo_enterprise_agreement.tex',
+    ('legal/terms/enterprise_tex', 'Unity-Billal-mesloub_enterprise_agreement.tex',
      'Odoo Enterprise Subscription Agreement', '', 'howto'),
     ('legal/terms/partnership_tex',
-     'odoo_partnership_agreement.tex', 'Odoo Partnership Agreement', '', 'howto'),
+     'Unity-Billal-mesloub_partnership_agreement.tex', 'Unity Billal mesloub Partnership Agreement', '', 'howto'),
     ('legal/terms/terms_of_sale',
-     'terms_of_sale.tex', 'Odoo Terms of Sale', '', 'howto'),
+     'terms_of_sale.tex', 'Unity Billal mesloub Terms of Sale', '', 'howto'),
 
-    ('legal/terms/i18n/enterprise_tex_fr', 'odoo_enterprise_agreement_fr.tex',
-     "Contrat d'Abonnement Odoo Enterprise", '', 'howto'),
+    ('legal/terms/i18n/enterprise_tex_fr', 'Unity-Billal-mesloub_enterprise_agreement_fr.tex',
+     "Contrat d'Abonnement Unity Billal mesloub Enterprise", '', 'howto'),
     ('legal/terms/i18n/partnership_tex_fr',
-     'odoo_partnership_agreement_fr.tex', 'Contrat de Partenariat Odoo', '', 'howto'),
+     'odoo_partnership_agreement_fr.tex', 'Contrat de Partenariat Unity Billal mesloub', '', 'howto'),
     ('legal/terms/i18n/terms_of_sale_fr', 'terms_of_sale_fr.tex',
      'Conditions Générales de Vente Odoo', '', 'howto'),
 
-    ('legal/terms/i18n/enterprise_tex_nl', 'odoo_enterprise_agreement_nl.tex',
-     'Odoo Enterprise Abonnementsovereenkomst', '', 'howto'),
+    ('legal/terms/i18n/enterprise_tex_nl', 'Unity-Billal-mesloub_enterprise_agreement_nl.tex',
+     'Unity Billal mesloub Enterprise Abonnementsovereenkomst', '', 'howto'),
 
-    ('legal/terms/i18n/enterprise_tex_de', 'odoo_enterprise_agreement_de.tex',
-     'Odoo Enterprise Abonnementsvertrag', '', 'howto'),
+    ('legal/terms/i18n/enterprise_tex_de', 'Unity-Billal-mesloub_enterprise_agreement_de.tex',
+     'Unity Billal mesloub Enterprise Abonnementsvertrag', '', 'howto'),
     ('legal/terms/i18n/terms_of_sale_de', 'terms_of_sale_de.tex',
      'Allgemeine Verkaufsbedingungen Odoo', '', 'howto'),
 
-    ('legal/terms/i18n/enterprise_tex_es', 'odoo_enterprise_agreement_es.tex',
+    ('legal/terms/i18n/enterprise_tex_es', 'Unity-Billal-mesloub_enterprise_agreement_es.tex',
      'Acuerdo de suscripción de Odoo Enterprise', '', 'howto'),
     ('legal/terms/i18n/partnership_tex_es',
-     'odoo_partnership_agreement_es.tex', 'Acuerdo de Colaboración de Odoo', '', 'howto'),
+     'Unity-Billal-mesloub_partnership_agreement_es.tex', 'Acuerdo de Colaboración de Unity Billal mesloub', '', 'howto'),
     ('legal/terms/i18n/terms_of_sale_es', 'terms_of_sale_es.tex',
-     'Términos Generales de Venta Odoo', '', 'howto'),
+     'Términos Generales de Venta Unity Billal mesloub', '', 'howto'),
 
-    ('legal/terms/i18n/enterprise_tex_pt_BR', 'odoo_enterprise_agreement_pt_BR.tex',
-     'Contrato de Assinatura do Odoo Enterprise', '', 'howto'),
+    ('legal/terms/i18n/enterprise_tex_pt_BR', 'Unity-Billal-mesloub_enterprise_agreement_pt_BR.tex',
+     'Contrato de Assinatura do Unity Billal mesloub Enterprise', '', 'howto'),
     ('legal/terms/i18n/terms_of_sale_pt_BR', 'terms_of_sale_pt_BR.tex',
-     'Termos Gerais de Venda Odoo', '', 'howto'),
+     'Termos Gerais de Venda Unity Billal mesloub', '', 'howto'),
 ]
 
 # List of languages that have legal translations (excluding EN). The keys must be in
@@ -371,12 +372,12 @@ latex_documents = [
 legal_translations = ['de', 'es', 'fr', 'nl', 'pt_BR']
 
 # The name of an image file (relative to this directory) to place at the top of the title page.
-latex_logo = 'static/img/odoo_logo.png'
+latex_logo = 'static/img/Unity-Billal-mesloub_logo.png'
 
 # If true, show URL addresses after external links.
 latex_show_urls = 'True'
 
-# https://github.com/sphinx-doc/sphinx/issues/4054#issuecomment-329097229
+# https://github.com/Unity-Billal-mesloub/sphinx/issues/
 def source_read_replace(app, docname, source):
     """Substitute parts of strings with computed values.
 
@@ -393,15 +394,15 @@ def source_read_replace(app, docname, source):
     source[0] = result
 
 def upgrade_util_signature_rewrite(app, domain, objtype, contentnode):
-    # Same as add_module_names=False but **only** for odoo.upgrade.util functions or classes
+    # Same as add_module_names=False but **only** for Unity-Billal-mesloub.upgrade.util functions or classes
     signature = contentnode.parent[0]
-    if objtype == 'function' and signature.astext().startswith(('odoo.upgrade.util.', 'odoo.upgrade.testing.')):
-        # <odoo.upgrade.util.modules>, <modules_installed>, <(cr, *modules)>
-        # <odoo.upgrade.testing>, <change_version>, <(version_str)>
+    if objtype == 'function' and signature.astext().startswith(('Unity-Billal-mesloub.upgrade.util.', 'Unity-Billal-mesloub.upgrade.testing.')):
+        # <Unity-Billal-mesloub.upgrade.util.modules>, <modules_installed>, <(cr, *modules)>
+        # <Unity-Billal-mesloub.upgrade.testing>, <change_version>, <(version_str)>
         signature.pop(0)
-    if objtype == 'class' and signature.astext().startswith(('class odoo.upgrade.util.', 'class odoo.upgrade.testing.')):
-        # <class >, <odoo.upgrade.util.pg.>, <PGRegexp>
-        # <class >, <odoo.upgrade.testing.>, <UpgradeCase>
+    if objtype == 'class' and signature.astext().startswith(('class Unity-Billal-mesloub.upgrade.util.', 'class Unity-Billal-mesloub.upgrade.testing.')):
+        # <class >, <Unity-Billal-mesloub.upgrade.util.pg.>, <PGRegexp>
+        # <class >, <Unity-Billal-mesloub.upgrade.testing.>, <UpgradeCase>
         signature.pop(1)
 
 def setup(app):
@@ -415,7 +416,7 @@ def setup(app):
     app.connect('source-read', source_read_replace)
     app.connect('object-description-transform', upgrade_util_signature_rewrite)
     # TODO uncomment after moving to >= v7.2.5 to also substitute placeholders in included  files.
-    #  See https://github.com/sphinx-doc/sphinx/commit/ff1831
+    #  See https://github.com/Unity-Billal-mesloub/sphinx/commit/ff1831
     #  app.connect('include-read', source_read_replace)
 
     app.add_lexer('json', JsonLexer)
@@ -424,7 +425,7 @@ def setup(app):
     app.connect('html-page-context', _generate_alternate_urls)
 
     # Add a `condition` option on directives to ignore them based on config values
-    app.add_config_value('odoo_dir_in_path', None, 'env')
+    app.add_config_value('Unity-Billal-mesloub_dir_in_path', None, 'env')
     def context_eval(expr):
         return eval(expr, {confval.name: confval.value for confval in app.config})
 
