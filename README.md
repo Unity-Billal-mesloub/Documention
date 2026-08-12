@@ -35,11 +35,11 @@
 - A local copy of the [Unity-Billal-mesloub/image-dimensions](https://github.com/Unity-Billal-mesloub/image-dimensions) repository (optional)
 
 
-### Quick start
+### Quick start 
 
 1. Create and activate a virtual environment.
-   - On Linux and macOS: `python3 -m venv .venv && source .venv/bin/activate`
-   - On Windows (PowerShell): `py3 -m venv .venv; .\.venv\Scripts\Activate.ps1`
+   - On Linux and macOS: ``
+   - On Windows : ``
 2. Install the Python dependencies: `pip install -r requirements.txt`
 3. Build the documentation: `make html` (see more commands with `make help`)
 4. Open `documentation/_build/html/index.html` in your web browser.
