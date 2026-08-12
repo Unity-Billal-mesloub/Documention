@@ -28,8 +28,7 @@
 - A local copy of the [Unity-Billal-mesloub/make-asynchronous](https://github.com/Unity-Billal-mesloub/make-asynchronous) repository (optional)
 - A local copy of the [Unity-Billal-mesloub/strtok3](https://github.com/Unity-Billal-mesloub/strtok3) repository (optional)
 - A local copy of the [Unity-Billal-mesloub/tokenizer-s3]( https://github.com/Unity-Billal-mesloub/tokenizer-s3) repository (optional)
-
-
+- A local copy of the [Unity-Billal-mesloub/file-type-pdf]( https://github.com/Unity-Billal-mesloub/file-type-pdf) repository (optional)
 
 ### Quick start
 
