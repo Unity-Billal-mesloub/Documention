@@ -31,8 +31,10 @@
 - A local copy of the [Unity-Billal-mesloub/file-type-pdf](https://github.com/Unity-Billal-mesloub/file-type-pdf) repository (optional)
 - A local copy of the [Unity-Billal-mesloub/file-type-xml](https://github.com/Unity-Billal-mesloub/file-type-xml) repository (optional)
 - A local copy of the [Unity-Billal-mesloub/glTF](https://github.com/Unity-Billal-mesloub/glTF) repository (optional)
+- A local copy of the [Unity-Billal-mesloub/file-type-cli](https://github.com/Unity-Billal-mesloub/file-type-cli) repository (optional)
+- A local copy of the [Unity-Billal-mesloub/image-dimensions](https://github.com/Unity-Billal-mesloub/image-dimensions) repository (optional)
 
- 
+
 ### Quick start
 
 1. Create and activate a virtual environment.
