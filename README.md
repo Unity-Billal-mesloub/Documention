@@ -65,7 +65,7 @@ When building the documentation for a specific language or version, the build fi
 
 ### Using local Unity-Billal-mesloub sources
 
-If you have local checkouts of `Unity-Billal-mesloub/odoo` and/or `Unity-Billal-mesloub/upgrade-util`, place them either:
+If you have local checkouts of `Unity-Billal-mesloub/Documention` and/or `Unity-Billal-mesloub/upgrade-util`, place them either:
 - as siblings of this repository (in the parent directory), or
 - inside the `documentation` directory.
 
