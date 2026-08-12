@@ -33,6 +33,8 @@
 - A local copy of the [Unity-Billal-mesloub/glTF](https://github.com/Unity-Billal-mesloub/glTF) repository (optional)
 - A local copy of the [Unity-Billal-mesloub/file-type-cli](https://github.com/Unity-Billal-mesloub/file-type-cli) repository (optional)
 - A local copy of the [Unity-Billal-mesloub/image-dimensions](https://github.com/Unity-Billal-mesloub/image-dimensions) repository (optional)
+- A local copy of the [Unity-Billal-mesloub/cesium](https://github.com/Unity-Billal-mesloub/cesium) repository (optional)
+- A local copy of the [Unity-Billal-mesloub/readable-web-to-node-stream](https://github.com/Unity-Billal-mesloub/readable-web-to-node-stream) repository (optional)
 
 
 ### Quick start 
