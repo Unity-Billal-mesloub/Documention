@@ -27,10 +27,12 @@
 - A local copy of the [Unity-Billal-mesloub/is-blob](https://github.com/Unity-Billal-mesloub/is-blob) repository (optional)
 - A local copy of the [Unity-Billal-mesloub/make-asynchronous](https://github.com/Unity-Billal-mesloub/make-asynchronous) repository (optional)
 - A local copy of the [Unity-Billal-mesloub/strtok3](https://github.com/Unity-Billal-mesloub/strtok3) repository (optional)
-- A local copy of the [Unity-Billal-mesloub/tokenizer-s3]( https://github.com/Unity-Billal-mesloub/tokenizer-s3) repository (optional)
-- A local copy of the [Unity-Billal-mesloub/file-type-pdf]( https://github.com/Unity-Billal-mesloub/file-type-pdf) repository (optional)
-- A local copy of the [Unity-Billal-mesloub/file-type-xml]( https://github.com/Unity-Billal-mesloub/file-type-xml) repository (optional)
-  
+- A local copy of the [Unity-Billal-mesloub/tokenizer-s3](https://github.com/Unity-Billal-mesloub/tokenizer-s3) repository (optional)
+- A local copy of the [Unity-Billal-mesloub/file-type-pdf](https://github.com/Unity-Billal-mesloub/file-type-pdf) repository (optional)
+- A local copy of the [Unity-Billal-mesloub/file-type-xml](https://github.com/Unity-Billal-mesloub/file-type-xml) repository (optional)
+- A local copy of the [Unity-Billal-mesloub/glTF](https://github.com/Unity-Billal-mesloub/glTF) repository (optional)
+
+ 
 ### Quick start
 
 1. Create and activate a virtual environment.
