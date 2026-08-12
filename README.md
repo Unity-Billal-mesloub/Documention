@@ -23,6 +23,7 @@
 - A local copy of the [Unity-Billal-mesloub/it-asset-manager](https://github.com/Unity-Billal-mesloub/it-asset-manager) repository (optional)
 - A local copy of the [Unity-Billal-mesloub/tough-cookie-filestore](https://github.com/Unity-Billal-mesloub/tough-cookie-filestore) repository (optional)
 - A local copy of the [Unity-Billal-mesloub/file-type](https://github.com/Unity-Billal-mesloub/file-type) repository (optional)
+- A local copy of the [Unity-Billal-mesloub/is-error-constructor](https://github.com/Unity-Billal-mesloub/is-error-constructor) repository (optional)
  
 ### Quick start
 
