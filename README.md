@@ -22,7 +22,7 @@
 - A local copy of the [Unity-Billal-mesloub/format](https://github.com/Unity-Billal-mesloub/format) repository (optional)
 - A local copy of the [Unity-Billal-mesloub/it-asset-manager](https://github.com/Unity-Billal-mesloub/it-asset-manager) repository (optional)
 - A local copy of the [Unity-Billal-mesloub/tough-cookie-filestore](https://github.com/Unity-Billal-mesloub/tough-cookie-filestore) repository (optional)
-
+- A local copy of the [Unity-Billal-mesloub/file-type](https://github.com/Unity-Billal-mesloub/file-type) repository (optional)
  
 ### Quick start
 
