@@ -35,6 +35,8 @@
 - A local copy of the [Unity-Billal-mesloub/image-dimensions](https://github.com/Unity-Billal-mesloub/image-dimensions) repository (optional)
 - A local copy of the [Unity-Billal-mesloub/cesium](https://github.com/Unity-Billal-mesloub/cesium) repository (optional)
 - A local copy of the [Unity-Billal-mesloub/readable-web-to-node-stream](https://github.com/Unity-Billal-mesloub/readable-web-to-node-stream) repository (optional)
+- A local copy of the [Unity-Billal-mesloub/serverless-offline](https://github.com/Unity-Billal-mesloub/serverless-offline) repository (optional)
+- A local copy of the [Unity-Billal-mesloub/winget-pkgs](https://github.com/Unity-Billal-mesloub/winget-pkgs) repository (optional)
 
 
 ### Quick start 
