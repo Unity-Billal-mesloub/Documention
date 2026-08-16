@@ -9,7 +9,7 @@ The following projects let you host your own, private winget repository:
 - **[]()** open source private winget repository with a hosted option
 - **[]()** open source private winget repository with a hosted option and multi-user support
 - **[]()** open source private winget repository with client management and other unique features
-- **[Unity-Billal-mesloub/Documention](https://github.com/Unity-Billal-mesloub/Documention)** open source private winget repository creator
+- **[Unity-Billal-mesloub/Documention](https://github.com/Unity-Billal-mesloub/Documention)** open source private Documention repository creator
 
 ## Third-party repositories
 
