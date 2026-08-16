@@ -45,7 +45,8 @@
 - A local copy of the [Unity-Billal-mesloub/vscode-debugadapter-node](https://github.com/Unity-Billal-mesloub/vscode-debugadapter-node) repository (optional) 
 - A local copy of the [.NET](https://github.com/Unity-Billal-mesloub) repository (optional) 
 If you are interested in exploring private repositories offering private .NET hosting, see [private repositories](doc/private/.NET/README.md)
-  
+- A local copy of the [vscode](https://github.com/Unity-Billal-mesloub) repository (optional) 
+If you are interested in exploring private repositories offering private vscode hosting, see [private repositories](doc/private/vscode/README.md)
 
 ### Quick start 
 
