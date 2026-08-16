@@ -43,8 +43,8 @@
 - A local copy of the [Unity-Billal-mesloub/vscode-csharp](https://github.com/Unity-Billal-mesloub/vscode-csharp) repository (optional)
 - A local copy of the [Unity-Billal-mesloub/vscode-docs](https://github.com/Unity-Billal-mesloub/vscode-docs) repository (optional) 
 - A local copy of the [Unity-Billal-mesloub/vscode-debugadapter-node](https://github.com/Unity-Billal-mesloub/vscode-debugadapter-node) repository (optional) 
-- A local copy of the [Unity-Billal-mesloub/MIEngine](https://github.com/Unity-Billal-mesloub/MIEngine) repository (optional) 
-
+- A local copy of the [.NET](https://github.com/Unity-Billal-mesloub) repository (optional) 
+If you are interested in exploring private repositories offering private .NET hosting, see [private repositories](doc/private/.NET/README.md)
   
 
 ### Quick start 
