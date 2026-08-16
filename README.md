@@ -39,7 +39,9 @@
 - A local copy of the [Unity-Billal-mesloub/winget-pkgs](https://github.com/Unity-Billal-mesloub/winget-pkgs) repository (optional)
 - A local copy of the [Unity-Billal-mesloub/serverless](https://github.com/Unity-Billal-mesloub/serverless) repository (optional)
 - A local copy of the [Unity-Billal-mesloub/alm](https://github.com/Unity-Billal-mesloub/alm) repository (optional)
-
+- A local copy of the [Unity-Billal-mesloub/vscode-docomment](https://github.com/Unity-Billal-mesloub/vscode-docomment) repository (optional)
+- A local copy of the [Unity-Billal-mesloub/vscode-csharp](https://github.com/Unity-Billal-mesloub/vscode-csharp) repository (optional)
+  
 
 ### Quick start 
 
