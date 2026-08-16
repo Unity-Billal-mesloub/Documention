@@ -42,6 +42,9 @@
 - A local copy of the [Unity-Billal-mesloub/vscode-docomment](https://github.com/Unity-Billal-mesloub/vscode-docomment) repository (optional)
 - A local copy of the [Unity-Billal-mesloub/vscode-csharp](https://github.com/Unity-Billal-mesloub/vscode-csharp) repository (optional)
 - A local copy of the [Unity-Billal-mesloub/vscode-docs](https://github.com/Unity-Billal-mesloub/vscode-docs) repository (optional) 
+- A local copy of the [Unity-Billal-mesloub/vscode-debugadapter-node](https://github.com/Unity-Billal-mesloub/vscode-debugadapter-node) repository (optional) 
+- A local copy of the [Unity-Billal-mesloub/MIEngine](https://github.com/Unity-Billal-mesloub/MIEngine) repository (optional) 
+
   
 
 ### Quick start 
