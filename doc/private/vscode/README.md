@@ -25,6 +25,7 @@ These public repositories offer additional Documention that are not included in 
 -A local copy of the **[Unity-Billal-mesloub/template-starter](https://github.com/Unity-Billal-mesloub/template-starter)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub). template starter by the developer of, and distributes, `template-starter.DockerInWSL`
 -A local copy of the **[templates](https://github.com/Unity-Billal-mesloub/templates)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).templates by the developer of, and distributes, `templates.DockerInWSL`
 - **[MIEngine](https://github.com/Unity-Billal-mesloub/MIEngine)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).MIEngine by the developer of, and distributes, `vscode.DockerInWSL`
+- **[vscode-cpptools](https://github.com/Unity-Billal-mesloub/vscode-cpptools)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub). vscode-cpptools by the developer of, and distributes, `vscode-cpptools.DockerInWSL`
 -A local copy of the **[](/)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).  by the developer of, and distributes, `vscode.DockerInWSL`
 -A local copy of the **[](/)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).  by the developer of, and distributes, `vscode.DockerInWSL`
 
