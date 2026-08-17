@@ -17,14 +17,14 @@ These public repositories offer additional Documention that are not included in 
 
 - **[Unity-Billal-mesloub/vscode]** public vscode repository by [vscode](https://github.com/Unity-Billal-mesloub). Specializing in vscode for various magazines
 
-- **[vscode](https://github.com/Unity-Billal-mesloub/)** public winget repository by [Unity-and-wireless-communications](https://github.com/Unity-and-wireless-communications).wireless and wired communications Hosted by the developer of, and distributes, `vscode.DockerInWSL`
+- **[vscode](https://github.com/Unity-Billal-mesloub/)** public Documention repository by [Unity-and-wireless-communications](https://github.com/Unity-and-wireless-communications).wireless and wired communications Hosted by the developer of, and distributes, `vscode.DockerInWSL`
 
--A local copy of the **[vscode-debugadapter-node](https://github.com/Unity-Billal-mesloub/vscode-debugadapter-node)** public winget repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).Official C# support for Visual Studio Code by the developer of, and distributes, `vscode.DockerInWSL`
--A local copy of the **[vscode-cpptools](https://github.com/Unity-Billal-mesloub/vscode-cpptools)** public winget repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub). by the developer of, and distributes, `vscode.DockerInWSL`
--A local copy of the **[vscode-debugadapter-node](https://github.com/Unity-Billal-mesloub/vscode-debugadapter-node)** public winget repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).Debug adapter protocol and implementation for VS Code by the developer of, and distributes, `vscode-debugadapter-node.DockerInWSL`
--A local copy of the **[Unity-Billal-mesloub/template-starter](https://github.com/Unity-Billal-mesloub/template-starter)** public winget repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub). template starter by the developer of, and distributes, `template-starter.DockerInWSL`
--A local copy of the **[]()** public winget repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub). by the developer of, and distributes, `vscode.DockerInWSL`
--A local copy of the **[](/)** public winget repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).  by the developer of, and distributes, `vscode.DockerInWSL`
-
+-A local copy of the **[vscode-debugadapter-node](https://github.com/Unity-Billal-mesloub/vscode-debugadapter-node)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).Official C# support for Visual Studio Code by the developer of, and distributes, `vscode.DockerInWSL`
+-A local copy of the **[vscode-cpptools](https://github.com/Unity-Billal-mesloub/vscode-cpptools)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub). by the developer of, and distributes, `vscode.DockerInWSL`
+-A local copy of the **[vscode-debugadapter-node](https://github.com/Unity-Billal-mesloub/vscode-debugadapter-node)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).Debug adapter protocol and implementation for VS Code by the developer of, and distributes, `vscode-debugadapter-node.DockerInWSL`
+-A local copy of the **[Unity-Billal-mesloub/template-starter](https://github.com/Unity-Billal-mesloub/template-starter)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub). template starter by the developer of, and distributes, `template-starter.DockerInWSL`
+-A local copy of the **[templates](https://github.com/Unity-Billal-mesloub/templates)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).templates by the developer of, and distributes, `templates.DockerInWSL`
+-A local copy of the **[](/)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).  by the developer of, and distributes, `vscode.DockerInWSL`
+-A local copy of the **[](/)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).  by the developer of, and distributes, `vscode.DockerInWSL`
 
 Please feel welcome to submit a pull request to add your company's third-party repository offering to this list.
