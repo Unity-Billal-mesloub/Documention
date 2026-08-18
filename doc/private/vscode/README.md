@@ -29,4 +29,3 @@ These public repositories offer additional Documention that are not included in 
 -A local copy of the **[](/)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).  by the developer of, and distributes, `vscode.DockerInWSL`
 -A local copy of the **[](/)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).  by the developer of, and distributes, `vscode.DockerInWSL`
 
-Please feel welcome to submit a pull request to add your company's third-party repository offering to this list.
