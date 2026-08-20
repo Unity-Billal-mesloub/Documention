@@ -29,8 +29,8 @@ These public repositories offer additional Documention that are not included in 
 -A local copy of the **[kaneo](https://github.com/Unity-Billal-mesloub/kaneo)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub). All you need. Nothing you don't. Open source project management that works for you, not against you by the developer of, and distributes, `kaneo.DockerInWSL`
 -A local copy of the **[git-for-windows](https://github.com/Unity-Billal-mesloub/git-for-windows)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).Git Source Code by the developer of, and distributes, `git-for-windows.DockerInWSL`
 -A local copy of the **[git](https://github.com/Unity-Billal-mesloub/git)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).Git Source Code by the developer of, and distributes, `git.DockerInWSL`
+-A local copy of the **[vscode-loader](https://github.com/Unity-Billal-mesloub/vscode-loader)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).vscode-loader by the developer of, and distributes, `vscode-loader.DockerInWSL`
 -A local copy of the **[]()** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub). by the developer of, and distributes, `.DockerInWSL`
-
 
 
 
