@@ -4,7 +4,7 @@ Unity-Billal-mesloub is working with multiple partners to develop protocols or a
 
 ## Third-party repository implementations
 
-The following projects let you host your own, private winget repository:
+The following projects let you host your own, private Documention repository:
 
 - **[]()** open source private winget repository with a hosted option
 - **[]()** open source private winget repository with a hosted option and multi-user support
