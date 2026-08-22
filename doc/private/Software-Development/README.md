@@ -17,10 +17,42 @@ These public repositories offer additional Documention that are not included in 
 
 - **[Software-Development]** public vscode repository by [Software-Development](https://github.com/Unity-Billal-mesloub). Specializing in vscode for various magazines
 
-- **[Software-Development](https://github.com/Unity-Billal-mesloub/)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).Software-Development and Others communications Hosted by the developer of, and distributes, `Software-Development.DockerInWSL`
+- **[Software-Development](https://github.com/Unity-Billal-mesloub/Software-Development-Project-Structure)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).Software-Development and Others communications Hosted by the developer of, and distributes, `Software-Development.DockerInWSL`
+
+-A local copy of the **[cpython](https://github.com/Unity-Billal-mesloub/cpython)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).The Python programming language by the developer of, and distributes, `cpython.DockerInWSL`
+
+-A local copy of the **[go-deadlock](https://github.com/Unity-Billal-mesloub/go-deadlock)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).Online deadlock detection in go (golang) by the developer of, and distributes, `go-deadlock.DockerInWSL`
+
+-A local copy of the **[go](https://github.com/Unity-Billal-mesloub/go)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).The Go programming language by the developer of, and distributes, `go.DockerInWSL`
 
 -A local copy of the **[]()** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub). by the developer of, and distributes, `.DockerInWSL`
 
 -A local copy of the **[]()** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub). by the developer of, and distributes, `.DockerInWSL`
+
+-A local copy of the **[]()** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub). by the developer of, and distributes, `.DockerInWSL`
+
+-A local copy of the **[]()** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub). by the developer of, and distributes, `.DockerInWSL`
+
+-A local copy of the **[]()** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub). by the developer of, and distributes, `.DockerInWSL`
+
+-A local copy of the **[]()** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub). by the developer of, and distributes, `.DockerInWSL`
+
+-A local copy of the **[]()** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub). by the developer of, and distributes, `.DockerInWSL`
+
+-A local copy of the **[]()** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub). by the developer of, and distributes, `.DockerInWSL`
+
+-A local copy of the **[]()** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub). by the developer of, and distributes, `.DockerInWSL`
+
+-A local copy of the **[]()** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub). by the developer of, and distributes, `.DockerInWSL`
+
+-A local copy of the **[]()** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub). by the developer of, and distributes, `.DockerInWSL`
+
+-A local copy of the **[]()** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub). by the developer of, and distributes, `.DockerInWSL`
+
+-A local copy of the **[]()** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub). by the developer of, and distributes, `.DockerInWSL`
+
+
+
+
 
 
