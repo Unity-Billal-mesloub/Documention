@@ -10,6 +10,8 @@
 - Python dependencies from `requirements.txt` (see instructions below)
 - A local copy of the [Unity-Billal-mesloub/Document-doc](https://github.com/Unity-Billal-mesloub/Document-doc) repository (optional)
 - A local copy of the [Unity-Billal-mesloub/kotlin-multiplatform-dev-docs](https://github.com/Unity-Billal-mesloub/kotlin-multiplatform-dev-docs) repository (optional)
+- A local copy of the [Unity-Billal-mesloub/dokka](https://github.com/Unity-Billal-mesloub/dokka) repository (optional)
+  
 - A local copy of the [Unity-Billal-mesloub/upgrade-util](https://github.com/Unity-Billal-mesloub/upgrade-util) repository
   (optional)
 - A local copy of the [Unity-Billal-mesloub/document-api-python](https://github.com/Unity-Billal-mesloub/document-api-python) repository
