@@ -15,7 +15,7 @@ The following projects let you host your own, private Documention repository:
 
 These public repositories offer additional Documention that are not included in Documention:
 
-- **[Unity-Billal-mesloub/vscode]** public vscode repository by [vscode](https://github.com/Unity-Billal-mesloub). Specializing in vscode for various magazines
+- **[vscode-Others]** public vscode repository by [vscode-Others](https://github.com/Unity-Billal-mesloub). Specializing in vscode for various magazines
 
 - **[vscode](https://github.com/Unity-Billal-mesloub/)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).vscode and Others communications Hosted by the developer of, and distributes, `vscode.DockerInWSL`
 
