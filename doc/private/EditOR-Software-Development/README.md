@@ -7,7 +7,7 @@ The Monaco Editor then enhances the Monaco Editor Core with some basic language 
 
 This diagram describes the relationships between the repositories and the npm packages:
 
-![](./docs/code-structure.dio.svg)
+![](https://github.com/Unity-Billal-mesloub/monaco-editor/blob/main/docs/code-structure.dio.svg))
 
 By default, `monaco-editor-core` is installed from npm (through the initial `npm install`), so you can work on Monaco Editor language features without having to build the core editor / VS Code.
 The nightly builds build a fresh version of `monaco-editor-core` from the `main` branch of VS Code.
