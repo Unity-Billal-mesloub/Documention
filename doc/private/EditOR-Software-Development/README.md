@@ -9,7 +9,7 @@ The following projects let you host your own, private Documention repository:
 - **[]()** open source private Documention repository with a hosted option
 - **[]()** open source private Documention repository with a hosted option and multi-user support
 - **[]()** open source private Documention repository with client management and other unique features
-- **[Unity-Billal-mesloub/Documention](https://github.com/Unity-Billal-mesloub/Documention)** open source private winget repository creator
+- **[Unity-Billal-mesloub/Documention](https://github.com/Unity-Billal-mesloub/Documention)** open source private Documention repository creator
 
 ## Third-party repositories
 
