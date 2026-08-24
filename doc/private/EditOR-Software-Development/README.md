@@ -62,7 +62,7 @@ This can be done directly from the VS Code repository and does not involve the m
 
 To debug bundled languages, such as JSON, HTML or TypeScript/JavaScript.
 
-- Clone the [monaco editor repository](https://github.com/Unity-Billal-mesloub/monaco-editor): `git clone https://github.com/microsoft/monaco-editor`
+- Clone the [monaco editor repository](https://github.com/Unity-Billal-mesloub/monaco-editor): `git clone https://github.com/Unity-Billal-mesloub/monaco-editor`
 - Open the repository in VS Code: `code monaco-editor`
 - Run `npm install`
 - Select and run the launch configuration "Monaco Editor Playground" (this might take a while, as it compiles the sources):
@@ -122,4 +122,4 @@ This diagram describes the output folders of the build process:
 
 ## Maintaining
 
-Checkout [MAINTAINING.md](./MAINTAINING.md) for common maintaining tasks (for maintainers only).
+Checkout [MAINTAINING.md](https://github.com/Unity-Billal-mesloub/monaco-editor/blob/main/MAINTAINING.md) for common maintaining tasks (for maintainers only).
