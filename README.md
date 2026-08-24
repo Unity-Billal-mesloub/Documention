@@ -54,6 +54,10 @@ If you are interested in exploring private repositories offering private vscode 
 If you are interested in exploring private repositories offering private tools hosting, see [private repositories](doc/private/tools/README.md)
 - A local copy of the [Software-Development](https://github.com/Unity-Billal-mesloub) repository (optional) 
 If you are interested in exploring private repositories offering private Software-Development hosting, see [private repositories](doc/private/Software-Development/README.md)
+- A local copy of the [EditOR-Software-Development](https://github.com/Unity-Billal-mesloub) repository (optional) 
+If you are interested in exploring private repositories offering private Software-Development hosting, see [private repositories](doc/private/EditOR-Software-Development/README.md)
+
+
 
 ### Quick start 
 
