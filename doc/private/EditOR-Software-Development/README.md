@@ -19,7 +19,8 @@ These public repositories offer additional Documention that are not included in 
 
 - **[monaco-editor](https://github.com/Unity-Billal-mesloub/monaco-editor)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).A browser based code editor and Others Editors ways communications Hosted by the developer of, and distributes, `EditOR-Software-Development.DockerInWSL`
 - **[monaco-tm](https://github.com/Unity-Billal-mesloub/monaco-tm)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).Attempt to get TextMate grammars working in standalone Monaco by the developer of, and distributes, `monaco-tm.DockerInWSL`
-
+- **[rollup-plugin-keep-css-imports](https://github.com/Unity-Billal-mesloub/rollup-plugin-keep-css-imports)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).Rollup plugin that allows to maintain the original structure of style imports without altering them during the bundling process by the developer of, and distributes, `rollup-plugin-keep-css-imports.DockerInWSL`
+  
 # Contributing / Dev Setup
 
 ## Source Code Structure
