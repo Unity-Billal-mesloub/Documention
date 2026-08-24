@@ -11,7 +11,7 @@ This diagram describes the relationships between the repositories and the npm pa
 
 By default, `monaco-editor-core` is installed from npm (through the initial `npm install`), so you can work on Monaco Editor language features without having to build the core editor / VS Code.
 The nightly builds build a fresh version of `monaco-editor-core` from the `main` branch of VS Code.
-For a stable release, the commit specified in `vscodeRef` in [package.json](./package.json) specifies the commit of VS Code that is used to build `monaco-editor-core`.
+For a stable release, the commit specified in `vscodeRef` in [package.json](https://github.com/Unity-Billal-mesloub/monaco-editor/blob/main/package.json)) specifies the commit of VS Code that is used to build `monaco-editor-core`.
 
 ## Contributing a new tokenizer / a new language
 
@@ -38,11 +38,11 @@ This can be done directly from the VS Code repository and does not involve the m
 - Run `yarn install`
 - Select and run the launch configuration "Monaco Editor Playground" (this might take a while, as it compiles the sources):
 
-  ![](./docs/launch%20config.png)
+  ![](https://github.com/Unity-Billal-mesloub/monaco-editor/blob/main/docs/launch%20config.png)
 
 - Now you can set breakpoints and change the source code
 
-  ![](./docs/debugging-core.gif)
+  ![](https://github.com/Unity-Billal-mesloub/monaco-editor/blob/main/docs/debugging-core.gif)
 
 - Optionally, you can build `monaco-editor-core` and link it to the monaco editor repository:
 
@@ -67,11 +67,11 @@ To debug bundled languages, such as JSON, HTML or TypeScript/JavaScript.
 - Run `npm install`
 - Select and run the launch configuration "Monaco Editor Playground" (this might take a while, as it compiles the sources):
 
-  ![](./docs/launch%20config.png)
+  ![](https://github.com/Unity-Billal-mesloub/monaco-editor/blob/main/docs/launch%20config.png)
 
 - Now you can set breakpoints and change the source code
 
-  ![](./docs/debugging-languages.gif)
+  ![](https://github.com/Unity-Billal-mesloub/monaco-editor/blob/main/docs/debugging-languages.gif)
 
 - Optionally, you can build `monaco-editor` and link it if you want to test your changes in a real application:
 
@@ -118,7 +118,7 @@ Now webpack logs the path to the website.
 
 This diagram describes the output folders of the build process:
 
-![](./docs/out-folders.dio.svg)
+![](https://github.com/Unity-Billal-mesloub/monaco-editor/blob/main/docs/out-folders.dio.svg)
 
 ## Maintaining
 
