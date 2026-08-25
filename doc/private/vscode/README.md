@@ -17,19 +17,31 @@ These public repositories offer additional Documention that are not included in 
 
 - **[vscode-Others]** public vscode repository by [vscode-Others](https://github.com/Unity-Billal-mesloub). Specializing in vscode for various magazines
 
-- **[vscode](https://github.com/Unity-Billal-mesloub/)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).vscode and Others communications Hosted by the developer of, and distributes, `vscode.DockerInWSL`
+- **[vscode-Others](https://github.com/Unity-Billal-mesloub/)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).vscode and Others communications Hosted by the developer of, and distributes, `vscode.DockerInWSL`
 
 -A local copy of the **[vscode-debugadapter-node](https://github.com/Unity-Billal-mesloub/vscode-debugadapter-node)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).Official C# support for Visual Studio Code by the developer of, and distributes, `vscode.DockerInWSL`
--A local copy of the **[vscode-cpptools](https://github.com/Unity-Billal-mesloub/vscode-cpptools)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub). by the developer of, and distributes, `vscode.DockerInWSL`
+-A local copy of the **[vscode-cpptools](https://github.com/Unity-Billal-mesloub/vscode-cpptools)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).vscode-cpptools by the developer of, and distributes, `vscode.DockerInWSL`
 -A local copy of the **[vscode-debugadapter-node](https://github.com/Unity-Billal-mesloub/vscode-debugadapter-node)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).Debug adapter protocol and implementation for VS Code by the developer of, and distributes, `vscode-debugadapter-node.DockerInWSL`
+- **[vscode-cpptools](https://github.com/Unity-Billal-mesloub/vscode-cpptools)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub). vscode-cpptools by the developer of, and distributes, `vscode-cpptools.DockerInWSL`
+-A local copy of the **[vscode-loader](https://github.com/Unity-Billal-mesloub/vscode-loader)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).vscode-loader by the developer of, and distributes, `vscode-loader.DockerInWSL`
+- **[vscode-csharp](https://github.com/Unity-Billal-mesloub/vscode-csharp)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).Official C# support for Visual Studio Code by the developer of, and distributes, `vscode-csharp.DockerInWSL`
+- **[vscode-debugadapter-node](https://github.com/Unity-Billal-mesloub/vscode-debugadapter-node)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).Debug adapter protocol and implementation for VS Code by the developer of, and distributes, `vscode-debugadapter-node.DockerInWSL`
+- **[]()** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).  by the developer of, and distributes, `.DockerInWSL`
+- **[]()** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).  by the developer of, and distributes, `.DockerInWSL`
+- **[]()** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).  by the developer of, and distributes, `.DockerInWSL`
+- **[]()** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).  by the developer of, and distributes, `.DockerInWSL`
+- **[]()** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).  by the developer of, and distributes, `.DockerInWSL`
+
+  
+  
 -A local copy of the **[Unity-Billal-mesloub/template-starter](https://github.com/Unity-Billal-mesloub/template-starter)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub). template starter by the developer of, and distributes, `template-starter.DockerInWSL`
 -A local copy of the **[templates](https://github.com/Unity-Billal-mesloub/templates)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).templates by the developer of, and distributes, `templates.DockerInWSL`
 - **[MIEngine](https://github.com/Unity-Billal-mesloub/MIEngine)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).MIEngine by the developer of, and distributes, `vscode.DockerInWSL`
-- **[vscode-cpptools](https://github.com/Unity-Billal-mesloub/vscode-cpptools)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub). vscode-cpptools by the developer of, and distributes, `vscode-cpptools.DockerInWSL`
 -A local copy of the **[kaneo](https://github.com/Unity-Billal-mesloub/kaneo)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub). All you need. Nothing you don't. Open source project management that works for you, not against you by the developer of, and distributes, `kaneo.DockerInWSL`
+
 -A local copy of the **[git-for-windows](https://github.com/Unity-Billal-mesloub/git-for-windows)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).Git Source Code by the developer of, and distributes, `git-for-windows.DockerInWSL`
 -A local copy of the **[git](https://github.com/Unity-Billal-mesloub/git)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).Git Source Code by the developer of, and distributes, `git.DockerInWSL`
--A local copy of the **[vscode-loader](https://github.com/Unity-Billal-mesloub/vscode-loader)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).vscode-loader by the developer of, and distributes, `vscode-loader.DockerInWSL`
+
 -A local copy of the **[monotouch-bindings](https://github.com/Unity-Billal-mesloub/monotouch-bindings)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).monotouch-bindings by the developer of, and distributes, `monotouch-bindings.DockerInWSL`
 -A local copy of the **[commitlint](https://github.com/Unity-Billal-mesloub/commitlint)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).commitlint by the developer of, and distributes, `commitlint.DockerInWSL`
 -A local copy of the **[cz-cli](https://github.com/Unity-Billal-mesloub/cz-cli)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).The commitizen command line utility by the developer of, and distributes, `cz-cli.DockerInWSL`
