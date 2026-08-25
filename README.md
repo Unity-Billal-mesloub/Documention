@@ -11,7 +11,8 @@
 - A local copy of the [Unity-Billal-mesloub/Document-doc](https://github.com/Unity-Billal-mesloub/Document-doc) repository (optional)
 - A local copy of the [Unity-Billal-mesloub/kotlin-multiplatform-dev-docs](https://github.com/Unity-Billal-mesloub/kotlin-multiplatform-dev-docs) repository (optional)
 - A local copy of the [Unity-Billal-mesloub/dokka](https://github.com/Unity-Billal-mesloub/dokka) repository (optional)
-- A local copy of the [Unity-Billal-mesloub/vscode-lua-doc](https://github.com/Unity-Billal-mesloub/vscode-lua-doc) repository (optional)   
+- A local copy of the [Unity-Billal-mesloub/vscode-lua-doc](https://github.com/Unity-Billal-mesloub/vscode-lua-doc) repository (optional)
+ - A local copy of the [Unity-Billal-mesloub/mcp-documentation-server](https://github.com/Unity-Billal-mesloub/mcp-documentation-server) repository (optional)    
 - A local copy of the [Unity-Billal-mesloub/upgrade-util](https://github.com/Unity-Billal-mesloub/upgrade-util) repository
   (optional)
 - A local copy of the [Unity-Billal-mesloub/document-api-python](https://github.com/Unity-Billal-mesloub/document-api-python) repository
