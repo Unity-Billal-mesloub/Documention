@@ -16,6 +16,10 @@
 - A local copy of the [Unity-Billal-mesloub/upgrade-util](https://github.com/Unity-Billal-mesloub/upgrade-util) repository
   (optional)
 - A local copy of the [Unity-Billal-mesloub/document-api-python](https://github.com/Unity-Billal-mesloub/document-api-python) repository
+- A local copy of the [Unity-Billal-mesloub/modelcontextprotocol](https://github.com/Unity-Billal-mesloub/modelcontextprotocol) repository
+- A local copy of the [Unity-Billal-mesloub/vscode-docomment](https://github.com/Unity-Billal-mesloub/vscode-docomment) repository (optional)
+- A local copy of the [Unity-Billal-mesloub/vscode-docs](https://github.com/Unity-Billal-mesloub/vscode-docs) repository (optional)
+   
 - A local copy of the [Unity-Billal-mesloub/Software-Development-Project-Structure](https://github.com/Unity-Billal-mesloub/Software-Development-Project-Structure) repository
 - A local copy of the [Unity-Billal-mesloub/Creating-Excel-using-Python](https://github.com/Unity-Billal-mesloub/Creating-Excel-using-Python) repository
 - A local copy of the [Unity-Billal-mesloub/dirlisting](https://github.com/Unity-Billal-mesloub/dirlisting) repository (optional)
@@ -43,10 +47,8 @@
 - A local copy of the [Unity-Billal-mesloub/winget-pkgs](https://github.com/Unity-Billal-mesloub/winget-pkgs) repository (optional)
 - A local copy of the [Unity-Billal-mesloub/serverless](https://github.com/Unity-Billal-mesloub/serverless) repository (optional)
 - A local copy of the [Unity-Billal-mesloub/alm](https://github.com/Unity-Billal-mesloub/alm) repository (optional)
-- A local copy of the [Unity-Billal-mesloub/vscode-docomment](https://github.com/Unity-Billal-mesloub/vscode-docomment) repository (optional)
-- A local copy of the [Unity-Billal-mesloub/vscode-csharp](https://github.com/Unity-Billal-mesloub/vscode-csharp) repository (optional)
-- A local copy of the [Unity-Billal-mesloub/vscode-docs](https://github.com/Unity-Billal-mesloub/vscode-docs) repository (optional) 
-- A local copy of the [Unity-Billal-mesloub/vscode-debugadapter-node](https://github.com/Unity-Billal-mesloub/vscode-debugadapter-node) repository (optional) 
+
+
 - A local copy of the [.NET](https://github.com/Unity-Billal-mesloub) repository (optional) 
 If you are interested in exploring private repositories offering private .NET hosting, see [private repositories](doc/private/.NET/README.md)
 - A local copy of the [vscode](https://github.com/Unity-Billal-mesloub) repository (optional) 
@@ -57,7 +59,8 @@ If you are interested in exploring private repositories offering private tools h
 If you are interested in exploring private repositories offering private Software-Development hosting, see [private repositories](doc/private/Software-Development/README.md)
 - A local copy of the [EditOR-Software-Development](https://github.com/Unity-Billal-mesloub) repository (optional) 
 If you are interested in exploring private repositories offering private Software-Development hosting, see [private repositories](doc/private/EditOR-Software-Development/README.md)
-
+- A local copy of the [Human Resources Management](https://github.com/Unity-Billal-mesloub) repository (optional) 
+If you are interested in exploring private repositories offering private .NET hosting, see [private repositories](doc/private/Human Resources Management/README.md)
 
 
 ### Quick start 
