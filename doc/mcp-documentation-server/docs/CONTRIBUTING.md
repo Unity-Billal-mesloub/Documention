@@ -353,8 +353,8 @@ docs/
 
 ## Getting Help
 
-- 📖 **Documentation**: Check the [README](https://github.com/Unity-Billal-mesloub/mcp-documentation-server/edit/main/README.md) first
-- 📖 **Documentation**: Check the [README](README.md) 
+- 📖 **Documentation**: Check the [README](https://github.com/Unity-Billal-mesloub/mcp-documentation-server/blob/main/README.md) first
+- 📖 **Documentation**: Check the [README](https://github.com/Unity-Billal-mesloub/Documention/blob/main/README.md) 
 - 🐛 **Issues**: [GitHub Issues](https://github.com/Unity-Billal-mesloub/mcp-documentation-server/issues)
 - 💬 **Discussions**: [GitHub Discussions](https://github.com/Unity-Billal-mesloub/mcp-documentation-server/discussions)
 - 📧 **Email**: [your.email@example.com] for sensitive questions
