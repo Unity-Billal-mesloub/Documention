@@ -179,12 +179,12 @@ Currently, the project uses manual testing through the MCP inspector. We welcome
 
 ### Manual Testing Checklist
 
-- [ ] Document upload (.txt, .md, .pdf)
-- [ ] Semantic search functionality
-- [ ] Document listing and retrieval
-- [ ] Error handling for malformed files
-- [ ] Embedding model initialization
-- [ ] Directory creation and permissions
+- [x] Document upload (.txt, .md, .pdf)
+- [x] Semantic search functionality
+- [x] Document listing and retrieval
+- [x] Error handling for malformed files
+- [x] Embedding model initialization
+- [x] Directory creation and permissions
 
 ### Future Testing Goals
 
@@ -227,17 +227,17 @@ Currently, the project uses manual testing through the MCP inspector. We welcome
 Brief description of changes
 
 ## Type of Change
-- [ ] Bug fix
-- [ ] New feature
-- [ ] Documentation update
-- [ ] Performance improvement
-- [ ] Code refactoring
+- [x] Bug fix
+- [x] New feature
+- [x] Documentation update
+- [x] Performance improvement
+- [x] Code refactoring
 
 ## Testing
-- [ ] Built successfully (`npm run build`)
-- [ ] Tested with MCP inspector (`npm run inspect`)
-- [ ] Manual testing performed
-- [ ] No breaking changes (or clearly documented)
+- [x] Built successfully (`npm run build`)
+- [x] Tested with MCP inspector (`npm run inspect`)
+- [x] Manual testing performed
+- [x] No breaking changes (or clearly documented)
 
 ## Screenshots (if applicable)
 
