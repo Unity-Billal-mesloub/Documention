@@ -15,15 +15,11 @@ The following projects let you host your own, private Documention repository:
 
 These public repositories offer additional Documention that are not included in Documention:
 
-- **[Human Resources Management]** public Human Resources Management repository by [Human Resources Management](https://github.com/Unity-Billal-mesloub). Specializing in Human Resources Management for various magazines
+- **[Documention]** public Documention Management repository by [Documention](https://github.com/Unity-Billal-mesloub). Specializing in Documention Management for various magazines
 
-- **[Human Resources Management](https://github.com/Unity-Billal-mesloub/)** private Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).Human Resources Management communications Hosted by the developer of, and distributes, `Human Resources Management.DockerInWSL`
+- **[Documention](https://github.com/Unity-Billal-mesloub/)** private Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).Documention Management communications Hosted by the developer of Unity-Billal-mesloub, and distributes, `Documention.DockerInWSL`
 
 
--A local copy of the **[]()** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).  by the developer of, and distributes, `.DockerInWSL`
--A local copy of the **[]()** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).  by the developer of, and distributes, `.DockerInWSL`
--A local copy of the **[]()** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).  by the developer of, and distributes, `.DockerInWSL`
--A local copy of the **[]()** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).  by the developer of, and distributes, `.DockerInWSL`
+-A local copy of the **[]()** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).  by the developer of Unity-Billal-mesloub, and distributes, `.DockerInWSL`
 
-  
  
