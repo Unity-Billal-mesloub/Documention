@@ -17,7 +17,7 @@ These public repositories offer additional Documention that are not included in 
 
 - **[vscode-Others]** public vscode and Others Management repository by [vscode-Others](https://github.com/Unity-Billal-mesloub). Specializing in vscode and Others Management for various magazines
 
-- **[Human Resources Management](https://github.com/Unity-Billal-mesloub/)** private Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).vscode and Others Management Hosted by the developer of, and distributes, `vscode-Others.DockerInWSL`
+- **[vscode-Others](https://github.com/Unity-Billal-mesloub/)** private Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).vscode and Others Management Hosted by the developer of, and distributes, `vscode-Others.DockerInWSL`
 
 -A local copy of the **[vscode-debugadapter-node](https://github.com/Unity-Billal-mesloub/vscode-debugadapter-node)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).Official C# support for Visual Studio Code by the developer of, and distributes, `vscode.DockerInWSL`
 -A local copy of the **[vscode-cpptools](https://github.com/Unity-Billal-mesloub/vscode-cpptools)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).vscode-cpptools by the developer of, and distributes, `vscode.DockerInWSL`
