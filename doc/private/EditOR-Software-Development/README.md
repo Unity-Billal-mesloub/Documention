@@ -15,13 +15,15 @@ The following projects let you host your own, private Documention repository:
 
 These public repositories offer additional Documention that are not included in Documention:
 
-- **[EditOR-Software-Development]** public vscode repository by [EditOR-Software-Development](https://github.com/Unity-Billal-mesloub). Specializing in EditOR-Software-Development for various magazines
+- **[EditOR-Software-Development]** public EditOR Software Development Management repository by [EditOR-Software-Development](https://github.com/Unity-Billal-mesloub). Specializing in EditOR Software Development Management for various magazines
 
-- **[monaco-editor](https://github.com/Unity-Billal-mesloub/monaco-editor)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).A browser based code editor and Others Editors ways communications Hosted by the developer of, and distributes, `EditOR-Software-Development.DockerInWSL`
-- **[monaco-tm](https://github.com/Unity-Billal-mesloub/monaco-tm)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).Attempt to get TextMate grammars working in standalone Monaco by the developer of, and distributes, `monaco-tm.DockerInWSL`
-- **[rollup-plugin-keep-css-imports](https://github.com/Unity-Billal-mesloub/rollup-plugin-keep-css-imports)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).Rollup plugin that allows to maintain the original structure of style imports without altering them during the bundling process by the developer of, and distributes, `rollup-plugin-keep-css-imports.DockerInWSL`
-- **[loader-utils](https://github.com/Unity-Billal-mesloub/loader-utils)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).utils for webpack loaders by the developer of, and distributes, `loader-utils.DockerInWSL`
-- **[execa](https://github.com/Unity-Billal-mesloub/execa)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).Process execution for humans by the developer of, and distributes, `execa.DockerInWSL`
+- **[EditOR-Software-Development](https://github.com/Unity-Billal-mesloub/)** private Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).EditOR Software Development Hosted by the developer of, and distributes, `EditOR-Software-Development.DockerInWSL`
+  
+-A local copy of the **[monaco-editor](https://github.com/Unity-Billal-mesloub/monaco-editor)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).A browser based code editor and Others Editors ways communications Hosted by the developer of, and distributes, `EditOR-Software-Development.DockerInWSL`
+-A local copy of the **[monaco-tm](https://github.com/Unity-Billal-mesloub/monaco-tm)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).Attempt to get TextMate grammars working in standalone Monaco by the developer of, and distributes, `monaco-tm.DockerInWSL`
+-A local copy of the **[rollup-plugin-keep-css-imports](https://github.com/Unity-Billal-mesloub/rollup-plugin-keep-css-imports)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).Rollup plugin that allows to maintain the original structure of style imports without altering them during the bundling process by the developer of, and distributes, `rollup-plugin-keep-css-imports.DockerInWSL`
+-A local copy of the **[loader-utils](https://github.com/Unity-Billal-mesloub/loader-utils)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).utils for webpack loaders by the developer of, and distributes, `loader-utils.DockerInWSL`
+-A local copy of the **[execa](https://github.com/Unity-Billal-mesloub/execa)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).Process execution for humans by the developer of, and distributes, `execa.DockerInWSL`
 -   
 # Contributing / Dev Setup
 
