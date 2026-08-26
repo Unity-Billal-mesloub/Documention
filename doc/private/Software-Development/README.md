@@ -15,7 +15,9 @@ The following projects let you host your own, private Documention repository:
 
 These public repositories offer additional Documention that are not included in Documention:
 
-- **[Software-Development]** public vscode repository by [Software-Development](https://github.com/Unity-Billal-mesloub). Specializing in vscode for various magazines
+- **[Software-Development]** public Software Development Management repository by [Software-Development](https://github.com/Unity-Billal-mesloub). Specializing in Software-Development Management for various magazines
+
+- **[Software-Development](https://github.com/Unity-Billal-mesloub/)** private Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).Software-Development Management Hosted by the developer of, and distributes, `Software-Development.DockerInWSL`
 
 - **[Software-Development](https://github.com/Unity-Billal-mesloub/Software-Development-Project-Structure)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).Software-Development and Others communications Hosted by the developer of, and distributes, `Software-Development.DockerInWSL`
 
