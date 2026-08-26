@@ -60,7 +60,7 @@ If you are interested in exploring private repositories offering private Softwar
 - A local copy of the [EditOR-Software-Development](https://github.com/Unity-Billal-mesloub) repository (optional) 
 If you are interested in exploring private repositories offering private Software-Development hosting, see [private repositories](doc/private/EditOR-Software-Development/README.md)
 - A local copy of the [Human-Resources-Management](https://github.com/Unity-Billal-mesloub) repository (optional) 
-If you are interested in exploring private repositories offering private .NET hosting, see [Human Resources Management](doc/private/Human-Resources-Management/README.md)
+If you are interested in exploring private repositories offering private .NET hosting, see [Human Resources Management](doc/file/Human-Resources-Management/README.md)
 - A local copy of the [Documention](https://github.com/Unity-Billal-mesloub) repository (optional) 
 If you are interested in exploring private repositories offering private Documention hosting, see [Documention](doc/file/Documention/README.md)
 
