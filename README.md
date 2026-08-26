@@ -8,24 +8,12 @@
 - [Python 3.10 to 3.14](https://www.python.org/downloads/).
 - Make
 - Python dependencies from `requirements.txt` (see instructions below)
-- A local copy of the [Unity-Billal-mesloub/Document-doc](https://github.com/Unity-Billal-mesloub/Document-doc) repository (optional)
-- A local copy of the [Unity-Billal-mesloub/kotlin-multiplatform-dev-docs](https://github.com/Unity-Billal-mesloub/kotlin-multiplatform-dev-docs) repository (optional)
-- A local copy of the [Unity-Billal-mesloub/dokka](https://github.com/Unity-Billal-mesloub/dokka) repository (optional)
-- A local copy of the [Unity-Billal-mesloub/vscode-lua-doc](https://github.com/Unity-Billal-mesloub/vscode-lua-doc) repository (optional)
- - A local copy of the [Unity-Billal-mesloub/mcp-documentation-server](https://github.com/Unity-Billal-mesloub/mcp-documentation-server) repository (optional)    
-- A local copy of the [Unity-Billal-mesloub/upgrade-util](https://github.com/Unity-Billal-mesloub/upgrade-util) repository
-  (optional)
-- A local copy of the [Unity-Billal-mesloub/document-api-python](https://github.com/Unity-Billal-mesloub/document-api-python) repository
-- A local copy of the [Unity-Billal-mesloub/modelcontextprotocol](https://github.com/Unity-Billal-mesloub/modelcontextprotocol) repository
-- A local copy of the [Unity-Billal-mesloub/vscode-docomment](https://github.com/Unity-Billal-mesloub/vscode-docomment) repository (optional)
-- A local copy of the [Unity-Billal-mesloub/vscode-docs](https://github.com/Unity-Billal-mesloub/vscode-docs) repository (optional)
+- A local copy of the [Unity-Billal-mesloub/vscode-docs]() repository (optional)
    
 - A local copy of the [Unity-Billal-mesloub/Software-Development-Project-Structure](https://github.com/Unity-Billal-mesloub/Software-Development-Project-Structure) repository
 - A local copy of the [Unity-Billal-mesloub/Creating-Excel-using-Python](https://github.com/Unity-Billal-mesloub/Creating-Excel-using-Python) repository
 - A local copy of the [Unity-Billal-mesloub/dirlisting](https://github.com/Unity-Billal-mesloub/dirlisting) repository (optional)
-- A local copy of the [Unity-Billal-mesloub/commons-app-documentation](https://github.com/Unity-Billal-mesloub/commons-app-documentation) repository (optional)
 - A local copy of the [Unity-Billal-mesloub/typing](https://github.com/Unity-Billal-mesloub/typing) repository (optional)
-- A local copy of the [Unity-Billal-mesloub/git-for-windows](https://github.com/Unity-Billal-mesloub/git-for-windows) repository (optional)
 - A local copy of the [Unity-Billal-mesloub/typing_extensions](https://github.com/Unity-Billal-mesloub/typing_extensions) repository (optional) 
 - A local copy of the [Unity-Billal-mesloub/format](https://github.com/Unity-Billal-mesloub/format) repository (optional)
 - A local copy of the [Unity-Billal-mesloub/it-asset-manager](https://github.com/Unity-Billal-mesloub/it-asset-manager) repository (optional)
