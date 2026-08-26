@@ -19,7 +19,7 @@ These public repositories offer additional Documention that are not included in 
 
 - **[Software-Development](https://github.com/Unity-Billal-mesloub/)** private Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).Software-Development Management Hosted by the developer of, and distributes, `Software-Development.DockerInWSL`
 
-- **[Software-Development](https://github.com/Unity-Billal-mesloub/Software-Development-Project-Structure)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).Software-Development and Others communications Hosted by the developer of, and distributes, `Software-Development.DockerInWSL`
+-A local copy of the **[Software-Development](https://github.com/Unity-Billal-mesloub/Software-Development-Project-Structure)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).Software-Development and Others communications Hosted by the developer of, and distributes, `Software-Development.DockerInWSL`
 
 -A local copy of the **[cpython](https://github.com/Unity-Billal-mesloub/cpython)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).The Python programming language by the developer of, and distributes, `cpython.DockerInWSL`
 
