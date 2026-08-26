@@ -15,9 +15,9 @@ The following projects let you host your own, private Documention repository:
 
 These public repositories offer additional Documention that are not included in Documention:
 
-- **[Unity-Billal-mesloub/wireless communications](https://github.com/Unity-Billal-mesloub/)** public Documention repository by [wireless communications](https://github.com/Unity-Billal-mesloub). Specializing in wireless and wired communications for various magazines
+- **[Unity-Billal-mesloub/wireless communications]** public wireless communications Management repository by [wireless communications](https://github.com/Unity-Billal-mesloub). Specializing in wireless communications Management for various magazines
 
-- **[wireless communications](https://github.com/Unity-Billal-mesloub/)** public Documention repository by [Unity-and-wireless-communications](https://github.com/Unity-and-wireless-communications).wireless and wired communications Hosted by the developer of, and distributes, `wireless and wired communications.DockerInWSL`
+- **[Unity-Billal-mesloub/wireless communications](https://github.com/Unity-Billal-mesloub/)** private Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).wireless communications Management communications Hosted by the developer of, and distributes, `wireless communications Management.DockerInWSL`
 
 - **[roslyn](https://github.com/Unity-Billal-mesloub/roslyn)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).Official C# support for Visual Studio Code by the developer of, and distributes, `wireless and wired communications.DockerInWSL`
 
