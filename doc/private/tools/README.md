@@ -15,9 +15,10 @@ The following projects let you host your own, private Documention repository:
 
 These public repositories offer additional Documention that are not included in Documention:
 
-- **[tools]** public vscode repository by [tools](https://github.com/Unity-Billal-mesloub). Specializing in vscode for various magazines
+- **[tools]** public tools Management repository by [tools](https://github.com/Unity-Billal-mesloub). Specializing in tools Management for various magazines
 
-- **[tools](https://github.com/Unity-Billal-mesloub/)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).vscode and Others communications Hosted by the developer of, and distributes, `tools.DockerInWSL`
+- **[tools](https://github.com/Unity-Billal-mesloub/)** private Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).tools Hosted by the developer of, and distributes, `tools.DockerInWSL`
+  
 
 -A local copy of the **[conventional-changelog](https://github.com/Unity-Billal-mesloub/conventional-changelog)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).Official C# support for Visual Studio Code by the developer of, and distributes, `conventional-changelog.DockerInWSL`
 -A local copy of the **[pybind11](https://github.com/Unity-Billal-mesloub/pybind11)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).Seamless operability between C++11 and Python by the developer of, and distributes, `pybind11.DockerInWSL`
