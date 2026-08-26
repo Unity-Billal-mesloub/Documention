@@ -35,4 +35,15 @@ These public repositories offer additional Documention that are not included in 
 -A local copy of the **[tiny-lr](https://github.com/Unity-Billal-mesloub/tiny-lr)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).tiny livereload by the developer of Unity-Billal-mesloub, and distributes, `tiny-lr.DockerInWSL`           
 -A local copy of the **[userdata-timeline-sample](https://github.com/Unity-Billal-mesloub/userdata-timeline-sample)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).Userdata Timeline Sample by the developer of Unity-Billal-mesloub, and distributes, `userdata-timeline-sample.DockerInWSL` 
 -A local copy of the **[pr-title-checke](https://github.com/Unity-Billal-mesloub/pr-title-checke)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).An action to automatically check if pull request titles conform to Contribution Guidelines by the developer of Unity-Billal-mesloub, and distributes, `pr-title-checke.DockerInWSL`
+-A local copy of the **[wagesmanager](https://github.com/Unity-Billal-mesloub/wagesmanager)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).Wages Manager is a wage management tool for the small enterprises. With Wages Manager companies can register themselves and than can add as many employees as they have with data like name, PF Number, Daily Wage, OT, Bank Account Number etc. Then companies can create monthly wages calculations by adding monthly present days and Overtime hours to res by the developer of Unity-Billal-mesloub, and distributes, `wagesmanager.DockerInWSL` 
+-A local copy of the **[Files](https://github.com/Unity-Billal-mesloub/Files)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).A modern file manager that helps users organize their files and folders by the developer of Unity-Billal-mesloub, and distributes, `Files.DockerInWSL` 
 -A local copy of the **[]()** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).  by the developer of Unity-Billal-mesloub, and distributes, `.DockerInWSL` 
+-A local copy of the **[]()** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).  by the developer of Unity-Billal-mesloub, and distributes, `.DockerInWSL` 
+-A local copy of the **[]()** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).  by the developer of Unity-Billal-mesloub, and distributes, `.DockerInWSL` 
+-A local copy of the **[]()** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).  by the developer of Unity-Billal-mesloub, and distributes, `.DockerInWSL` 
+
+
+
+
+
+
