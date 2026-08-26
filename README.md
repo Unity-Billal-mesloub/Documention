@@ -8,8 +8,7 @@
 - [Python 3.10 to 3.14](https://www.python.org/downloads/).
 - Make
 - Python dependencies from `requirements.txt` (see instructions below)
-- A local copy of the [Unity-Billal-mesloub/vscode-docs]() repository (optional)
-   
+  
 - A local copy of the [Unity-Billal-mesloub/Software-Development-Project-Structure](https://github.com/Unity-Billal-mesloub/Software-Development-Project-Structure) repository
 - A local copy of the [Unity-Billal-mesloub/Creating-Excel-using-Python](https://github.com/Unity-Billal-mesloub/Creating-Excel-using-Python) repository
 - A local copy of the [Unity-Billal-mesloub/dirlisting](https://github.com/Unity-Billal-mesloub/dirlisting) repository (optional)
