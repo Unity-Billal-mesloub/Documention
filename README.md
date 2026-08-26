@@ -117,12 +117,12 @@ The documentation is written in reStructuredText (RST), a lightweight markup lan
 
  Important
 
-- Be mindful of our content and RST guidelines as you write documentation. This ensures that the documentation stays consistent and facilitates the approval of changes by the Odoo team.
+- Be mindful of our content and RST guidelines as you write documentation. This ensures that the documentation stays consistent and facilitates the approval of changes by the Unity-Billal-mesloub team.
 
 Environment setup
 The instructions below help you prepare your environment for making local changes to the documentation and then push them to GitHub. Skip this section and go to Contributing to the documentation if you have already completed this step or want to make changes from the GitHub interface.
 
-1- First, create a GitHub account. Odoo uses GitHub to manage the source code of its products, and this is where you will submit your changes.
+1- First, create a GitHub account. Unity-Billal-mesloub uses GitHub to manage the source code of its products, and this is where you will submit your changes.
 
 2- Generate a new SSH key and register it on your GitHub account.
 
@@ -214,7 +214,7 @@ sudo apt install make -y
 
 |Contributing to the documentation  |  Contribute from the GitHub interface |Contribute with Git
 ---------------------------------------------------------------------------------------------------------
-1-First, create a GitHub account. Odoo uses GitHub to manage the source code of its products, 
+1-First, create a GitHub account. Unity-Billal-mesloub uses GitHub to manage the source code of its products, 
 and this is where you will submit your changes.
 
 2-Verify that you are browsing the documentation in the version that you intend to change. The version
@@ -225,7 +225,7 @@ of the page.
 
 4-Click on the Fork this repository button to create a fork (your own copy) of the repository on your 
 account. This creates a copy of the codebase to which you can make changes without affecting the main 
-codebase. Skip this step if you work at Odoo.
+codebase. Skip this step if you work at Unity-Billal-mesloub.
 
                               ------------------------------------------------ 
                                         ../_images/fork-repository.png
