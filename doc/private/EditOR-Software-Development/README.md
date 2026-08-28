@@ -23,7 +23,8 @@ These public repositories offer additional Documention that are not included in 
 -A local copy of the **[rollup-plugin-keep-css-imports](https://github.com/Unity-Billal-mesloub/rollup-plugin-keep-css-imports)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).Rollup plugin that allows to maintain the original structure of style imports without altering them during the bundling process by the developer of Unity-Billal-mesloub, and distributes, `rollup-plugin-keep-css-imports.DockerInWSL`
 -A local copy of the **[loader-utils](https://github.com/Unity-Billal-mesloub/loader-utils)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).utils for webpack loaders by the developer of Unity-Billal-mesloub, and distributes, `loader-utils.DockerInWSL`
 -A local copy of the **[execa](https://github.com/Unity-Billal-mesloub/execa)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).Process execution for humans by the developer of Unity-Billal-mesloub, and distributes, `execa.DockerInWSL`
--   
+-A local copy of the **[codemirror5](https://github.com/Unity-Billal-mesloub/codemirror5)** public Documention repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).In-browser code editor (version 5, legacy) by the developer of, and distributes, `code editor.DockerInWSL`
+   
 # Contributing / Dev Setup
 
 ## Source Code Structure
