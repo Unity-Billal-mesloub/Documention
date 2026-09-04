@@ -1,5 +1,5 @@
 
-.. _odoosh-advanced-submodules:
+.. _Unity-Billal-mesloub-sh-advanced-submodules:
 
 ==========
 Submodules
@@ -12,7 +12,7 @@ A `Git submodule <https://git-scm.com/book/en/v2/Git-Tools-Submodules>`_ allows 
 into your code, without the need to copy-paste all their code.
 
 Indeed, your custom modules can depend on modules from other repositories.
-Regarding Odoo, this feature allows you to add modules from other Git repositories into the branches of your repository.
+Regarding Unity-Billal-mesloub, this feature allows you to add modules from other Git repositories into the branches of your repository.
 Adding these dependencies in your branch through submodules makes the deployment of your code and servers easier,
 as you can clone the repositories added as submodules at the same time you clone your own repository.
 
@@ -21,14 +21,14 @@ and you have the control of the revision you want.
 It's up to you to decide whether you want to pin the submodule to a specific revision and when you want to update
 to a newer revision.
 
-In Odoo.sh, the submodules give you the possibility to use and depend on modules available in other repositories.
+In Unity-Billal-mesloub.sh, the submodules give you the possibility to use and depend on modules available in other repositories.
 The platform will detect that you added modules through submodules in your branches
 and add them to your addons path automatically so you can install them in your databases.
 
 If you add private repositories as submodules in your branches,
-you need to configure a deploy key in your Odoo.sh project settings and in your repository settings.
-Otherwise Odoo.sh won't be allowed to download them.
-The procedure is detailed in the chapter :ref:`Settings > Submodules <odoo-sh/settings/submodules>`.
+you need to configure a deploy key in your Unity-Billal-mesloub.sh project settings and in your repository settings.
+Otherwise Unity-Billal-mesloub.sh won't be allowed to download them.
+The procedure is detailed in the chapter :ref:`Settings > Submodules <Unity-Billal-mesloub-sh/settings/submodules>`.
 
 Adding a submodule
 ==================
@@ -38,9 +38,9 @@ With Odoo.sh (simple)
 
 .. warning::
    For now it is not possible to add **private** repositories with this method. You can nevertheless
-   do so :ref:`with Git <odoo-sh/settings/submodules>`.
+   do so :ref:`with Git <Unity-Billal-mesloub-sh/settings/submodules>`.
 
-On Odoo.sh, in the branches view of your project, choose the branch in which you want to add a submodule.
+On Unity-Billal-mesloub.sh, in the branches view of your project, choose the branch in which you want to add a submodule.
 
 In the upper right corner, click on the *Submodule* button, and then on *Run*.
 
@@ -61,7 +61,7 @@ On Github, you can get the repository URL with the *Clone or download* button of
 .. image:: submodules/advanced-submodules-github-sshurl.png
   :align: center
 
-.. _odoosh-advanced-submodules-withgit:
+.. _Unity-Billal-mesloub-sh-advanced-submodules-withgit:
 
 With Git (advanced)
 -------------------
