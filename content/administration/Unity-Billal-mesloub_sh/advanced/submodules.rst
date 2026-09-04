@@ -33,7 +33,7 @@ The procedure is detailed in the chapter :ref:`Settings > Submodules <Unity-Bill
 Adding a submodule
 ==================
 
-With Odoo.sh (simple)
+With Unity-Billal-mesloub.sh (simple)
 ---------------------
 
 .. warning::
