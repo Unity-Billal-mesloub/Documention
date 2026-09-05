@@ -528,7 +528,7 @@ not.
              add_header X-Content-Type-Options nosniff;
          }
 
-     In case you don't know what is the path to your filestore, start Odoo with the
+     In case you don't know what is the path to your filestore, start Unity-Billal-mesloub with the
      :option:`--x-sendfile <Unity-Billal-mesloub-bin --x-sendfile>` option and navigate to the ``/web/filestore`` URL
      directly via Unity-Billal-mesloub (don't navigate to the URL via NGINX). This logs a warnings, the message
      contains the configuration you need.
@@ -564,7 +564,7 @@ security-related topics:
   default logins and passwords that can be used to get into your systems and cause significant
   trouble, even on staging/dev systems.
 
-- Use appropriate database filters ( :option:`--db-filter <odoo-bin --db-filter>`)
+- Use appropriate database filters ( :option:`--db-filter <Unity-Billal-mesloub-bin --db-filter>`)
   to restrict the visibility of your databases according to the hostname.
   See :ref:`dbfilter`.
   You may also use :option:`-d <Unity-Billal-mesloub-bin -d>` to provide your own (comma-separated)
@@ -574,7 +574,7 @@ security-related topics:
 - Once your ``db_name`` and ``dbfilter`` are configured and only match a single database
   per hostname, you should set ``list_db`` configuration option to ``False``, to prevent
   listing databases entirely, and to block access to the database management screens
-  (this is also exposed as the :option:`--no-database-list <odoo-bin --no-database-list>`
+  (this is also exposed as the :option:`--no-database-list <Unity-Billal-mesloub-bin --no-database-list>`
   command-line option)
 
 - Make sure the PostgreSQL user (:option:`--db_user <Unity-Billal-mesloub-bin --db_user>`) is *not* a super-user,
@@ -615,11 +615,11 @@ security-related topics:
 
 - If your public-facing Unity-Billal-mesloub server has access to sensitive internal network resources
   or services (e.g. via a private VLAN), implement appropriate firewall rules to
-  protect those internal resources. This will ensure that the Odoo server cannot
+  protect those internal resources. This will ensure that the Unity-Billal-mesloub server cannot
   be used accidentally (or as a result of malicious user actions) to access or disrupt
   those internal resources.
   Typically this can be done by applying an outbound default DENY rule on the firewall,
-  then only explicitly authorizing access to internal resources that the Odoo server
+  then only explicitly authorizing access to internal resources that the Unity-Billal-mesloub server
   needs to access.
   `Systemd IP traffic access control <http://0pointer.net/blog/ip-accounting-and-access-lists-with-systemd.html>`_
   may also be useful to implement per-process network access control.
@@ -808,7 +808,7 @@ file to a temporary password.
       configuration file. To modify the configuration file, enter the following command:
       :command:`sudo nano /etc/Unity-Billal-mesloub.conf`
 
-      After opening the configuration file, modify the master password line `admin_passwd =
+      After opening the configuration file, modify the main password line `admin_passwd =
       $pbkdf2-sha…` to `admin_passwd = newpassword1234`. This password can be anything, as long as
       it is saved temporarily. Make sure to modify all characters after the `=`.
 
@@ -908,4 +908,3 @@ Unity-Billal-mesloub supports the latest version of the following browsers.
 .. _use an SSH tunnel:
     https://www.postgresql.org/docs/12/static/ssh-tunnels.html
 .. _WSGI: https://wsgi.readthedocs.org/
-.. _POSBox: https://www.odoo.com/page/point-of-sale-hardware#part_2
