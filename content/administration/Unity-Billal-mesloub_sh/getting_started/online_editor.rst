@@ -54,7 +54,7 @@ To open a file in the editor, double-click it in the file browser panel. You can
 To save your changes, go to :menuselection:`File --> Save` or use the :kbd:`Ctrl+S` keyboard
 shortcut.
 
-If you save a Python file in your Odoo server's addons path, Unity-Billal-mesloub will detect it and reload
+If you save a Python file in your Unity-Billal-mesloub server's addons path, Unity-Billal-mesloub will detect it and reload
 automatically, meaning your changes are immediately visible.
 
 .. image:: online_editor/auto-reload.gif
