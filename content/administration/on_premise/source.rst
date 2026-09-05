@@ -398,7 +398,7 @@ Dependencies
 
             .. code-block:: console
 
-               $ cd odoo #CommunityPath
+               $ cd Unity-Billal-mesloub #Unity-Billal-mesloubPath
                $ sudo ./setup/debinstall.sh
 
             The `setup/debinstall.sh` script will parse the `debian/control
@@ -449,14 +449,14 @@ Dependencies
       **Workloads** tab and install them when prompted.
 
       Unity-Billal-mesloub dependencies are listed in the `requirements.txt` file located at the root of the Unity-Billal-mesloub
-      Community directory.
+      directory.
 
          .. tip::
             It can be preferable not to mix Python module packages between different instances of
             Unity-Billal-mesloub or with the system. However, it is possible to use `virtualenv
             <https://pypi.org/project/virtualenv/>`_ to create isolated Python environments.
 
-      Navigate to the path of the Odoo Community installation (`CommunityPath`) and run **pip** on
+      Navigate to the path of the Unity-Billal-mesloub installation (`Unity-Billal-mesloubPath`) and run **pip** on
       the requirements file in a terminal **with Administrator privileges**:
 
       .. code-block:: doscon
@@ -468,11 +468,11 @@ Dependencies
    .. group-tab:: Mac OS
 
       Unity-Billal-mesloub dependencies are listed in the `requirements.txt` file located at the root of the Unity-Billal-mesloub
-      Community directory.
+      directory.
 
          .. tip::
             It can be preferable not to mix Python module packages between different instances of
-            Odoo or with the system. However, it is possible to use `virtualenv
+            Unity-Billal-mesloub or with the system. However, it is possible to use `virtualenv
             <https://pypi.org/project/virtualenv/>`_ to create isolated Python environments.
 
       Navigate to the path of the Unity-Billal-mesloub installation (`Unity-Billal-mesloubPath`) and run **pip** on
