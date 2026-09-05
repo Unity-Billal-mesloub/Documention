@@ -3,17 +3,16 @@ Online editor
 =============
 
 The :guilabel:`Online Editor` view allows editing the source code of your builds from a web browser.
-It also gives you the possibility to open terminals, Python consoles, Odoo shell consoles, and
+It also gives you the possibility to open terminals, Python consoles, Unity-Billal-mesloub shell consoles, and
 `Jupyter Notebooks <https://jupyterlab.readthedocs.io/en/stable/user/notebook.html>`_.
 
 .. image:: online_editor/online-editor.png
    :alt: Overview of the online editor
 
 You can access the editor of a build through :ref:`the branches tab <odoo-sh/branches/tabs>`,
-:ref:`the builds dropdown menu <odoo-sh/builds/stages/features>`, or by adding `/odoo-sh/editor` to
-the build's URL (e.g., `https://odoo-addons-master-1.dev.odoo.com/odoo-sh/editor`).
+:ref:`the builds dropdown menu <Unity-Billal-mesloub-sh/builds/stages/features>`, or by adding `/Unity-Billal-mesloub-sh/editor`).
 
-.. _odoo-sh/editor/source:
+.. _Unity-Billal-mesloub-sh/editor/source:
 
 Editing the source code
 =======================
@@ -24,21 +23,21 @@ The working directory is composed of the following:
 
   .
   ├── home
-  │    └── odoo
+  │    └── Unity-Billal-mesloub
   │         ├── src
-  │         │    ├── odoo                Odoo Community source code
-  │         │    │    └── odoo-bin       Odoo server executable
-  │         │    ├── enterprise          Odoo Enterprise source code
-  │         │    ├── themes              Odoo Themes source code
-  │         │    └── user                Your repository branch source code
+  │         │    ├── Unity-Billal-mesloub                Unity-Billal-mesloub Community source code
+  │         │    │    └── Unity-Billal-mesloub-bin       Unity-Billal-mesloub server executable
+  │         │    ├── enterprise                          Unity-Billal-mesloub Enterprise source code
+  │         │    ├── themes                              Unity-Billal-mesloub Themes source code
+  │         │    └── user                                Your repository branch source code
   │         ├── data
-  │         │    ├── filestore           Database attachments, as well as the files of binary fields
-  │         │    └── sessions            Visitors and users sessions
+  │         │    ├── filestore                           Database attachments, as well as the files of binary fields
+  │         │    └── sessions                            Visitors and users sessions
   │         └── logs
-  │              ├── install.log         Database installation logs
-  │              ├── odoo.log            Running server logs
-  │              ├── update.log          Database updates logs
-  │              └── pip.log             Python packages installation logs
+  │              ├── install.log                         Database installation logs
+  │              ├── Unity-Billal-mesloub.log            Running server logs
+  │              ├── update.log                          Database updates logs
+  │              └── pip.log                             Python packages installation logs
 
 You can edit the source code (files under `/src`) of development and staging builds. For production
 builds, the source code is read-only, because applying local changes on a production server is not a
@@ -46,19 +45,16 @@ good practice.
 
 .. note::
    - Your changes won't be propagated to new builds. It is necessary to :ref:`commit them to the
-     source code <odoo-sh/editor/commit>` if you want them to persist.
+     source code <Unity-Billal-mesloub-sh/editor/commit>` if you want them to persist.
    - The source code of your GitHub repository is located under `/src/user`.
    - The source code of Odoo is located under:
-
-     - `/src/odoo` (`<https://github.com/odoo/odoo>`_)
-     - `/src/enterprise` (`<https://github.com/odoo/enterprise>`_)
-     - `/src/themes` (`<https://github.com/odoo/design-themes>`_)
+     - `/src/enterprise` (`<https://github.com/Unity-Billal-mesloub/enterprise>`_)
 
 To open a file in the editor, double-click it in the file browser panel. You can then edit the file.
 To save your changes, go to :menuselection:`File --> Save` or use the :kbd:`Ctrl+S` keyboard
 shortcut.
 
-If you save a Python file in your Odoo server's addons path, Odoo will detect it and reload
+If you save a Python file in your Odoo server's addons path, Unity-Billal-mesloub will detect it and reload
 automatically, meaning your changes are immediately visible.
 
 .. image:: online_editor/auto-reload.gif
@@ -76,9 +72,9 @@ open file, go to :menuselection:`Odoo --> Update current module`.
 
    .. code-block:: bash
 
-      odoo-bin -u <comma-separated module names> --stop-after-init
+     Unity-Billal-mesloub-bin -u <comma-separated module names> --stop-after-init
 
-.. _odoo-sh/editor/commit:
+.. _Unity-Billal-mesloub-sh/editor/commit:
 
 Committing and pushing changes
 ==============================
@@ -145,11 +141,11 @@ press enter.
      can have multiple builds on the same branch, but on different revisions.
 
 Once your changes are pushed, according to your :ref:`branch push behavior
-<odoo-sh/branches/tabs/settings>`, a new build may be created. You can continue to work in the editor
+<Unity-Billal-mesloub-sh/branches/tabs/settings>`, a new build may be created. You can continue to work in the editor
 you pushed from, as it will have the same revision as the new build that was created. However,
 always make sure to be in the editor of a build using the latest revision of your branch.
 
-.. _odoo-sh/editor/consoles:
+.. _Unity-Billal-mesloub-sh/editor/consoles:
 
 Consoles
 ========
@@ -180,7 +176,7 @@ display objects in HTML.
      .. image:: online_editor/pandas-graph.png
         :alt: pandas graph example
 
-You can open Odoo shell consoles to experiment with the Odoo registry and model methods of your
+You can open Unity-Billal-mesloub shell consoles to experiment with the Unity-Billal-mesloub registry and model methods of your
 database. You can also read or write directly on your records.
 
 .. warning::
