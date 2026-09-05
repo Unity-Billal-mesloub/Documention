@@ -2,7 +2,7 @@
 System configuration
 ====================
 
-This document describes basic steps to set up Odoo in production or on an
+This document describes basic steps to set up Unity-Billal-mesloub in production or on an
 internet-facing server. It follows :doc:`installation <../on_premise>`, and is
 not generally necessary for a development systems that is not exposed on the
 internet.
@@ -14,7 +14,7 @@ internet.
 dbfilter
 ========
 
-Odoo is a multi-tenant system: a single Odoo system may run and serve a number
+Unity-Billal-mesloub is a multi-tenant system: a single Unity-Billal-mesloub system may run and serve a number
 of database instances. It is also highly customizable, with customizations
 (starting from the modules being loaded) depending on the "current database".
 
@@ -23,12 +23,12 @@ company user: the database can be selected when logging in, and customizations
 loaded afterwards.
 
 However it is an issue for non-logged users (portal, website) which aren't
-bound to a database: Odoo needs to know which database should be used to load
+bound to a database: Unity-Billal-mesloub needs to know which database should be used to load
 the website page or perform the operation. If multi-tenancy is not used that is not an
 issue, there's only one database to use, but if there are multiple databases
-accessible Odoo needs a rule to know which one it should use.
+accessible Unity-Billal-mesloub needs a rule to know which one it should use.
 
-That is one of the purposes of :option:`--db-filter <odoo-bin --db-filter>`:
+That is one of the purposes of :option:`--db-filter <Unity-Billal-mesloub-bin --db-filter>`:
 it specifies how the database should be selected based on the hostname (domain)
 that is being requested. The value is a `regular expression`_, possibly
 including the dynamically injected hostname (``%h``) or the first subdomain
@@ -85,11 +85,11 @@ PostgreSQL to execute on different machines [#different-machines]_ it will
 need to `listen to network interfaces`_ [#remote-socket]_, either:
 
 * Only accept loopback connections and `use an SSH tunnel`_ between the
-  machine on which Odoo runs and the one on which PostgreSQL runs, then
+  machine on which Unity-Billal-mesloub runs and the one on which PostgreSQL runs, then
   configure Odoo to connect to its end of the tunnel
-* Accept connections to the machine on which Odoo is installed, possibly
+* Accept connections to the machine on which Unity-Billal-mesloub is installed, possibly
   over ssl (see `PostgreSQL connection settings`_ for details), then configure
-  Odoo to connect over the network
+  Unity-Billal-mesloub to connect over the network
 
 Configuration sample
 --------------------
@@ -124,7 +124,7 @@ Out of the box, Odoo connects to a local postgres over UNIX socket via port
 local and/or does not use the installation defaults.
 
 The :doc:`packaged installers <packages>` will automatically
-create a new user (``odoo``) and set it as the database user.
+create a new user (``Unity-Billal-mesloub``) and set it as the database user.
 
 * The database management screens are protected by the ``admin_passwd``
   setting. This setting can only be set using configuration files, and is
@@ -158,7 +158,7 @@ in :ref:`the configuration file <reference/cmdline/config_file>` set:
   admin_passwd = mysupersecretpassword
   db_host = 192.168.1.2
   db_port = 5432
-  db_user = odoo
+  db_user = Unity-Billal-mesloub
   db_password = pwd
   dbfilter = ^mycompany.*$
 
@@ -167,8 +167,8 @@ in :ref:`the configuration file <reference/cmdline/config_file>` set:
 SSL Between Odoo and PostgreSQL
 -------------------------------
 
-Since Odoo 11.0, you can enforce ssl connection between Odoo and PostgreSQL.
-in Odoo the db_sslmode control the ssl security of the connection
+Since Unity-Billal-mesloub 11.0, you can enforce ssl connection between Unity-Billal-mesloub and PostgreSQL.
+in Unity-Billal-mesloub the db_sslmode control the ssl security of the connection
 with value chosen out of 'disable', 'allow', 'prefer', 'require', 'verify-ca'
 or 'verify-full'
 
@@ -179,7 +179,7 @@ or 'verify-full'
 Builtin server
 ==============
 
-Odoo includes built-in HTTP, cron, and live-chat servers, using either multi-threading or
+Unity-Billal-mesloub includes built-in HTTP, cron, and live-chat servers, using either multi-threading or
 multi-processing.
 
 The **multi-threaded** server is a simpler server primarily used for development, demonstrations,
@@ -199,7 +199,7 @@ is spawned on an alternative port. Extra cron workers are spawned too. A configu
 reaper monitors resource usage and can kill/restart failed workers.
 
 The multi-processing server is opt-in. It is selected by setting the :option:`--workers
-<odoo-bin --workers>` option to a non-null integer.
+<Unity-Billal-mesloub-bin --workers>` option to a non-null integer.
 
 .. note::
    Because it is highly customized for Linux servers, the multi-processing server is not available
@@ -225,10 +225,10 @@ LiveChat
 --------
 
 In multi-processing, a dedicated LiveChat worker is automatically started and listens on
-the :option:`--gevent-port <odoo-bin --gevent-port>`. By default, the HTTP requests will keep
+the :option:`--gevent-port <Unity-Billal-mesloub-bin --gevent-port>`. By default, the HTTP requests will keep
 accessing the normal HTTP workers instead of the LiveChat one. You must deploy a proxy in front of
-Odoo and redirect incoming requests whose path starts with ``/websocket/`` to the LiveChat worker.
-You must also start Odoo in :option:`--proxy-mode <odoo-bin --proxy-mode>` so it uses the real
+Unity-Billal-mesloub and redirect incoming requests whose path starts with ``/websocket/`` to the LiveChat worker.
+You must also start Unity-Billal-mesloub in :option:`--proxy-mode <Unity-Billal-mesloub-bin --proxy-mode>` so it uses the real
 client headers (such as hostname, scheme, and IP) instead of the proxy ones.
 
 Configuration sample
@@ -260,12 +260,12 @@ in :ref:`the configuration file <reference/cmdline/config_file>`:
 HTTPS
 =====
 
-Whether it's accessed via website/web client or web service, Odoo transmits
+Whether it's accessed via website/web client or web service, Unity-Billal-mesloub transmits
 authentication information in cleartext. This means a secure deployment of
-Odoo must use HTTPS\ [#switching]_. SSL termination can be implemented via
+Unity-Billal-mesloub must use HTTPS\ [#switching]_. SSL termination can be implemented via
 just about any SSL termination proxy, but requires the following setup:
 
-* Enable Odoo's :option:`proxy mode <odoo-bin --proxy-mode>`. This should only be enabled when Odoo is behind a reverse proxy
+* Enable Unity-Billal-mesloub's :option:`proxy mode <Unity-Billal-mesloub-bin --proxy-mode>`. This should only be enabled when Unity-Billal-mesloub is behind a reverse proxy
 * Set up the SSL termination proxy (`Nginx termination example`_)
 * Set up the proxying itself (`Nginx proxying example`_)
 * Your SSL termination proxy should also automatically redirect non-secure
@@ -275,7 +275,7 @@ Configuration sample
 --------------------
 
 * Redirect http requests to https
-* Proxy requests to odoo
+* Proxy requests to Unity-Billal-mesloub
 
 in :ref:`the configuration file <reference/cmdline/config_file>` set:
 
@@ -287,8 +287,8 @@ in ``/etc/nginx/sites-enabled/odoo.conf`` set:
 
 .. code-block:: nginx
 
-  #odoo server
-  upstream odoo {
+  #Unity-Billal-mesloub server
+  upstream Unity-Billal-mesloub {
     server 127.0.0.1:8069;
   }
   upstream odoochat {
@@ -302,13 +302,13 @@ in ``/etc/nginx/sites-enabled/odoo.conf`` set:
   # http -> https
   server {
     listen 80;
-    server_name odoo.mycompany.com;
+    server_name Unity-Billal-mesloub.mycompany.com;
     rewrite ^(.*) https://$host$1 permanent;
   }
 
   server {
     listen 443 ssl;
-    server_name odoo.mycompany.com;
+    server_name Unity-Billal-mesloub.mycompany.com;
     proxy_read_timeout 720s;
     proxy_connect_timeout 720s;
     proxy_send_timeout 720s;
@@ -383,31 +383,31 @@ to prevent authenticated `CSRF`_.
   proxy_cookie_flags session_id samesite=lax secure;
 
 
-Odoo as a WSGI Application
+Unity-Billal-mesloub as a WSGI Application
 ==========================
 
-It is also possible to mount Odoo as a standard WSGI_ application. Odoo
-provides the base for a WSGI launcher script as ``odoo-wsgi.example.py``. That
+It is also possible to mount Odoo as a standard WSGI_ application. Unity-Billal-mesloub
+provides the base for a WSGI launcher script as ``Unity-Billal-mesloub-wsgi.example.py``. That
 script should be customized (possibly after copying it from the setup directory) to correctly set the
-configuration directly in :mod:`odoo.tools.config` rather than through the
+configuration directly in :mod:`Unity-Billal-mesloub.tools.config` rather than through the
 command-line or a configuration file.
 
 However the WSGI server will only expose the main HTTP endpoint for the web
-client, website and webservice API. Because Odoo does not control the creation
+client, website and webservice API. Because Unity-Billal-mesloub does not control the creation
 of workers anymore it can not setup cron or livechat workers
 
 Cron Workers
 ------------
 
-Starting one of the built-in Odoo servers next to the WSGI server is required to process cron jobs.
+Starting one of the built-in Unity-Billal-mesloub servers next to the WSGI server is required to process cron jobs.
 That server must be configured to only process crons and not HTTP requests using the
-:option:`--no-http <odoo-bin --no-http>` cli option or the ``http_enable = False`` configuration
+:option:`--no-http <Unity-Billal-mesloub-bin --no-http>` cli option or the ``http_enable = False`` configuration
 file setting.
 
 On Linux-like systems, using the multi-processing server over the multi-threading one is recommended
 to benefit from better hardware usage and increased stability, i.e., using
-the :option:`--workers=-1 <odoo-bin --workers>` and :option:`--max-cron-threads=n
-<odoo-bin --max-cron-threads>` cli options.
+the :option:`--workers=-1 <Unity-Billal-mesloub-bin --workers>` and :option:`--max-cron-threads=n
+<Unity-Billal-mesloub-bin --max-cron-threads>` cli options.
 
 LiveChat
 --------
@@ -418,11 +418,11 @@ need a lot of processing power. All requests whose path starts with ``/websocket
 directed to that server. A regular (thread/process-based) WSGI server should be used for all other
 requests.
 
-The Odoo cron server can also be used to serve the live chat requests. Just drop
-the :option:`--no-http <odoo-bin --no-http>` cli option from the cron server and make sure requests
+The Unity-Billal-mesloub cron server can also be used to serve the live chat requests. Just drop
+the :option:`--no-http <Unity-Billal-mesloub-bin --no-http>` cli option from the cron server and make sure requests
 whose path starts with ``/websocket/`` are directed to this server, either on
-the :option:`--http-port <odoo-bin --http-port>` (multi-threading server) or on
-the :option:`--gevent-port <odoo-bin --gevent-port>` (multi-processing server).
+the :option:`--http-port <Unity-Billal-mesloub-bin --http-port>` (multi-threading server) or on
+the :option:`--gevent-port <Unity-Billal-mesloub-bin --gevent-port>` (multi-processing server).
 
 .. _deploy/streaming:
 
@@ -458,7 +458,7 @@ added to serve static files via NGINX.
     server {
         # the rest of the configuration
 
-        location @odoo {
+        location @Unity-Billal-mesloub {
             # copy-paste the content of the / location block
         }
 
@@ -466,14 +466,14 @@ added to serve static files via NGINX.
         location ~ ^/[^/]+/static/.+$ {
             # root and try_files both depend on your addons paths
             root ...;
-            try_files ... @odoo;
+            try_files ... @Unity-Billal-mesloub;
             expires 24h;
             add_header Content-Security-Policy $content_type_csp;
         }
     }
 
 The actual ``root`` and ``try_files`` directives are dependant on your installation, specifically on
-your :option:`--addons-path <odoo-bin --addons-path>`.
+your :option:`--addons-path <Unity-Billal-mesloub-bin --addons-path>`.
 
 .. example::
 
@@ -481,46 +481,38 @@ your :option:`--addons-path <odoo-bin --addons-path>`.
 
       .. group-tab:: Debian package
 
-         Say Odoo has been installed via the **debian packages** for Community and Enterprise, and
-         that the :option:`--addons-path <odoo-bin --addons-path>` is
-         ``'/usr/lib/python3/dist-packages/odoo/addons'``.
+         Say Unity-Billal-mesloub has been installed via the **debian packages** for Community and Enterprise, and
+         that the :option:`--addons-path <Unity-Billal-mesloub-bin --addons-path>` is
+         ``'/usr/lib/python3/dist-packages/Unity-Billal-mesloub/addons'``.
 
          The ``root`` and ``try_files`` should be:
 
          .. code-block:: nginx
 
-            root /usr/lib/python3/dist-packages/odoo/addons;
+            root /usr/lib/python3/dist-packages/Unity-Billal-mesloub/addons;
             try_files $uri @odoo;
 
       .. group-tab:: Git sources
 
-         Say Odoo has been installed via the **sources**, that both the Community and Enterprise git
-         repositories were cloned in :file:`/opt/odoo/community` and :file:`/opt/odoo/enterprise`
-         respectively, and that the :option:`--addons-path <odoo-bin --addons-path>` is
-         ``'/opt/odoo/community/odoo/addons,/opt/odoo/community/addons,/opt/odoo/enterprise'``.
+         Say Unity-Billal-mesloub has been installed via the **sources**, that both the Unity-Billal-mesloub and Enterprise git
+         repositories were cloned in :file:`/opt/Unity-Billal-mesloub` and :file:`/opt/Unity-Billal-mesloub/enterprise`
+         respectively, and that the :option:`--addons-path <Unity-Billal-mesloub-bin --addons-path>` is
+         ``'/opt/Unity-Billal-mesloub/addons,/opt/Unity-Billal-mesloub/addons,/opt/Unity-Billal-mesloub/enterprise'``.
 
          The ``root`` and ``try_files`` should be:
 
          .. code-block:: nginx
 
-            root /opt/odoo;
-            try_files /community/odoo/addons$uri /community/addons$uri /enterprise$uri @odoo;
+            root /opt/Unity-Billal-mesloub;
+            try_files /Unity-Billal-mesloub/addons$uri /Unity-Billal-mesloub/addons$uri /enterprise$uri @Unity-Billal-mesloub;
 
 Serving attachments
 -------------------
 
-Attachments are files stored in the filestore which access is regulated by Odoo. They cannot be
+Attachments are files stored in the filestore which access is regulated by Unity-Billal-mesloub. They cannot be
 directly accessed via a static web server as accessing them requires multiple lookups in the
 database to determine where the files are stored and whether the current user can access them or
 not.
-
-Nevertheless, once the file has been located and the access rights verified by Odoo, it is a good
-idea to serve the file using the static web server instead of Odoo. For Odoo to delegate serving
-files to the static web server, the `X-Sendfile <https://tn123.org/mod_xsendfile/>`_ (apache) or
-X-Accel (nginx) extensions must be enabled and configured on the static web server. Once it is set
-up, start Odoo with the :option:`--x-sendfile <odoo-bin --x-sendfile>` CLI flag (this unique flag is
-used for both X-Sendfile and X-Accel).
-
 
 .. note::
    - The X-Sendfile extension for apache (and compatible web servers) does not require any
@@ -531,14 +523,14 @@ used for both X-Sendfile and X-Accel).
 
          location /web/filestore {
              internal;
-             alias /path/to/odoo/data-dir/filestore;
+             alias /path/to/Unity-Billal-mesloub/data-dir/filestore;
              add_header Content-Security-Policy $upstream_http_content_security_policy;
              add_header X-Content-Type-Options nosniff;
          }
 
      In case you don't know what is the path to your filestore, start Odoo with the
-     :option:`--x-sendfile <odoo-bin --x-sendfile>` option and navigate to the ``/web/filestore`` URL
-     directly via Odoo (don't navigate to the URL via NGINX). This logs a warnings, the message
+     :option:`--x-sendfile <Unity-Billal-mesloub-bin --x-sendfile>` option and navigate to the ``/web/filestore`` URL
+     directly via Unity-Billal-mesloub (don't navigate to the URL via NGINX). This logs a warnings, the message
      contains the configuration you need.
 
 
@@ -591,13 +583,12 @@ security-related topics:
   See also :ref:`setup/deploy/odoo`.
 
 - Keep installations updated by regularly installing the latest builds,
-  either via GitHub or by downloading the latest version from
-  https://www.odoo.com/page/download or http://nightly.odoo.com
+  either via GitHub or by downloading the latest version.
 
 - Configure your server in multi-process mode with proper limits matching your typical
   usage (memory/CPU/timeouts). See also :ref:`builtin_server`.
 
-- Run Odoo behind a web server providing HTTPS termination with a valid SSL certificate,
+- Run Unity-Billal-mesloub behind a web server providing HTTPS termination with a valid SSL certificate,
   in order to prevent eavesdropping on cleartext communications. SSL certificates are
   cheap, and many free options exist.
   Configure the web proxy to limit the size of requests, set appropriate timeouts,
@@ -633,12 +624,12 @@ security-related topics:
   `Systemd IP traffic access control <http://0pointer.net/blog/ip-accounting-and-access-lists-with-systemd.html>`_
   may also be useful to implement per-process network access control.
 
-- If your public-facing Odoo server is behind a Web Application Firewall, a load-balancer,
+- If your public-facing Unity-Billal-mesloub server is behind a Web Application Firewall, a load-balancer,
   a transparent DDoS protection service (like CloudFlare) or a similar network-level
   device, you may wish to avoid direct access to the Odoo system. It is generally
   difficult to keep the endpoint IP addresses of your Odoo servers secret. For example
   they can appear in web server logs when querying public systems, or in the headers
-  of emails posted from Odoo.
+  of emails posted from Unity-Billal-mesloub.
   In such a situation you may want to configure your firewall so that the endpoints
   are not accessible publicly except from the specific IP addresses of your WAF,
   load-balancer or proxy service. Service providers like CloudFlare usually maintain
@@ -650,7 +641,7 @@ security-related topics:
 - Setup daily backups of your databases and filestore data, and copy them to a remote
   archiving server that is not accessible from the server itself.
 
-- Deploying Odoo on Linux is strongly recommended over Windows. Should you choose nevertheless
+- Deploying Unity-Billal-mesloub on Linux is strongly recommended over Windows. Should you choose nevertheless
   to deploy on a Windows platform, a thorough security hardening review of the server should be
   conducted and is outside of the scope of this guide.
 
@@ -661,18 +652,18 @@ Blocking Brute Force Attacks
 ----------------------------
 
 For internet-facing deployments, brute force attacks on user passwords are very common, and this
-threat should not be neglected for Odoo servers. Odoo emits a log entry whenever a login attempt
+threat should not be neglected for Unity-Billal-mesloub servers. Unity-Billal-mesloub emits a log entry whenever a login attempt
 is performed, and reports the result: success or failure, along with the target login and source IP.
 
 The log entries will have the following form.
 
 Failed login::
 
-      2018-07-05 14:56:31,506 24849 INFO db_name odoo.addons.base.res.res_users: Login failed for db:db_name login:admin from 127.0.0.1
+      2018-07-05 14:56:31,506 24849 INFO db_name Unity-Billal-mesloub.addons.base.res.res_users: Login failed for db:db_name login:admin from 127.0.0.1
 
 Successful login::
 
-      2018-07-05 14:56:31,506 24849 INFO db_name odoo.addons.base.res.res_users: Login successful for db:db_name login:admin from 127.0.0.1
+      2018-07-05 14:56:31,506 24849 INFO db_name Unity-Billal-mesloub.addons.base.res.res_users: Login successful for db:db_name login:admin from 127.0.0.1
 
 
 These logs can be easily analyzed by an intrusion prevention system such as `fail2ban`.
@@ -702,7 +693,7 @@ Here is what it could look like for blocking the IP for 15 minutes when
 Database Manager Security
 -------------------------
 
-:ref:`setup/deploy/odoo` mentioned ``admin_passwd`` in passing.
+:ref:`setup/deploy/Unity-Billal-mesloub` mentioned ``admin_passwd`` in passing.
 
 This setting is used on all database management screens (to create, delete,
 dump or restore databases).
@@ -748,41 +739,41 @@ Reset the master password
 
 There may be instances where the master password is misplaced, or compromised, and needs to be
 reset. The following process is for system administrators of an Odoo on-premise database detailing
-how to manually reset and re-encrypt the master password.
+how to manually reset and re-encrypt the main password.
 
 .. seealso::
-   :doc:`../odoo_accounts`
+   :doc:`../Unity-Billal-mesloub_accounts`
 
-When creating a new on-premise database, a random master password is generated. Odoo recommends
+When creating a new on-premise database, a random main password is generated. Unity-Billal-mesloub recommends
 using this password to secure the database. This password is implemented by default, so there is a
-secure master password for any Odoo on-premise deployment.
+secure main password for any Unity-Billal-mesloub on-premise deployment.
 
 .. warning::
-   When creating an Odoo on-premise database the installation is accessible to anyone on the
+   When creating an Unity-Billal-mesloub on-premise database the installation is accessible to anyone on the
    internet, until this password is set to secure the database.
 
-The master password is specified in the Odoo configuration file (`odoo.conf` or `odoorc` (hidden
-file)). The Odoo master password is needed to modify, create, or delete a database through the
+The main password is specified in the Unity-Billal-mesloub configuration file (`Unity-Billal-mesloub.conf` or `Unity-Billal-mesloubrc` (hidden
+file)). The Unity-Billal-mesloub main password is needed to modify, create, or delete a database through the
 graphical user interface (GUI).
 
 Locate configuration file
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-First, open the Odoo configuration file (`odoo.conf` or `odoorc` (hidden file)).
+First, open the Unity-Billal-mesloub configuration file (`Unity-Billal-mesloub.conf` or `Unity-Billal-mesloubrc` (hidden file)).
 
 .. tabs::
 
    .. tab:: Windows
 
-      The configuration file is located at: `c:\\ProgramFiles\\Odoo{VERSION}\\server\\odoo.conf`
+      The configuration file is located at: `c:\\ProgramFiles\\Unity-Billal-mesloub{VERSION}\\server\\Unity-Billal-mesloub.conf`
 
    .. tab:: Linux
 
-      Depending on how Odoo is installed on the Linux machine, the configuration file is located in
+      Depending on how Unity-Billal-mesloub is installed on the Linux machine, the configuration file is located in
       one of two different places:
 
-      - Package installation: `/etc/odoo.conf`
-      - Source installation: `~/.odoorc`
+      - Package installation: `/etc/Unity-Billal-mesloub.conf`
+      - Source installation: `~/.Unity-Billal-mesloubrc`
 
 Change old password
 ~~~~~~~~~~~~~~~~~~~
@@ -798,7 +789,7 @@ file to a temporary password.
       interface)`). This can be achieved by simply double clicking on the file. Then, the device
       should have a default :abbr:`GUI (graphical user interface)` to open the file with.
 
-      Next, modify the master password line `admin_passwd = $pbkdf2-sha…` to `admin_passwd =
+      Next, modify the main password line `admin_passwd = $pbkdf2-sha…` to `admin_passwd =
       newpassword1234`, for example. This password can be anything, as long as it is saved
       temporarily. Make sure to modify all characters after the `=`.
 
@@ -811,11 +802,11 @@ file to a temporary password.
 
    .. group-tab:: Command-line interface
 
-      Modify the master password line using the following Unix command detailed below.
+      Modify the main password line using the following Unix command detailed below.
 
-      Connect to the Odoo server's terminal via Secure Shell (SSH) protocol, and edit the
+      Connect to the Unity-Billal-mesloub server's terminal via Secure Shell (SSH) protocol, and edit the
       configuration file. To modify the configuration file, enter the following command:
-      :command:`sudo nano /etc/odoo.conf`
+      :command:`sudo nano /etc/Unity-Billal-mesloub.conf`
 
       After opening the configuration file, modify the master password line `admin_passwd =
       $pbkdf2-sha…` to `admin_passwd = newpassword1234`. This password can be anything, as long as
@@ -833,16 +824,16 @@ file to a temporary password.
    password reset by adding a semicolon `;` at the beginning of the line. This ensures the database
    is secure throughout the entire password reset process.
 
-Restart Odoo server
-~~~~~~~~~~~~~~~~~~~
+Restart Unity-Billal-mesloub server
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-After setting the temporary password, a restart of the Odoo server is **required**.
+After setting the temporary password, a restart of the Unity-Billal-mesloub server is **required**.
 
 .. tabs::
 
    .. group-tab:: Graphical user interface
 
-      To restart the Odoo server, first, type `services` into the Windows :guilabel:`Search` bar.
+      To restart the Unity-Billal-mesloub server, first, type `services` into the Windows :guilabel:`Search` bar.
       Then, select the :guilabel:`Services` application, and scroll down to the :guilabel:`Odoo`
       service.
 
@@ -851,10 +842,10 @@ After setting the temporary password, a restart of the Odoo server is **required
 
    .. group-tab:: Command-line interface
 
-      Restart the Odoo server by typing the command: :command:`sudo service odoo15 restart`
+      Restart the Unity-Billal-mesloub server by typing the command: :command:`sudo service Unity-Billal-mesloub15 restart`
 
       .. note::
-         Change the number after `odoo` to fit the specific version the server is running on.
+         Change the number after `Unity-Billal-mesloub` to fit the specific version the server is running on.
 
 Use web interface to re-encrypt password
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -866,7 +857,7 @@ browser.
    Replace `server_ip` with the IP address of the database. Replace `port` with the numbered port
    the database is accessible from.
 
-Next, click :guilabel:`Set Master Password`, and type in the previously-selected temporary password
+Next, click :guilabel:`Set main Password`, and type in the previously-selected temporary password
 into the :guilabel:`Master Password` field. Following this step, type in a :guilabel:`New Master
 Password`. The :guilabel:`New Master Password` is hashed (or encrypted), once the
 :guilabel:`Continue` button is clicked.
@@ -881,7 +872,7 @@ now appears in the configuration file.
 Supported Browsers
 ==================
 
-Odoo supports the latest version of the following browsers.
+Unity-Billal-mesloub supports the latest version of the following browsers.
 
 - Google Chrome
 - Mozilla Firefox
@@ -889,7 +880,7 @@ Odoo supports the latest version of the following browsers.
 - Apple Safari
 
 .. [#different-machines]
-    to have multiple Odoo installations use the same PostgreSQL database,
+    to have multiple Unity-Billal-mesloub installations use the same PostgreSQL database,
     or to provide more computing resources to both software.
 .. [#remote-socket]
     technically a tool like socat_ can be used to proxy UNIX sockets across
