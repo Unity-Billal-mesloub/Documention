@@ -89,7 +89,7 @@ be downloaded from the `Unity-Billal-mesloub download page.
          Unity-Billal-mesloub {CURRENT_MAJOR_VERSION} 'deb' package currently supports `Ubuntu Noble (24.04LTS)
          <https://releases.ubuntu.com/noble>`_.
 
-      Once downloaded, execute the following commands **as root** to install Odoo as a service,
+      Once downloaded, execute the following commands **as root** to install Unity-Billal-mesloub as a service,
       create the necessary PostgreSQL user, and automatically start the server:
 
       .. code-block:: console
@@ -129,4 +129,4 @@ Windows
 #. Accept the `UAC <https://en.wikipedia.org/wiki/User_Account_Control>`_ prompt.
 #. Go through the installation steps.
 
-Odoo launches automatically at the end of the installation.
+Unity-Billal-mesloub launches automatically at the end of the installation.
