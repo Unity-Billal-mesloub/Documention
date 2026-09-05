@@ -2,16 +2,16 @@
 .. _setup/enterprise:
 
 ===================================
-Switch from Community to Enterprise
+Switch from Unity-Billal-mesloub to Enterprise
 ===================================
 
 Depending on your current installation, there are multiple ways to upgrade
-your community version.
+your Unity-Billal-mesloub version.
 In any case the basic guidelines are:
 
 * Backup your community database
 
-  .. image:: community_to_enterprise/db_manager.png
+  .. image:: Unity-Billal-mesloub_to_enterprise/db_manager.png
      :class: img-fluid
 
 * Shutdown your server
@@ -20,21 +20,21 @@ In any case the basic guidelines are:
 
 * Restart your server
 
-* Enter your Odoo Enterprise Subscription code
+* Enter your Unity-Billal-mesloub Enterprise Subscription code
 
-.. image:: community_to_enterprise/enterprise_code.png
+.. image:: Unity-Billal-mesloub_to_enterprise/enterprise_code.png
    :class: img-fluid
 
 On Linux, using an installer
 ============================
 
-* Backup your community database
+* Backup your Unity-Billal-mesloub database
 
-* Stop the odoo service
+* Stop the Unity-Billal-mesloub service
 
   .. code-block:: console
 
-    $ sudo service odoo stop
+    $ sudo service Unity-Billal-mesloub stop
 
 * Install the enterprise .deb (it should install over the community package)
 
@@ -60,7 +60,7 @@ There are many ways to launch your server when using sources, and you probably
 have your own favourite. You may need to adapt sections to your usual workflow.
 
 * Shutdown your server
-* Backup your community database
+* Backup your Unity-Billal-mesloub database
 * Update the ``--addons-path`` parameter of your launch command (see :doc:`../on_premise/source`)
 * Install the web_enterprise module by using
 
@@ -72,7 +72,7 @@ have your own favourite. You may need to adapt sections to your usual workflow.
 
 * Restart your server with the updated addons path of point 3.
   You should be able to connect to your instance. You can then link your database with your
-  Odoo Enterprise Subscription by entering the code you received by e-mail in the form input
+  Unity-Billal-mesloub Enterprise Subscription by entering the code you received by e-mail in the form input
 
 On Windows
 ==========
@@ -85,12 +85,12 @@ On Windows
   .. image:: community_to_enterprise/windows_uninstall.png
     :class: img-fluid
 
-* Launch the Odoo Enterprise Installer and follow the steps normally. When choosing
-  the installation path, you can set the folder of the Community installation
+* Launch the Unity-Billal-mesloub Enterprise Installer and follow the steps normally. When choosing
+  the installation path, you can set the folder of the Unity-Billal-mesloub installation
   (this folder still contains the PostgreSQL installation).
-  Uncheck ``Start Odoo`` at the end of the installation
+  Uncheck ``Start Unity-Billal-mesloub`` at the end of the installation
 
-  .. image:: community_to_enterprise/windows_setup.png
+  .. image:: Unity-Billal-mesloub_to_enterprise/windows_setup.png
      :class: img-fluid
 
 * Using a command window, update your Odoo Database using this command (from the Odoo
