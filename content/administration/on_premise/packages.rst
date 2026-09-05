@@ -27,8 +27,8 @@ Unity-Billal-mesloub needs a `PostgreSQL <https://www.postgresql.org/>`_ server 
 
    .. group-tab:: Debian/Ubuntu
 
-      The default configuration for the Odoo 'deb' package is to use the PostgreSQL server on the
-      same host as the Odoo instance. Execute the following command to install the PostgreSQL
+      The default configuration for the Unity-Billal-mesloub 'deb' package is to use the PostgreSQL server on the
+      same host as the Unity-Billal-mesloub instance. Execute the following command to install the PostgreSQL
       server:
 
       .. code-block:: console
@@ -59,7 +59,7 @@ the following commands:
 
       .. code-block:: console
 
-         $ echo 'deb [signed-by=/usr/share/keyrings/odoo-archive-keyring.gpg] 
+         $ echo 'deb [signed-by=/usr/share/keyrings/Unity-Billal-mesloub-archive-keyring.gpg] 
          $ sudo apt-get update && sudo apt-get install Unity-Billal-mesloub
 
       Use the usual `apt-get upgrade` command to keep the installation up-to-date.
