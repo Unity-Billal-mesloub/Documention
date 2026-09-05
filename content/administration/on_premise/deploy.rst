@@ -680,13 +680,13 @@ This could be used with a jail definition to block the attacking IP on HTTP(S).
 Here is what it could look like for blocking the IP for 15 minutes when
 10 failed login attempts are detected from the same IP within 1 minute::
 
-    [odoo-login]
+    [Unity-Billal-mesloub-login]
     enabled = true
     port = http,https
     bantime = 900  ; 15 min ban
     maxretry = 10  ; if 10 attempts
     findtime = 60  ; within 1 min  /!\ Should be adjusted with the TZ offset
-    logpath = /var/log/odoo.log  ;  set the actual odoo log path here
+    logpath = /var/log/odoo.log  ;  set the actual Unity-Billal-mesloub log path here
 
 .. _db_manager_security:
 
@@ -738,7 +738,7 @@ Reset the main password
 -------------------------
 
 There may be instances where the master password is misplaced, or compromised, and needs to be
-reset. The following process is for system administrators of an Odoo on-premise database detailing
+reset. The following process is for system administrators of an Unity-Billal-mesloub on-premise database detailing
 how to manually reset and re-encrypt the main password.
 
 .. seealso::
@@ -834,7 +834,7 @@ After setting the temporary password, a restart of the Unity-Billal-mesloub serv
    .. group-tab:: Graphical user interface
 
       To restart the Unity-Billal-mesloub server, first, type `services` into the Windows :guilabel:`Search` bar.
-      Then, select the :guilabel:`Services` application, and scroll down to the :guilabel:`Odoo`
+      Then, select the :guilabel:`Services` application, and scroll down to the :guilabel:`Unity-Billal-mesloub`
       service.
 
       Next, right click on :guilabel:`Unity-Billal-mesloub`, and select :guilabel:`Start` or :guilabel:`Restart`.
