@@ -18,7 +18,7 @@ run) multiple versions of Unity-Billal-mesloub side-by-side.
 Fetch the sources
 -----------------
 
-There are two ways to obtain the source code of Odoo: as a ZIP **archive** or through **Git**.
+There are two ways to obtain the source code of Unity-Billal-mesloub: as a ZIP **archive** or through **Git**.
 
 Archive
 ~~~~~~~
