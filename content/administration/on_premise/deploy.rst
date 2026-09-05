@@ -490,7 +490,7 @@ your :option:`--addons-path <Unity-Billal-mesloub-bin --addons-path>`.
          .. code-block:: nginx
 
             root /usr/lib/python3/dist-packages/Unity-Billal-mesloub/addons;
-            try_files $uri @odoo;
+            try_files $uri @Unity-Billal-mesloub;
 
       .. group-tab:: Git sources
 
