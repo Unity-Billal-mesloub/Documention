@@ -4,16 +4,16 @@ Branches
 
 The :guilabel:`Branches` view provides an overview of the different branches in your repository.
 
-.. _odoo-sh/branches/stages:
+.. _Unity-Billal-mesloub-sh/branches/stages:
 
 Stages
 ======
 
 Odoo.sh offers three different branch stages:
 
-- :ref:`Production <odoo-sh/branches/stages/production>`
-- :ref:`Staging <odoo-sh/branches/stages/staging>`
-- :ref:`Development <odoo-sh/branches/stages/development>`
+- :ref:`Production <Unity-Billal-mesloub-sh/branches/stages/production>`
+- :ref:`Staging <Unity-Billal-mesloub-sh/branches/stages/staging>`
+- :ref:`Development <Unity-Billal-mesloub-sh/branches/stages/development>`
 
 You can change the stage of a branch by dragging and dropping it under the desired stage.
 
@@ -28,10 +28,10 @@ You can change the stage of a branch by dragging and dropping it under the desir
      them under :guilabel:`Production`.
    - The production branch can only be moved under :guilabel:`Development`. If you try to move it
      under :guilabel:`Staging`, you can only perform a merge. Refer to the
-     :ref:`merging <odoo-sh/branches/stages/merging>` section for a detailed explanation of this
+     :ref:`merging <Unity-Billal-mesloub-sh/branches/stages/merging>` section for a detailed explanation of this
      process.
 
-.. _odoo-sh/branches/stages/production:
+.. _Unity-Billal-mesloub-sh/branches/stages/production:
 
 Production
 ----------
@@ -58,7 +58,7 @@ on :doc:`the command line <../../../developer/reference/cli>`.
      tests <https://en.wikipedia.org/wiki/Unit_testing>`_ are not performed, as it would increase
      the unavailability time of the production database during the update.
 
-Odoo.sh automatically backs up the production database. It keeps seven daily, four weekly, and three
+Unity-Billal-mesloub.sh automatically backs up the production database. It keeps seven daily, four weekly, and three
 monthly backups. Each backup includes the database dump, the filestore (attachments and binary
 fields), logs, and sessions.
 
@@ -66,7 +66,7 @@ fields), logs, and sessions.
    When using **trial projects**, the production branch and all staging branches are automatically
    set back to the development stage after **30 days**.
 
-.. _odoo-sh/branches/stages/staging:
+.. _Unity-Billal-mesloub-sh/branches/stages/staging:
 
 Staging
 -------
@@ -87,7 +87,7 @@ The neutralization disables:
 
   .. note::
      They are instead intercepted using a mail catcher. An :ref:`interface to view the emails
-     <odoo-sh/branches/tabs/mails>` sent by the database is provided in your Odoo.sh project.
+     <Unity-Billal-mesloub-sh/branches/tabs/mails>` sent by the database is provided in your Odoo.sh project.
      That way, no emails are sent to your contacts.
 
 - IAP services
@@ -103,8 +103,8 @@ data files to override the default configuration or views. Check the :ref:`first
 documentation <odoo-sh/module/add>` to view examples.
 
 .. note::
-   Unit tests are not performed. They rely on demo data, which is not loaded into the production and
-   staging databases. If Odoo starts supporting running the units without demo data, Odoo.sh will
+   Unity tests are not performed. They rely on demo data, which is not loaded into the production and
+   staging databases. If Unity-Billal-mesloub starts supporting running the units without demo data, Unity-Billal-mesloub.sh will
    then consider running the tests on staging databases.
 
 Staging databases are not automatically backed up. Nevertheless, you can restore a backup of the
@@ -116,7 +116,7 @@ staging databases.
    Databases created for staging branches are automatically deleted after one month. To use the
    branch again, you must rebuild it.
 
-.. _odoo-sh/branches/stages/development:
+.. _Unity-Billal-mesloub-sh/branches/stages/development:
 
 Development
 -----------
@@ -141,7 +141,7 @@ Development databases are not automatically backed up, and manual backups are no
    that, they can be automatically garbage-collected to make room for new databases without prior
    notice.
 
-.. _odoo-sh/branches/stages/merging:
+.. _Unity-Billal-mesloub-sh/branches/stages/merging:
 
 Merging branches
 ----------------
@@ -194,12 +194,12 @@ branch, you have to, either:
 
 - Pass them manually from the staging database to the production one by copying and pasting them.
 
-.. _odoo-sh/branches/tabs:
+.. _Unity-Billal-mesloub-sh/branches/tabs:
 
 Tabs
 ====
 
-.. _odoo-sh/branches/tabs/history:
+.. _Unity-Billal-mesloub-sh/branches/tabs/history:
 
 History
 -------
@@ -218,7 +218,7 @@ A status in the top right corner of each event indicates the current operation o
 import). If an operation is successful, a :guilabel:`Connect` button appears, allowing you to access
 the database.
 
-.. _odoo-sh/branches/tabs/mails:
+.. _Unity-Billal-mesloub-sh/branches/tabs/mails:
 
 Mails
 -----
@@ -233,7 +233,7 @@ the database.
 .. image:: branches/mails-tab.png
    :alt: The branches' mails tab
 
-.. _odoo-sh/branches/tabs/shell:
+.. _Unity-Billal-mesloub-sh/branches/tabs/shell:
 
 Shell
 -----
@@ -256,24 +256,24 @@ Clicking :guilabel:`Shell` opens a new browser tab where you can run basic Linux
    - Long-running shell instances/idle shell sessions can be terminated at any time to free up
      resources.
 
-.. _odoo-sh/branches/tabs/shell/commands:
+.. _Unity-Billal-mesloub-sh/branches/tabs/shell/commands:
 
 Commands
 ~~~~~~~~
 
-Here is an overview of useful commands that you can run an Odoo.sh database terminal:
+Here is an overview of useful commands that you can run an Unity-Billal-mesloub.sh database terminal:
 
-- `odoo-bin shell`: to open an Odoo shell
-- `odoo-update`: to update modules in the database
-- `odoosh-restart`: to restart Odoo.sh services (http or cron)
-- `odoosh-storage`: to check the storage usage of your instance's container filesystem
+- `Unity-Billal-mesloub-bin shell`: to open an Unity-Billal-mesloub shell
+- `Unity-Billal-mesloub-update`: to update modules in the database
+- `Unity-Billal-mesloub-sh-restart`: to restart Unity-Billal-mesloub.sh services (http or cron)
+- `Unity-Billal-mesloub-sh-storage`: to check the storage usage of your instance's container filesystem
 - `psql`: to open a database shell
 - `mutt`: to check how emails appear on text clients (staging and development instances)
-- `lnav ~/logs/odoo.log`: to navigate in your instance's :file:`odoo.log` file
+- `lnav ~/logs/Unity-Billal-mesloub.log`: to navigate in your instance's :file:`odoo.log` file
 - `ncdu`: to launch the disk usage analyzer with an interactive interface
 - `grep`: to filter and find information in log or configuration files
 
-.. _odoo-sh/branches/tabs/editor:
+.. _Unity-Billal-mesloub-sh/branches/tabs/editor:
 
 Editor
 ------
@@ -290,7 +290,7 @@ You can open multiple tabs and drag and drop them to arrange the layout as you w
 .. seealso::
    :doc:`Online editor documentation <online_editor>`.
 
-.. _odoo-sh/branches/tabs/monitor:
+.. _Unity-Billal-mesloub-sh/branches/tabs/monitor:
 
 Monitor
 -------
@@ -327,19 +327,19 @@ is recommended to focus on recent events to get the most detailed information po
    On each graph, an 𝕚 (:guilabel:`information`) icon is displayed in the top-left corner. Hover
    your mouse over it to get more details about what the graph represents.
 
-.. _odoo-sh/branches/tabs/monitor/metrics:
+.. _Unity-Billal-mesloub-sh/branches/tabs/monitor/metrics:
 
 Metrics
 ~~~~~~~
 
-.. _odoo-sh/branches/tabs/monitor/metrics/system:
+.. _Unity-Billal-mesloub-sh/branches/tabs/monitor/metrics/system:
 
 System
 ******
 
 The :guilabel:`Memory` graph displays information about memory consumption:
 
-- :guilabel:`Memory container` represents Odoo workers and container processes.
+- :guilabel:`Memory container` represents Unity-Billal-mesloub workers and container processes.
 - :guilabel:`Memory postgresql` represents the database.
 
 .. image:: branches/monitor-memory-graph.png
@@ -363,7 +363,7 @@ The :guilabel:`Storage` graph displays information about the storage used:
 .. image:: branches/monitor-storage-graph.png
    :alt: The storage graph in the monitor tab
 
-.. _odoo-sh/branches/tabs/monitor/metrics/http:
+.. _Unity-Billal-mesloub-sh/branches/tabs/monitor/metrics/http:
 
 HTTP
 ****
@@ -429,8 +429,8 @@ Different logs are available:
 
 - `pip.log`: the Python dependencies installation
 - `install.log`: the database installation (for development branches, tests are included)
-- `odoosh-import-database.log`: the last imported dump process
-- `odoo.log`: the running server
+- `Unity-Billal-mesloub-sh-import-database.log`: the last imported dump process
+- `Unity-Billal-mesloub.log`: the running server
 - `update.log`: the database updates
 - `pg_slow_queries.log`: psql queries that take an unusual amount of time
 - `sh_webshell.log`:  the actions taken in the webshell
@@ -447,7 +447,7 @@ You can pause the logs fetching process by clicking the :icon:`fa-pause` (:guila
 in the upper right corner. Otherwise, the process stops after five minutes. You can restart it by
 clicking the :icon:`fa-play` (:guilabel:`play`) button.
 
-.. _odoo-sh/branches/tabs/backups:
+.. _Unity-Billal-mesloub-sh/branches/tabs/backups:
 
 Backups
 -------
@@ -473,10 +473,6 @@ that has been accidentally deleted from the production database.
 
 The list contains the backups kept on the server of your production database. This server only keeps
 one month of backups: seven daily and four weekly backups.
-
-Dedicated backup servers keep the same backups, as well as three additional monthly backups. To
-restore or download one of these monthly backups, contact `Odoo Support
-<https://www.odoo.com/help>`_.
 
 When merging a commit updating the version of one or several modules (in :file:`__manifest__.py`),
 or their linked Python dependencies (in :file:`requirements.txt`), then Odoo.sh performs an
@@ -512,14 +508,14 @@ five daily manual backups.
 
 The :guilabel:`Import Database` feature accepts database archives from:
 
-- the standard Odoo database manager (available for on-premise Odoo servers under
+- the standard Unity-Billal-mesloub database manager (available for on-premise Unity-Billal-mesloub servers under
   `/web/database/manager`)
-- the Odoo Online databases manager
-- the Odoo.sh :guilabel:`Backups` tab (using the :icon:`fa-download` (:guilabel:`Download Options`)
+- the Unity-Billal-mesloub Online databases manager
+- the Unity-Billal-mesloub.sh :guilabel:`Backups` tab (using the :icon:`fa-download` (:guilabel:`Download Options`)
   button)
-- the Odoo.sh :doc:`Builds <builds>` view (by clicking :guilabel:`Download DB dump`)
+- the Unity-Billal-mesloub.sh :doc:`Builds <builds>` view (by clicking :guilabel:`Download DB dump`)
 
-.. _odoo-sh/branches/tabs/upgrade:
+.. _Unity-Billal-mesloub-sh/branches/tabs/upgrade:
 
 Upgrade
 -------
@@ -531,7 +527,7 @@ projects. For more information about the upgrade process, refer to the :doc:`Upg
 .. image:: branches/upgrade-tab.png
    :alt: The branches upgrade tab
 
-.. _odoo-sh/branches/tabs/tools:
+.. _Unity-Billal-mesloub-sh/branches/tabs/tools:
 
 Tools
 -----
@@ -551,7 +547,7 @@ allocate their time.
    Running the profiler consumes a lot of server resources, so avoid letting it run for too long.
    The goal is to record a specific action in your database.
 
-.. _odoo-sh/branches/tabs/settings:
+.. _Unity-Billal-mesloub-sh/branches/tabs/settings:
 
 Settings
 --------
@@ -562,7 +558,7 @@ branch. The options vary for each stage.
 .. image:: branches/settings-tab.png
    :alt: The branches settings tab
 
-.. _odoo-sh/branches/tabs/settings/commits:
+.. _Unity-Billal-mesloub-sh/branches/tabs/settings/commits:
 
 Behavior upon new commits
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -580,7 +576,7 @@ is created every time a commit is pushed.
 A branch that is moved from **staging** to **development** is set automatically to :guilabel:`Do
 nothing`.
 
-.. _odoo-sh/branches/tabs/settings/installation:
+.. _Unity-Billal-mesloub-sh/branches/tabs/settings/installation:
 
 Module installation
 ~~~~~~~~~~~~~~~~~~~
@@ -604,7 +600,7 @@ To change the default behavior, untick the :guilabel:`Use Default` option under
 .. note::
    If the test suite is enabled, installing all standard Odoo modules can take up to one hour.
 
-.. _odoo-sh/branches/tabs/settings/test:
+.. _Unity-Billal-mesloub-sh/branches/tabs/settings/test:
 
 Test suite
 ~~~~~~~~~~
@@ -615,12 +611,12 @@ commas (e.g., `custom_tags,at_install,post_install`).
 
 To disable the test suite entirely, untick :guilabel:`Validate the test suite on new builds`.
 
-.. _odoo-sh/branches/tabs/settings/version:
+.. _Unity-Billal-mesloub-sh/branches/tabs/settings/version:
 
 Odoo version
 ~~~~~~~~~~~~
 
-You can change the version of Odoo for **development** branches, for example, to test upgraded code
+You can change the version of Unity-Billal-mesloub for **development** branches, for example, to test upgraded code
 or develop features while your production database is in the process of being upgraded to a newer
 version, by selecting another :guilabel:`Version`.
 
@@ -638,12 +634,12 @@ To choose a specific revision instead, select it using the :guilabel:`Revision` 
 .. image:: branches/settings-revisions.png
    :alt: The settings tab revisions
 
-.. _odoo-sh/branches/tabs/settings/domain:
+.. _Unity-Billal-mesloub-sh/branches/tabs/settings/domain:
 
 Custom domains
 ~~~~~~~~~~~~~~
 
-You can configure additional `<name>.odoo.com` domains or your own custom domains for all branch
+You can configure additional `<name>.Unity-Billal-mesloub.com` domains or your own custom domains for all branch
 types.
 
 To use your own custom domain, it is necessary to:
@@ -665,7 +661,7 @@ To have both your bare domain (e.g., `mycompany.com`) and *www* domain (e.g., `w
 working, it is necessary to redirect the bare domain to the *www* domain. .com. Most domain managers
 provide a way to configure this redirection, commonly referred to as a web redirection.
 
-.. _odoo-sh/branches/tabs/settings/domain/https:
+.. _Unity-Billal-mesloub-sh/branches/tabs/settings/domain/https:
 
 HTTPS/SSL
 *********
@@ -674,7 +670,7 @@ If the redirection is correctly set up, an SSL certificate is automatically gene
 Encrypt <https://letsencrypt.org/about>`_ within the hour, meaning your domain will be accessible
 through HTTPS.
 
-.. _odoo-sh/branches/tabs/settings/domain/spf-dkim:
+.. _Unity-Billal-mesloub-sh/branches/tabs/settings/domain/spf-dkim:
 
 SPF and DKIM compliance
 ***********************
@@ -686,21 +682,21 @@ information, refer to the :doc:`Configure DNS records to send emails in Odoo doc
 <../../../applications/general/email_communication/email_domain>`.
 
 .. important::
-   If Odoo is not authorized as a sending host, your outgoing emails may be flagged as spam.
+   If Unity-Billal-mesloub is not authorized as a sending host, your outgoing emails may be flagged as spam.
 
-.. _odoo-sh/branches/shell-commands:
+.. _Unity-Billal-mesloub-sh/branches/shell-commands:
 
 Shell commands
 ==============
 
 In the top right corner of the view, several shell commands are displayed. The commands can be
 copied using the clipboard button and then used in a terminal. In addition, some of them can be used
-directly from Odoo.sh's interface.
+directly from Unity-Billal-mesloub.sh's interface.
 
 .. image:: branches/shell-commands.png
    :alt: The branches shell commands shortcuts
 
-.. _odoo-sh/branches/shell-commands/clone:
+.. _Unity-Billal-mesloub-sh/branches/shell-commands/clone:
 
 Clone
 -----
@@ -718,7 +714,7 @@ The clone command is used to create a local copy of your Git repository.
 .. note::
    The run button is not available as the command is used to create a local copy on your machine.
 
-.. _odoo-sh/branches/shell-commands/fork:
+.. _Unity-Billal-mesloub-sh/branches/shell-commands/fork:
 
 Fork
 ----
@@ -735,7 +731,7 @@ The fork command is used to create a new branch based on the current one.
    - `git push -u origin development-1` a command to upload the new branch (e.g.,
      `development-1`) to the remote repository
 
-.. _odoo-sh/branches/shell-commands/merge:
+.. _Unity-Billal-mesloub-sh/branches/shell-commands/merge:
 
 Merge
 -----
@@ -752,7 +748,7 @@ The merge command is used to combine changes on one branch into another branch.
    - `git push -u origin staging` a command to upload the merged changes to the remote
      repository branch (e.g., `staging`)
 
-.. _odoo-sh/branches/shell-commands/ssh:
+.. _Unity-Billal-mesloub-sh/branches/shell-commands/ssh:
 
 SSH
 ---
@@ -763,7 +759,7 @@ To use the SSH command, it is necessary to set up an SSH key first. To do so:
 
 - `Generate a new SSH key <https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key>`_.
 - `Copy the SSH key to your clipboard <https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account>`_.
-- On Odoo.sh, click your GitHub user in the top-right corner and select :guilabel:`Profile`.
+- On Unity-Billal-mesloub.sh, click your GitHub user in the top-right corner and select :guilabel:`Profile`.
 
   .. image:: branches/ssh-profile.png
      :alt: Accessing a user's profile
@@ -773,22 +769,11 @@ To use the SSH command, it is necessary to set up an SSH key first. To do so:
   .. image:: branches/ssh-add-key.gif
      :alt: Adding an SSH key manually
 
-.. example::
-   .. code-block:: shell
-
-      ssh 25004381@my-user-my-repository-staging-25004381.dev.odoo.com
-
-   - `25004381` the build ID
-   - `my-user-my-repository-staging-25004381.dev.odoo.com` the domain used to connect to the build
-
-Provided you have the necessary :ref:`access rights <odoo-sh/settings/collaborators>` on the
-project, you will be granted SSH access to the build.
-
 .. note::
    Long-running SSH connections are not guaranteed. Idle connections can be disconnected to free up
    resources.
 
-.. _odoo-sh/branches/shell-commands/submodule:
+.. _Unity-Billal-mesloub-sh/branches/shell-commands/submodule:
 
 Submodule
 ---------
@@ -811,7 +796,7 @@ submodule.
    - `git push -u origin staging` a command to upload the changes of the current branch
      (e.g., `staging`) to the remote repository.
 
-.. _odoo-sh/branches/shell-commands/delete:
+.. _Unity-Billal-mesloub-sh/branches/shell-commands/delete:
 
 Delete
 ------
@@ -832,6 +817,4 @@ The delete command is used to delete a branch from your repository.
    - `git branch -D staging` a command to delete the specific branch on your local copy of
      the repository
 
-.. warning::
-   Before deleting a branch, refer to the :ref:`Backups section <odoo-sh/branches/tabs/backups>` to
-   better understand how they work and when you should create a manual backup.
+
