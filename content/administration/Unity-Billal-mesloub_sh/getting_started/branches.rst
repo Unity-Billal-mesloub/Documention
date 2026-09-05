@@ -87,7 +87,7 @@ The neutralization disables:
 
   .. note::
      They are instead intercepted using a mail catcher. An :ref:`interface to view the emails
-     <Unity-Billal-mesloub-sh/branches/tabs/mails>` sent by the database is provided in your Odoo.sh project.
+     <Unity-Billal-mesloub-sh/branches/tabs/mails>` sent by the database is provided in your Unity-Billal-mesloub.sh project.
      That way, no emails are sent to your contacts.
 
 - IAP services
@@ -100,7 +100,7 @@ The neutralization disables:
 If you configure or view changes in a staging database, make sure to record them (noting them step
 by step, reproducing in production, etc.) or write them directly in the branch's modules, using XML
 data files to override the default configuration or views. Check the :ref:`first module
-documentation <odoo-sh/module/add>` to view examples.
+documentation <Unity-Billal-mesloub-sh/module/add>` to view examples.
 
 .. note::
    Unity tests are not performed. They rely on demo data, which is not loaded into the production and
@@ -269,7 +269,7 @@ Here is an overview of useful commands that you can run an Unity-Billal-mesloub.
 - `Unity-Billal-mesloub-sh-storage`: to check the storage usage of your instance's container filesystem
 - `psql`: to open a database shell
 - `mutt`: to check how emails appear on text clients (staging and development instances)
-- `lnav ~/logs/Unity-Billal-mesloub.log`: to navigate in your instance's :file:`odoo.log` file
+- `lnav ~/logs/Unity-Billal-mesloub.log`: to navigate in your instance's :file:`Unity-Billal-mesloub.log` file
 - `ncdu`: to launch the disk usage analyzer with an interactive interface
 - `grep`: to filter and find information in log or configuration files
 
@@ -347,7 +347,7 @@ The :guilabel:`Memory` graph displays information about memory consumption:
 
 The :guilabel:`CPU` graph displays information about CPU consumption:
 
-- :guilabel:`CPU http` represents Odoo workers.
+- :guilabel:`CPU http` represents Unity-Billal-mesloub workers.
 - :guilabel:`CPU cron/mail` represents scheduled actions and incoming emails.
 - :guilabel:`CPU postgresql` (database processes)
 - :guilabel:`CPU other` represents webshells, the editor, etc.
@@ -394,7 +394,7 @@ milliseconds).
 .. image:: branches/monitor-response-graph.png
    :alt: The average response time graph in the monitor tab
 
-.. _odoo-sh/branches/tabs/monitor/metrics/mails:
+.. _Unity-Billal-mesloub-sh/branches/tabs/monitor/metrics/mails:
 
 Mails
 *****
@@ -415,7 +415,7 @@ The :guilabel:`Outgoing` graph displays data about the daily number of outgoing 
 .. image:: branches/monitor-outgoing-graph.png
    :alt: The outgoing graph in the monitor tab
 
-.. _odoo-sh/branches/tabs/logs:
+.. _Unity-Billal-mesloub-sh/branches/tabs/logs:
 
 Logs
 ----
