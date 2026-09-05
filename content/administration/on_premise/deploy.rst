@@ -146,7 +146,7 @@ Configuration sample
 
 * connect to a PostgreSQL server on 192.168.1.2
 * port 5432
-* using an 'odoo' user account,
+* using an 'Unity-Billal-mesloub' user account,
 * with 'pwd' as a password
 * filtering only db with a name beginning with 'mycompany'
 
