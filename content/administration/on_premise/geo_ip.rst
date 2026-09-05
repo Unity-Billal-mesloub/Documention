@@ -23,14 +23,14 @@ Installation
 
 .. note::
    If you don't want to locate the geoip database in :file:`/usr/share/GeoIP/`, use the
-   :option:`--geoip-city-db <odoo-bin --geoip-city-db>` and
-   :option:`--geoip-country-db <odoo-bin --geoip-country-db>` options of the Odoo command line
+   :option:`--geoip-city-db <Unity-Billal-mesloub-bin --geoip-city-db>` and
+   :option:`--geoip-country-db <Unity-Billal-mesloub-bin --geoip-country-db>` options of the Unity-Billal-mesloub command line
    interface. These options take the absolute path to the GeoIP database file and use it as the
    GeoIP database. For example:
 
    .. code-block:: bash
 
-      ./odoo-bin --geoip-city-db= ~/Downloads/GeoLite2-City.mmdb
+      ./Unity-Billal-mesloub-bin --geoip-city-db= ~/Downloads/GeoLite2-City.mmdb
 
    .. seealso::
       - :doc:`CLI documentation </developer/reference/cli>`.
@@ -57,7 +57,7 @@ In case you read "**geoip failure**" instead then the geolocalization failed. Th
 
 #. The browsing IP address is the localhost (``127.0.0.1``) or a local area network one. If you
    don't know, you can access your website using mobile data.
-#. You are using a reverse-proxy (apache, nginx) in front of Odoo but didn't start Odoo with the
-   proxy-mode enabled. See :option:`proxy mode <odoo-bin --proxy-mode>`.
+#. You are using a reverse-proxy (apache, nginx) in front of Unity-Billal-mesloub but didn't start Unity-Billal-mesloub with the
+   proxy-mode enabled. See :option:`proxy mode <Unity-Billal-mesloub-bin --proxy-mode>`.
 #. The GeoIP database is corrupt, missing or unaccessible. In such case a warning was logged in the
    server logs.
