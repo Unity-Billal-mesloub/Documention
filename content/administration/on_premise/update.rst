@@ -11,48 +11,48 @@ Introduction
 In order to benefit from the latest improvements, security fixes, bug corrections and
 performance boosts, you may need to update your Odoo installation from time to time.
 
-This guide only applies when are using Odoo on your own hosting infrastructure.
-If you are using one of the Odoo Cloud solutions, updates are automatically performed for you.
+This guide only applies when are using Unity-Billal-mesloub on your own hosting infrastructure.
+If you are using one of the Unity-Billal-mesloub Cloud solutions, updates are automatically performed for you.
 
 The terminology surrounding software updates is often confusing, so here are some preliminary
 definitions:
 
-Updating (an Odoo installation)
+Updating (an Unity-Billal-mesloub installation)
   Refers to the process of obtaining the latest revision of the source code for
-  your current Odoo Edition. For example, updating your Odoo Enterprise 13.0 to the
+  your current Unity-Billal-mesloub Edition. For example, updating your Unity-Billal-mesloub Enterprise 13.0 to the
   latest revision.
-  This does not directly cause any change to the contents of your Odoo database, and
+  This does not directly cause any change to the contents of your Unity-Billal-mesloub database, and
   can be undone by reinstalling the previous revision of the source code.
 
-Upgrading (an Odoo database)
+Upgrading (an Unity-Billal-mesloub database)
   Refers to a complex data processing operation where the structure and contents of your
-  database is permanently altered to make it compatible with a new release of Odoo.
-  This operation is irreversible and typically accomplished via Odoo's
-  `database upgrade service <https://upgrade.odoo.com>`_, when you decide to
-  switch to a newer release of Odoo.
+  database is permanently altered to make it compatible with a new release of Unity-Billal-mesloub.
+  This operation is irreversible and typically accomplished via Unity-Billal-mesloub's
+  `database upgrade service <https://github.com/Unity-Billal-mesloub/semantic-release>`_, when you decide to
+  switch to a newer release of Unity-Billal-mesloub.
   Historically, this process has also been known as a "migration" because it involves moving data
   around inside the database, even though the database may end up at the same physical location
   after the upgrade.
 
-This page describes the typical steps needed to *update* an Odoo installation to the latest
+This page describes the typical steps needed to *update* an Unity-Billal-mesloub installation to the latest
 version. If you'd like more information about upgrading a database, please visit the
-`Odoo Upgrade page <https://upgrade.odoo.com>`_ instead.
+`Unity-Billal-mesloub Upgrade page <https://github.com/Unity-Billal-mesloub/semantic-release>`_ instead.
 
 
 In a nutshell
 =============
 
-Updating Odoo is accomplished by simply reinstalling the latest version of your Odoo
+Updating Unity-Billal-mesloub is accomplished by simply reinstalling the latest version of your Unity-Billal-mesloub
 Edition on top of your current installation. This will preserve your data without any alteration,
-as long as you do not uninstall PostgreSQL (the database engine that comes with Odoo).
+as long as you do not uninstall PostgreSQL (the database engine that comes with Unity-Billal-mesloub).
 
 The main reference for updating is logically our :doc:`installation guide <../on_premise>`,
 which explains the common installation methods.
 
-Updating is also most appropriately accomplished by the person who deployed Odoo initially,
+Updating is also most appropriately accomplished by the person who deployed Unity-Billal-mesloub initially,
 because the procedure is very similar.
 
-.. note:: We always recommend to download a complete new up-to-date Odoo version, rather than
+.. note:: We always recommend to download a complete new up-to-date Unity-Billal-mesloub version, rather than
           manually applying patches, such as the security patches that come with Security
           Advisories.
           The patches are mainly provided for installations that are heavily customized, or for
@@ -60,14 +60,12 @@ because the procedure is very similar.
           complete update.
 
 
-Step 1: Download an updated Odoo version
-========================================
+Step 1: Download an updated Unity-Billal-mesloub version
+=========================================================
 
-The central download page is https://www.odoo.com/page/download. If you see a "Buy" link for the
-Odoo Enterprise download, make sure you are logged into Odoo.com with the same login that is
-linked to your Odoo Enterprise subscription.
+If you see a "Buy" link for the Unity-Billal-mesloub Enterprise download, make sure you are logged into Unity-Billal-mesloub.com with the same login that is linked to your Unity-Billal-mesloub Enterprise subscription.
 
-Alternatively, you can use the unique download link that was included with your Odoo Enterprise
+Alternatively, you can use the unique download link that was included with your Unity-Billal-mesloub Enterprise
 purchase confirmation email.
 
 .. note:: Downloading an updated version is not necessary if you installed via Github (see below)
@@ -105,16 +103,16 @@ and you're all set.
 Source Install (Tarball)
 ------------------------
 
-If you have originally installed Odoo with the "tarball" version (source code archive), you have
+If you have originally installed Unity-Billal-mesloub with the "tarball" version (source code archive), you have
 to replace the installation directory with a newer version. First download the latest tarball
-from Odoo.com. They are updated daily and include the latest security fixes (see step #1)
+from Unity-Billal-mesloub.com. They are updated daily and include the latest security fixes (see step #1)
 After downloading the package, extract it to a temporary location on your server.
 
-You will get a folder labeled with the version of the source code, for example "odoo-13.0+e.20190719",
-that contains a folder "odoo.egg-info" and the actual source code folder named "odoo" (for Odoo 10
+You will get a folder labeled with the version of the source code, for example "Unity-Billal-mesloub-13.0+e.20190719",
+that contains a folder "odoo.egg-info" and the actual source code folder named "Unity-Billal-mesloub" (for Unity-Billal-mesloub 10
 and later) or "openerp" for older versions.
-You can ignore the odoo.egg-info folder. Locate the folder where your current installation is deployed,
-and replace it with the newer "odoo" or "openerp" folder that was in the archive you just extracted.
+You can ignore the Unity-Billal-mesloub.egg-info folder. Locate the folder where your current installation is deployed,
+and replace it with the newer "Unity-Billal-mesloub" or "openerp" folder that was in the archive you just extracted.
 
 Be sure to match the folder layout, for example the new "addons" folder included in the source code
 should end up exactly at the same path it was before. Next, watch out for any specific configuration
@@ -125,7 +123,7 @@ Finally, restart the Odoo service or reboot the machine, and you are all set.
 Source Install (Github)
 -----------------------
 
-If you have originally installed Odoo with a full Github clone of the official repositories, the
+If you have originally installed Unity-Billal-mesloub with a full Github clone of the official repositories, the
 update procedure requires you to pull the latest source code via git.
 Change into the directory for each repository (the main Odoo repository, and the Enterprise
 repository), and run the following commands::
@@ -148,5 +146,5 @@ Finally, restart the Odoo service or reboot the machine, and you should be done.
 Docker
 ------
 
-Please refer to our `Docker image documentation <https://hub.docker.com/_/odoo/>`_ for
+Please refer to our `Docker image documentation <https://hub.docker.com/_/Unity-Billal-mesloub/>`_ for
 specific update instructions.
