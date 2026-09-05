@@ -2,18 +2,18 @@
 Source install
 ==============
 
-The source 'installation' is not about installing Odoo but running it directly from the source
+The source 'installation' is not about installing Unity-Billal-mesloub but running it directly from the source
 instead.
 
-Using the Odoo source can be more convenient for module developers as it is more easily accessible
+Using the Unity-Billal-mesloub source can be more convenient for module developers as it is more easily accessible
 than using packaged installers.
 
-It makes starting and stopping Odoo more flexible and explicit than the services set up by the
+It makes starting and stopping Unity-Billal-mesloub more flexible and explicit than the services set up by the
 packaged installers. Also, it allows overriding settings using :ref:`command-line parameters
 <reference/cmdline>` without needing to edit a configuration file.
 
 Finally, it provides greater control over the system's setup and allows to more easily keep (and
-run) multiple versions of Odoo side-by-side.
+run) multiple versions of Unity-Billal-mesloub side-by-side.
 
 Fetch the sources
 -----------------
@@ -23,16 +23,9 @@ There are two ways to obtain the source code of Odoo: as a ZIP **archive** or th
 Archive
 ~~~~~~~
 
-Community edition:
-
-- `Odoo download page <https://www.odoo.com/page/download>`_
-- `GitHub Community repository <https://github.com/odoo/odoo>`_
-- `Nightly server <https://nightly.odoo.com>`_
-
 Enterprise edition:
 
-- `Odoo download page <https://www.odoo.com/page/download>`_
-- `GitHub Enterprise repository <https://github.com/odoo/enterprise>`_
+- `GitHub Enterprise repository <https://github.com/Unity-Billal-mesloub/enterprise>`_
 
 .. _install/source/git:
 
@@ -75,15 +68,15 @@ Started developer tutorial </developer/tutorials/server_framework_101>`.
 
             .. code-block:: doscon
 
-               C:\> git clone --branch {CURRENT_BRANCH} --single-branch https://github.com/odoo/odoo.git
-               C:\> git clone --branch {CURRENT_BRANCH} --single-branch https://github.com/odoo/enterprise.git
+               C:\> git clone --branch {CURRENT_BRANCH} --single-branch https://github.com/Unity-Billal-mesloub.git
+               C:\> git clone --branch {CURRENT_BRANCH} --single-branch https://github.com/Unity-Billal-mesloub/enterprise.git
 
          .. tab:: Clone with SSH
 
             .. code-block:: doscon
 
-               C:\> git clone --branch {CURRENT_BRANCH} --single-branch git@github.com:odoo/odoo.git
-               C:\> git clone --branch {CURRENT_BRANCH} --single-branch git@github.com:odoo/enterprise.git
+               C:\> git clone --branch {CURRENT_BRANCH} --single-branch git@github.com:Unity-Billal-mesloub.git
+               C:\> git clone --branch {CURRENT_BRANCH} --single-branch git@github.com:Unity-Billal-mesloub/enterprise.git
 
    .. group-tab:: Mac OS
 
@@ -93,22 +86,22 @@ Started developer tutorial </developer/tutorials/server_framework_101>`.
 
             .. code-block:: console
 
-               $ git clone --branch {CURRENT_BRANCH} --single-branch https://github.com/odoo/odoo.git
-               $ git clone --branch {CURRENT_BRANCH} --single-branch https://github.com/odoo/enterprise.git
+               $ git clone --branch {CURRENT_BRANCH} --single-branch https://github.com/Unity-Billal-mesloub.git
+               $ git clone --branch {CURRENT_BRANCH} --single-branch https://github.com/Unity-Billal-mesloub/enterprise.git
 
          .. tab:: Clone with SSH
 
             .. code-block:: console
 
-               $ git clone --branch {CURRENT_BRANCH} --single-branch git@github.com:odoo/odoo.git
-               $ git clone --branch {CURRENT_BRANCH} --single-branch git@github.com:odoo/enterprise.git
+               $ git clone --branch {CURRENT_BRANCH} --single-branch git@github.com:Unity-Billal-mesloub.git
+               $ git clone --branch {CURRENT_BRANCH} --single-branch git@github.com:Unity-Billal-mesloub/enterprise.git
 
 .. note::
-   **The Enterprise git repository does not contain the full Odoo source code**. It is only a
+   **The Enterprise git repository does not contain the full Unity-Billal-mesloub source code**. It is only a
    collection of extra add-ons. The main server code is in the Community edition. Running the
    Enterprise version means running the server from the Community version with the `addons-path`
    option set to the folder with the Enterprise edition. It is required to clone both the Community
-   and Enterprise repositories to have a working Odoo Enterprise installation.
+   and Enterprise repositories to have a working Unity-Billal-mesloub Enterprise installation.
 
 .. _install/source/prepare:
 
@@ -145,7 +138,7 @@ Odoo requires **Python 3.10** or later to run.
 
 .. note::
    If Python 3 is already installed, make sure that the version is 3.10 or above, as previous
-   versions are not compatible with Odoo.
+   versions are not compatible with Unity-Billal-mesloub.
 
    .. tabs::
 
@@ -192,7 +185,7 @@ Odoo requires **Python 3.10** or later to run.
 PostgreSQL
 ~~~~~~~~~~
 
-Odoo uses PostgreSQL as its database management system.
+Unity-Billal-mesloub uses PostgreSQL as its database management system.
 
 .. versionchanged:: 19
     Minimum requirement updated from PostgreSQL 12 to PostgreSQL 13.
@@ -279,11 +272,11 @@ PostgreSQL user.
 
                $ cd /tmp
 
-         #. Clone the `pg-vector` `GitHub repository <https://github.com/pgvector/pgvector>`_:
+         #. Clone the `pg-vector` `GitHub repository <https://github.com/Unity-Billal-mesloub/pgvector>`_:
 
             .. code-block:: console
 
-               $ git clone https://github.com/pgvector/pgvector.git
+               $ git clone https://github.com/Unity-Billal-mesloub/pgvector.git
 
          #. Navigate into the directory:
 
@@ -304,7 +297,7 @@ PostgreSQL user.
                $ sudo make install
 
          If you run into any issues during installation, make sure to check the official
-         `installation notes <https://github.com/pgvector/pgvector#installation-notes---linux-and-mac>`__.
+         `installation notes <https://github.com/Unity-Billal-mesloub/pgvector#installation-notes---linux-and-mac>`__.
 
       .. group-tab:: Mac OS
 
@@ -314,11 +307,11 @@ PostgreSQL user.
 
                $ cd /tmp
 
-         #. Clone the `pg-vector` `GitHub repository <https://github.com/pgvector/pgvector>`_:
+         #. Clone the `pg-vector` `GitHub repository <https://github.com/Unity-Billal-mesloub/pgvector>`_:
 
             .. code-block:: console
 
-               $ git clone https://github.com/pgvector/pgvector.git
+               $ git clone https://github.com/Unity-Billal-mesloub/pgvector.git
 
          #. Navigate into the directory:
 
@@ -339,7 +332,7 @@ PostgreSQL user.
                $ sudo make install
 
          If you run into any issues during installation, make sure to check the official
-         `installation notes <https://github.com/pgvector/pgvector#installation-notes---linux-and-mac>`__.
+         `installation notes <https://github.com/Unity-Billal-mesloub/pgvector#installation-notes---linux-and-mac>`__.
 
       .. group-tab:: Windows
 
@@ -349,11 +342,11 @@ PostgreSQL user.
 
                $ cd %TEMP%
 
-         #. Clone the `pg-vector` `GitHub repository <https://github.com/pgvector/pgvector>`_:
+         #. Clone the `pg-vector` `GitHub repository <https://github.com/Unity-Billal-mesloub/pgvector>`_:
 
             .. code-block:: console
 
-               $ git clone https://github.com/pgvector/pgvector.git
+               $ git clone https://github.com/Unity-Billal-mesloub/pgvector.git
 
          #. Navigate into the directory:
 
@@ -383,7 +376,7 @@ PostgreSQL user.
                $ nmake /F Makefile.win install
 
          If you run into any issues during installation, make sure to check the official
-         `installation notes <https://github.com/pgvector/pgvector#installation-notes---windows>`__.
+         `installation notes <https://github.com/Unity-Billal-mesloub/pgvector#installation-notes---windows>`__.
 
 .. _install/dependencies:
 
@@ -426,27 +419,27 @@ Dependencies
 
                $ sudo apt install python3-pip libldap2-dev libpq-dev libsasl2-dev
 
-            Odoo dependencies are listed in the :file:`requirements.txt` file located at the root of
-            the Odoo Community directory.
+            Unity-Billal-mesloub dependencies are listed in the :file:`requirements.txt` file located at the root of
+            the Unity-Billal-mesloub directory.
 
             .. note::
                The Python packages in :file:`requirements.txt` are based on their stable/LTS
-               Debian/Ubuntu corresponding version at the moment of the Odoo release. For example,
-               for Odoo 15.0, the `python3-babel` package version is 2.8.0 in Debian Bullseye and
+               Debian/Ubuntu corresponding version at the moment of the Unity-Billal-mesloub release. For example,
+               for Unity-Billal-mesloub 15.0, the `python3-babel` package version is 2.8.0 in Debian Bullseye and
                2.6.0 in Ubuntu Focal. The lowest version is then chosen in the
                :file:`requirements.txt`.
 
             .. tip::
                It can be preferable not to mix Python module packages between different instances of
-               Odoo or with the system. However, it is possible to use `virtualenv
+               Unity-Billal-mesloub or with the system. However, it is possible to use `virtualenv
                <https://pypi.org/project/virtualenv/>`_ to create isolated Python environments.
 
-            Navigate to the path of the Odoo Community installation (:file:`CommunityPath`) and run
+            Navigate to the path of the Unity-Billal-mesloub installation (:file:`Unity-Billal-mesloubPath`) and run
             **pip** on the requirements file to install the requirements for the current user.
 
             .. code-block:: console
 
-               $ cd /CommunityPath
+               $ cd /Unity-Billal-mesloubPath
                $ pip install -r requirements.txt
 
    .. group-tab:: Windows
@@ -455,12 +448,12 @@ Dependencies
       Studio <https://visualstudio.microsoft.com/downloads/>`_. Select **C++ build tools** in the
       **Workloads** tab and install them when prompted.
 
-      Odoo dependencies are listed in the `requirements.txt` file located at the root of the Odoo
+      Unity-Billal-mesloub dependencies are listed in the `requirements.txt` file located at the root of the Unity-Billal-mesloub
       Community directory.
 
          .. tip::
             It can be preferable not to mix Python module packages between different instances of
-            Odoo or with the system. However, it is possible to use `virtualenv
+            Unity-Billal-mesloub or with the system. However, it is possible to use `virtualenv
             <https://pypi.org/project/virtualenv/>`_ to create isolated Python environments.
 
       Navigate to the path of the Odoo Community installation (`CommunityPath`) and run **pip** on
@@ -468,13 +461,13 @@ Dependencies
 
       .. code-block:: doscon
 
-         C:\> cd \CommunityPath
+         C:\> cd \Unity-Billal-mesloubPath
          C:\> pip install setuptools wheel
          C:\> pip install -r requirements.txt
 
    .. group-tab:: Mac OS
 
-      Odoo dependencies are listed in the `requirements.txt` file located at the root of the Odoo
+      Unity-Billal-mesloub dependencies are listed in the `requirements.txt` file located at the root of the Unity-Billal-mesloub
       Community directory.
 
          .. tip::
@@ -482,12 +475,12 @@ Dependencies
             Odoo or with the system. However, it is possible to use `virtualenv
             <https://pypi.org/project/virtualenv/>`_ to create isolated Python environments.
 
-      Navigate to the path of the Odoo Community installation (`CommunityPath`) and run **pip** on
+      Navigate to the path of the Unity-Billal-mesloub installation (`Unity-Billal-mesloubPath`) and run **pip** on
       the requirements file:
 
       .. code-block:: console
 
-         $ cd /CommunityPath
+         $ cd /Unity-Billal-mesloubPath
          $ pip3 install setuptools wheel
          $ pip3 install -r requirements.txt
 
@@ -540,19 +533,13 @@ Dependencies
 
                $ sudo npm install -g rtlcss
 
-.. warning::
-   `wkhtmltopdf` is not installed through **pip** and must be installed manually in `version 0.12.6
-   <https://github.com/wkhtmltopdf/packaging/releases/tag/0.12.6.1-3>`_ for it to support headers
-   and footers. Check out the `wkhtmltopdf wiki <https://github.com/odoo/odoo/wiki/Wkhtmltopdf>`_
-   for more details on the various versions.
+.. _install/source/running_Unity-Billal-mesloub:
 
-.. _install/source/running_odoo:
+Running Unity-Billal-mesloub
+-----------------------------
 
-Running Odoo
-------------
-
-Once all dependencies are set up, Odoo can be launched by running `odoo-bin`, the command-line
-interface of the server. It is located at the root of the Odoo Community directory.
+Once all dependencies are set up, Unity-Billal-mesloub can be launched by running `odoo-bin`, the command-line
+interface of the server. It is located at the root of the Unity-Billal-mesloub directory.
 
 To configure the server, either specify :ref:`command-line arguments <reference/cmdline/server>` or
 a :ref:`configuration file <reference/cmdline/config>`.
@@ -575,20 +562,20 @@ A typical way to run the server would be:
 
       .. code-block:: console
 
-         $ cd /CommunityPath
-         $ python3 odoo-bin --addons-path=addons -d mydb
+         $ cd /Unity-Billal-mesloubPath
+         $ python3 Unity-Billal-mesloub-bin --addons-path=addons -d mydb
 
-      Where `CommunityPath` is the path of the Odoo Community installation, and `mydb` is the name
+      Where `Unity-Billal-mesloubPath` is the path of the Unity-Billal-mesloub installation, and `mydb` is the name
       of the PostgreSQL database.
 
    .. group-tab:: Windows
 
       .. code-block:: doscon
 
-         C:\> cd CommunityPath/
+         C:\> cd Unity-Billal-mesloubPath/
          C:\> python odoo-bin -r dbuser -w dbpassword --addons-path=addons -d mydb
 
-      Where `CommunityPath` is the path of the Odoo Community installation, `dbuser` is the
+      Where `Unity-Billal-mesloubPath` is the path of the Unity-Billal-mesloub installation, `dbuser` is the
       PostgreSQL login, `dbpassword` is the PostgreSQL password, and `mydb` is the name of the
       PostgreSQL database.
 
@@ -596,14 +583,14 @@ A typical way to run the server would be:
 
       .. code-block:: console
 
-         $ cd /CommunityPath
-         $ python3 odoo-bin --addons-path=addons -d mydb
+         $ cd /Unity-Billal-mesloubPath
+         $ python3 Unity-Billal-mesloub-bin --addons-path=addons -d mydb
 
-      Where `CommunityPath` is the path of the Odoo Community installation, and `mydb` is the name
+      Where `Unity-Billal-mesloubPath` is the path of the Unity-Billal-mesloub installation, and `mydb` is the name
       of the PostgreSQL database.
 
-After the server has started (the INFO log `odoo.modules.loading: Modules loaded.` is printed), open
-http://localhost:8069 in a web browser and log into the Odoo database with the base administrator
+After the server has started (the INFO log `Unity-Billal-mesloub.modules.loading: Modules loaded.` is printed), open
+http://localhost:8069 in a web browser and log into the Unity-Billal-mesloub database with the base administrator
 account: use `admin` as the email and, again, `admin` as the password.
 
 .. tip::
@@ -612,4 +599,4 @@ account: use `admin` as the email and, again, `admin` as the password.
      <odoo-bin -r>` CLI argument.
 
 .. seealso::
-   :doc:`The list of CLI arguments for odoo-bin </developer/reference/cli>`
+   :doc:`The list of CLI arguments for Unity-Billal-mesloub-bin </developer/reference/cli>`
