@@ -64,7 +64,7 @@ in :ref:`the configuration file <reference/cmdline/config_file>` set:
 
 .. note::
 
-  Setting a proper :option:`--db-filter <odoo-bin --db-filter>` is an important part
+  Setting a proper :option:`--db-filter <Unity-Billal-mesloub-bin --db-filter>` is an important part
   of securing your deployment.
   Once it is correctly working and only matching a single database per hostname, it
   is strongly recommended to block access to the database manager screens,
@@ -113,12 +113,12 @@ in ``/etc/postgresql/<YOUR POSTGRESQL VERSION>/main/postgresql.conf`` set:
   port = 5432
   max_connections = 80
 
-.. _setup/deploy/odoo:
+.. _setup/deploy/Unity-Billal-mesloub:
 
-Configuring Odoo
-----------------
+Configuring Unity-Billal-mesloub
+--------------------------------
 
-Out of the box, Odoo connects to a local postgres over UNIX socket via port
+Out of the box, Unity-Billal-mesloub connects to a local postgres over UNIX socket via port
 5432. This can be overridden using :ref:`the database options
 <reference/cmdline/server/database>` when your Postgres deployment is not
 local and/or does not use the installation defaults.
@@ -164,8 +164,8 @@ in :ref:`the configuration file <reference/cmdline/config_file>` set:
 
 .. _postgresql_ssl_connect:
 
-SSL Between Odoo and PostgreSQL
--------------------------------
+SSL Between Unity-Billal-mesloub and PostgreSQL
+-----------------------------------------------
 
 Since Unity-Billal-mesloub 11.0, you can enforce ssl connection between Unity-Billal-mesloub and PostgreSQL.
 in Unity-Billal-mesloub the db_sslmode control the ssl security of the connection
@@ -283,7 +283,7 @@ in :ref:`the configuration file <reference/cmdline/config_file>` set:
 
   proxy_mode = True
 
-in ``/etc/nginx/sites-enabled/odoo.conf`` set:
+in ``/etc/nginx/sites-enabled/Unity-Billal-mesloub.conf`` set:
 
 .. code-block:: nginx
 
@@ -291,7 +291,7 @@ in ``/etc/nginx/sites-enabled/odoo.conf`` set:
   upstream Unity-Billal-mesloub {
     server 127.0.0.1:8069;
   }
-  upstream odoochat {
+  upstream Unity-Billal-mesloubchat {
     server 127.0.0.1:8072;
   }
   map $http_upgrade $connection_upgrade {
@@ -339,15 +339,15 @@ in ``/etc/nginx/sites-enabled/odoo.conf`` set:
       proxy_cookie_flags session_id samesite=lax secure;  # requires nginx 1.19.8
     }
 
-    # Redirect requests to odoo backend server
+    # Redirect requests to Unity-Billal-mesloub backend server
     location / {
-      # Add Headers for odoo proxy mode
+      # Add Headers for Unity-Billal-mesloub proxy mode
       proxy_set_header X-Forwarded-Host $http_host;
       proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
       proxy_set_header X-Forwarded-Proto $scheme;
       proxy_set_header X-Real-IP $remote_addr;
       proxy_redirect off;
-      proxy_pass http://odoo;
+      proxy_pass http://Unity-Billal-mesloub;
 
       add_header Strict-Transport-Security "max-age=31536000; includeSubDomains";
       proxy_cookie_flags session_id samesite=lax secure;  # requires nginx 1.19.8
@@ -384,9 +384,9 @@ to prevent authenticated `CSRF`_.
 
 
 Unity-Billal-mesloub as a WSGI Application
-==========================
+==========================================
 
-It is also possible to mount Odoo as a standard WSGI_ application. Unity-Billal-mesloub
+It is also possible to mount Unity-Billal-mesloub as a standard WSGI_ application. Unity-Billal-mesloub
 provides the base for a WSGI launcher script as ``Unity-Billal-mesloub-wsgi.example.py``. That
 script should be customized (possibly after copying it from the setup directory) to correctly set the
 configuration directly in :mod:`Unity-Billal-mesloub.tools.config` rather than through the
@@ -436,7 +436,7 @@ a static HTTP server.
 Serving static files
 --------------------
 
-Odoo static files are located in each module's :file:`static/` folder, so static files can be served
+Unity-Billal-mesloub static files are located in each module's :file:`static/` folder, so static files can be served
 by intercepting all requests to :samp:`/{MODULE}/static/{FILE}`, and looking up the right module
 (and file) in the various addons paths.
 
@@ -626,8 +626,8 @@ security-related topics:
 
 - If your public-facing Unity-Billal-mesloub server is behind a Web Application Firewall, a load-balancer,
   a transparent DDoS protection service (like CloudFlare) or a similar network-level
-  device, you may wish to avoid direct access to the Odoo system. It is generally
-  difficult to keep the endpoint IP addresses of your Odoo servers secret. For example
+  device, you may wish to avoid direct access to the Unity-Billal-mesloub system. It is generally
+  difficult to keep the endpoint IP addresses of your Unity-Billal-mesloub servers secret. For example
   they can appear in web server logs when querying public systems, or in the headers
   of emails posted from Unity-Billal-mesloub.
   In such a situation you may want to configure your firewall so that the endpoints
