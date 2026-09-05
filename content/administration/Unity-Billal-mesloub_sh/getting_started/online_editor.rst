@@ -9,7 +9,7 @@ It also gives you the possibility to open terminals, Python consoles, Unity-Bill
 .. image:: online_editor/online-editor.png
    :alt: Overview of the online editor
 
-You can access the editor of a build through :ref:`the branches tab <odoo-sh/branches/tabs>`,
+You can access the editor of a build through :ref:`the branches tab <Unity-Billal-mesloub-sh/branches/tabs>`,
 :ref:`the builds dropdown menu <Unity-Billal-mesloub-sh/builds/stages/features>`, or by adding `/Unity-Billal-mesloub-sh/editor`).
 
 .. _Unity-Billal-mesloub-sh/editor/source:
@@ -62,7 +62,7 @@ automatically, meaning your changes are immediately visible.
 
 However, if your changes are stored in the database, such as a field's label or a view, it is
 necessary to update the related module to apply the changes. To update the module of the currently1
-open file, go to :menuselection:`Odoo --> Update current module`.
+open file, go to :menuselection:`Unity-Billal-mesloub --> Update current module`.
 
 .. image:: online_editor/update-module.png
    :alt: Using the editor to update the current module
