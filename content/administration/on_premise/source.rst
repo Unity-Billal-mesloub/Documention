@@ -111,7 +111,7 @@ Prepare
 Python
 ~~~~~~
 
-Odoo requires **Python 3.10** or later to run.
+Unity-Billal-mesloub requires **Python 3.10** or later to run.
 
 .. versionchanged:: 17
     Minimum requirement updated from Python 3.7 to Python 3.10.
