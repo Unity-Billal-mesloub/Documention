@@ -189,7 +189,7 @@ threads are spawned too. Due to a Python limitation (GIL), it doesn't make the b
 hardware.
 
 The multi-threaded server is the default server, also for docker containers. It is selected by
-leaving the :option:`--workers <odoo-bin --workers>` option out or setting it to ``0``.
+leaving the :option:`--workers <Unity-Billal-mesloub-bin --workers>` option out or setting it to ``0``.
 
 The **multi-processing** server is a full-blown server primarily used for production. It is not
 liable to the same Python limitation (GIL) on resource usage and hence makes the best use of the
@@ -322,12 +322,12 @@ in ``/etc/nginx/sites-enabled/Unity-Billal-mesloub.conf`` set:
     ssl_prefer_server_ciphers off;
 
     # log
-    access_log /var/log/nginx/odoo.access.log;
-    error_log /var/log/nginx/odoo.error.log;
+    access_log /var/log/nginx/Unity-Billal-mesloub.access.log;
+    error_log /var/log/nginx/Unity-Billal-mesloub.error.log;
 
-    # Redirect websocket requests to odoo gevent port
+    # Redirect websocket requests to Unity-Billal-mesloub gevent port
     location /websocket {
-      proxy_pass http://odoochat;
+      proxy_pass http://Unity-Billal-mesloubchat;
       proxy_set_header Upgrade $http_upgrade;
       proxy_set_header Connection $connection_upgrade;
       proxy_set_header X-Forwarded-Host $http_host;
@@ -429,7 +429,7 @@ the :option:`--gevent-port <Unity-Billal-mesloub-bin --gevent-port>` (multi-proc
 Serving static files and attachments
 ====================================
 
-For development convenience, Odoo directly serves all static files and attachments in its modules.
+For development convenience, Unity-Billal-mesloub directly serves all static files and attachments in its modules.
 This may not be ideal when it comes to performances, and static files should generally be served by
 a static HTTP server.
 
