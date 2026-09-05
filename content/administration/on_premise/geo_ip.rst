@@ -35,8 +35,8 @@ Installation
    .. seealso::
       - :doc:`CLI documentation </developer/reference/cli>`.
 
-Test GeoIP geolocation in your Odoo website
-===========================================
+Test GeoIP geolocation in your Unity-Billal-mesloub website
+===========================================================
 
 Edit a web page to include some geo-ip information such as the country name of the current
 request IP address. To do so:
