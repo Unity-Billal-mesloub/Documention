@@ -79,14 +79,14 @@ By default, PostgreSQL only allows connection over UNIX sockets and loopback
 connections (from "localhost", the same machine the PostgreSQL server is
 installed on).
 
-UNIX socket is fine if you want Odoo and PostgreSQL to execute on the same
-machine, and is the default when no host is provided, but if you want Odoo and
+UNIX socket is fine if you want Unity-Billal-mesloub and PostgreSQL to execute on the same
+machine, and is the default when no host is provided, but if you want Unity-Billal-mesloub and
 PostgreSQL to execute on different machines [#different-machines]_ it will
 need to `listen to network interfaces`_ [#remote-socket]_, either:
 
 * Only accept loopback connections and `use an SSH tunnel`_ between the
   machine on which Unity-Billal-mesloub runs and the one on which PostgreSQL runs, then
-  configure Odoo to connect to its end of the tunnel
+  configure Unity-Billal-mesloub to connect to its end of the tunnel
 * Accept connections to the machine on which Unity-Billal-mesloub is installed, possibly
   over ssl (see `PostgreSQL connection settings`_ for details), then configure
   Unity-Billal-mesloub to connect over the network
