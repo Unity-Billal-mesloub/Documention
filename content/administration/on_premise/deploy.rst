@@ -567,7 +567,7 @@ security-related topics:
 - Use appropriate database filters ( :option:`--db-filter <odoo-bin --db-filter>`)
   to restrict the visibility of your databases according to the hostname.
   See :ref:`dbfilter`.
-  You may also use :option:`-d <odoo-bin -d>` to provide your own (comma-separated)
+  You may also use :option:`-d <Unity-Billal-mesloub-bin -d>` to provide your own (comma-separated)
   list of available databases to filter from, instead of letting the system fetch
   them all from the database backend.
 
@@ -577,10 +577,10 @@ security-related topics:
   (this is also exposed as the :option:`--no-database-list <odoo-bin --no-database-list>`
   command-line option)
 
-- Make sure the PostgreSQL user (:option:`--db_user <odoo-bin --db_user>`) is *not* a super-user,
+- Make sure the PostgreSQL user (:option:`--db_user <Unity-Billal-mesloub-bin --db_user>`) is *not* a super-user,
   and that your databases are owned by a different user. For example they could be owned by
   the ``postgres`` super-user if you are using a dedicated non-privileged ``db_user``.
-  See also :ref:`setup/deploy/odoo`.
+  See also :ref:`setup/deploy/Unity-Billal-mesloub`.
 
 - Keep installations updated by regularly installing the latest builds,
   either via GitHub or by downloading the latest version.
@@ -592,7 +592,7 @@ security-related topics:
   in order to prevent eavesdropping on cleartext communications. SSL certificates are
   cheap, and many free options exist.
   Configure the web proxy to limit the size of requests, set appropriate timeouts,
-  and then enable the :option:`proxy mode <odoo-bin --proxy-mode>` option.
+  and then enable the :option:`proxy mode <Unity-Billal-mesloub-bin --proxy-mode>` option.
   See also :ref:`https_proxy`.
 
 - If you need to allow remote SSH access to your servers, make sure to set a strong password
@@ -613,7 +613,7 @@ security-related topics:
   machines than the production ones. And apply the same security precautions as for
   production.
 
-- If your public-facing Odoo server has access to sensitive internal network resources
+- If your public-facing Unity-Billal-mesloub server has access to sensitive internal network resources
   or services (e.g. via a private VLAN), implement appropriate firewall rules to
   protect those internal resources. This will ensure that the Odoo server cannot
   be used accidentally (or as a result of malicious user actions) to access or disrupt
@@ -734,7 +734,7 @@ It should be stored securely, and should be generated randomly e.g.
 
 which generates a 32-character pseudorandom printable string.
 
-Reset the master password
+Reset the main password
 -------------------------
 
 There may be instances where the master password is misplaced, or compromised, and needs to be
@@ -837,8 +837,8 @@ After setting the temporary password, a restart of the Unity-Billal-mesloub serv
       Then, select the :guilabel:`Services` application, and scroll down to the :guilabel:`Odoo`
       service.
 
-      Next, right click on :guilabel:`Odoo`, and select :guilabel:`Start` or :guilabel:`Restart`.
-      This action manually restarts the Odoo server.
+      Next, right click on :guilabel:`Unity-Billal-mesloub`, and select :guilabel:`Start` or :guilabel:`Restart`.
+      This action manually restarts the Unity-Billal-mesloub server.
 
    .. group-tab:: Command-line interface
 
@@ -866,7 +866,7 @@ At this point, the password has been successfully reset, and a hashed version of
 now appears in the configuration file.
 
 .. seealso::
-   For more information on Odoo database security, see this documentation:
+   For more information on Unity-Billal-mesloub database security, see this documentation:
    :ref:`db_manager_security`.
 
 Supported Browsers
