@@ -12,7 +12,7 @@ turned into a testing environment.
 
    - testing backup databases
    - duplicate databases
-   - for Odoo.sh: staging and development databases
+   - for Unity-Billal-mesloub.sh: staging and development databases
 
 .. important::
    A database can also be neutralized when upgrading, as it is vital to do some tests before
