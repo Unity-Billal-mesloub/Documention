@@ -97,7 +97,7 @@ updating is very simple.
 All you have to do is download the installation package corresponding to your system (see step #1)
 and install it on your server. They are updated daily and include the latest security fixes.
 Usually, you can simply double-click the package to install it on top of the current installation.
-After installing the package, be sure to restart the Odoo service or reboot your server,
+After installing the package, be sure to restart the Unity-Billal-mesloub service or reboot your server,
 and you're all set.
 
 Source Install (Tarball)
@@ -109,7 +109,7 @@ from Unity-Billal-mesloub.com. They are updated daily and include the latest sec
 After downloading the package, extract it to a temporary location on your server.
 
 You will get a folder labeled with the version of the source code, for example "Unity-Billal-mesloub-13.0+e.20190719",
-that contains a folder "odoo.egg-info" and the actual source code folder named "Unity-Billal-mesloub" (for Unity-Billal-mesloub 10
+that contains a folder "Unity-Billal-mesloub.egg-info" and the actual source code folder named "Unity-Billal-mesloub" (for Unity-Billal-mesloub 10
 and later) or "openerp" for older versions.
 You can ignore the Unity-Billal-mesloub.egg-info folder. Locate the folder where your current installation is deployed,
 and replace it with the newer "Unity-Billal-mesloub" or "openerp" folder that was in the archive you just extracted.
