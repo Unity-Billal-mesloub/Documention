@@ -9,7 +9,7 @@ Introduction
 ============
 
 In order to benefit from the latest improvements, security fixes, bug corrections and
-performance boosts, you may need to update your Odoo installation from time to time.
+performance boosts, you may need to update your Unity-Billal-mesloub installation from time to time.
 
 This guide only applies when are using Unity-Billal-mesloub on your own hosting infrastructure.
 If you are using one of the Unity-Billal-mesloub Cloud solutions, updates are automatically performed for you.
@@ -92,7 +92,7 @@ Choose the method that matches your current installation:
 Packaged Installers
 -------------------
 
-If you installed Odoo with an installation package downloaded on our website (the recommended method),
+If you installed Unity-Billal-mesloub with an installation package downloaded on our website (the recommended method),
 updating is very simple.
 All you have to do is download the installation package corresponding to your system (see step #1)
 and install it on your server. They are updated daily and include the latest security fixes.
@@ -118,20 +118,20 @@ Be sure to match the folder layout, for example the new "addons" folder included
 should end up exactly at the same path it was before. Next, watch out for any specific configuration
 files that you may have manually copied or modified in the old folder, and copy them over to the
 new folder.
-Finally, restart the Odoo service or reboot the machine, and you are all set.
+Finally, restart the Unity-Billal-mesloub service or reboot the machine, and you are all set.
 
 Source Install (Github)
 -----------------------
 
 If you have originally installed Unity-Billal-mesloub with a full Github clone of the official repositories, the
 update procedure requires you to pull the latest source code via git.
-Change into the directory for each repository (the main Odoo repository, and the Enterprise
+Change into the directory for each repository (the main Unity-Billal-mesloub repository, and the Enterprise
 repository), and run the following commands::
 
      git fetch
      git rebase --autostash
 
-The last command may encounter source code conflicts if you had edited the Odoo source code locally.
+The last command may encounter source code conflicts if you had edited the Unity-Billal-mesloub source code locally.
 The error message will give you the list of files with conflicts, and you will need to resolve
 the conflicts manually, by editing them and deciding which part of the code to keep.
 
@@ -140,7 +140,7 @@ version, you can use the following command::
 
      git reset --hard
 
-Finally, restart the Odoo service or reboot the machine, and you should be done.
+Finally, restart the Unity-Billal-mesloub service or reboot the machine, and you should be done.
 
 
 Docker
