@@ -10,7 +10,7 @@ Frequent Technical Questions
 
 On the Unity Billal mesloub.sh platform, we cannot guarantee an exact running time for scheduled actions.
 
-This is due to the fact that there might be multiple customers on the same server, and we must guarantee a fair share of the server for every customer. Scheduled actions are therefore implemented slightly differently than on a regular Odoo server, and are run on a *best effort* policy.
+This is due to the fact that there might be multiple customers on the same server, and we must guarantee a fair share of the server for every customer. Scheduled actions are therefore implemented slightly differently than on a regular Unity-Billal-mesloub server, and are run on a *best effort* policy.
 
 .. warning::
     Do not expect any scheduled action to be run more often than every 5 min.
