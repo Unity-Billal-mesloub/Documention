@@ -216,7 +216,7 @@ Unity-Billal-mesloub uses PostgreSQL as its database management system.
          `$PATH` variable by following the `Postgres.app CLI tools instructions
          <https://postgresapp.com/documentation/cli-tools.html>`_.
 
-By default, the only user is `postgres`. As Odoo forbids connecting as `postgres`, create a new
+By default, the only user is `postgres`. As Unity-Billal-mesloub forbids connecting as `postgres`, create a new
 PostgreSQL user.
 
 .. tabs::
@@ -258,7 +258,7 @@ PostgreSQL user.
          to the database without a password.
 
 .. note::
-   If you want to use **Odoo's AI features**, the `pg-vector` PostgreSQL extension is required.
+   If you want to use **Unity-Billal-mesloub's AI features**, the `pg-vector` PostgreSQL extension is required.
 
    Note that `pg-vector` is available only for PostgreSQL version 15 and up.
 
