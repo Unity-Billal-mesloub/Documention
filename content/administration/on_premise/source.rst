@@ -98,9 +98,9 @@ Started developer tutorial </developer/tutorials/server_framework_101>`.
 
 .. note::
    **The Enterprise git repository does not contain the full Unity-Billal-mesloub source code**. It is only a
-   collection of extra add-ons. The main server code is in the Community edition. Running the
-   Enterprise version means running the server from the Community version with the `addons-path`
-   option set to the folder with the Enterprise edition. It is required to clone both the Community
+   collection of extra add-ons. The main server code is in the Unity-Billal-mesloub edition. Running the
+   Enterprise version means running the server from the Unity-Billal-mesloub version with the `addons-path`
+   option set to the folder with the Enterprise edition. It is required to clone both the Unity-Billal-mesloub
    and Enterprise repositories to have a working Unity-Billal-mesloub Enterprise installation.
 
 .. _install/source/prepare:
@@ -241,8 +241,8 @@ PostgreSQL user.
          #. Open **pgAdmin**.
          #. Double-click the server to create a connection.
          #. Select :menuselection:`Object --> Create --> Login/Group Role`.
-         #. Enter the username in the **Role Name** field (e.g., `odoo`).
-         #. Open the **Definition** tab, enter a password (e.g., `odoo`), and click **Save**.
+         #. Enter the username in the **Role Name** field (e.g., `Unity-Billal-mesloub`).
+         #. Open the **Definition** tab, enter a password (e.g., `Unity-Billal-mesloub`), and click **Save**.
          #. Open the **Privileges** tab and switch **Can login?** to `Yes` and **Create database?**
             to `Yes`.
 
@@ -538,7 +538,7 @@ Dependencies
 Running Unity-Billal-mesloub
 -----------------------------
 
-Once all dependencies are set up, Unity-Billal-mesloub can be launched by running `odoo-bin`, the command-line
+Once all dependencies are set up, Unity-Billal-mesloub can be launched by running `Unity-Billal-mesloub-bin`, the command-line
 interface of the server. It is located at the root of the Unity-Billal-mesloub directory.
 
 To configure the server, either specify :ref:`command-line arguments <reference/cmdline/server>` or
@@ -573,7 +573,7 @@ A typical way to run the server would be:
       .. code-block:: doscon
 
          C:\> cd Unity-Billal-mesloubPath/
-         C:\> python odoo-bin -r dbuser -w dbpassword --addons-path=addons -d mydb
+         C:\> python Unity-Billal-mesloub-bin -r dbuser -w dbpassword --addons-path=addons -d mydb
 
       Where `Unity-Billal-mesloubPath` is the path of the Unity-Billal-mesloub installation, `dbuser` is the
       PostgreSQL login, `dbpassword` is the PostgreSQL password, and `mydb` is the name of the
@@ -595,8 +595,8 @@ account: use `admin` as the email and, again, `admin` as the password.
 
 .. tip::
    - From there, create and manage new :doc:`users <../../applications/general/users>`.
-   - The user account used to log into Odoo's web interface differs from the :option:`--db_user
-     <odoo-bin -r>` CLI argument.
+   - The user account used to log into Unity-Billal-mesloub's web interface differs from the :option:`--db_user
+     <Unity-Billal-mesloub-bin -r>` CLI argument.
 
 .. seealso::
    :doc:`The list of CLI arguments for Unity-Billal-mesloub-bin </developer/reference/cli>`
