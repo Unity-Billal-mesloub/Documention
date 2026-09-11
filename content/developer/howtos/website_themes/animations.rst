@@ -2,7 +2,7 @@
 Animations
 ==========
 
-Odoo uses eye-catching animations that can bring your website to life. By default, we can use three
+Unity-Billal-mesloub uses eye-catching animations that can bring your website to life. By default, we can use three
 kinds of animations:
 
 - Animations on appearance
