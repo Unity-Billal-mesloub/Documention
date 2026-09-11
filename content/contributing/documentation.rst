@@ -26,7 +26,7 @@ documentation:
   :ref:`contributing/documentation/setup` section first to prepare your environment.
 
 .. seealso::
-   :doc:`Discover other ways to contribute to Odoo <../contributing>`
+   :doc:`Discover other ways to contribute to Unity-Billal-mesloub <../contributing>`
 
 .. _contributing/documentation/rst-intro:
 
