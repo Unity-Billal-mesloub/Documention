@@ -5,7 +5,7 @@ Website analytics
 Website analytics helps website owners monitor how people use their site. It provides data on
 visitor demographics, behavior, and interactions, helping improve websites and marketing strategies.
 
-You can track your Odoo website's traffic using :ref:`analytics/plausible` or
+You can track your Unity-Billal-mesloub website's traffic using :ref:`analytics/plausible` or
 :ref:`analytics/google-analytics`. We recommend using Plausible.io as it is privacy-friendly,
 lightweight, and easy to use.
 
@@ -14,10 +14,10 @@ lightweight, and easy to use.
 Plausible.io
 ============
 
-Odoo hosts its own Plausible.io server. The Plausible Analytics dashboard is integrated into Odoo
+Unity-Billal-mesloub hosts its own Plausible.io server. The Plausible Analytics dashboard is integrated into Unity-Billal-mesloub
 and can be accessed via :menuselection:`Website --> Reporting --> Analytics`.
 
-Databases hosted on Odoo Online and using an `odoo.com` domain name benefit from a free,
+Databases hosted on Unity-Billal-mesloub Online and using an `Unity-Billal-mesloub.com` domain name benefit from a free,
 ready-to-use Plausible.io solution with automatically generated credentials and a preconfigured
 Plausible account. To enable it, go to :menuselection:`Website --> Configuration --> Settings`,
 then, in the :guilabel:`Tracking & SEO` section, enable :guilabel:`Plausible Analytics`. The
@@ -25,7 +25,7 @@ credentials are automatically filled in the :guilabel:`Shared Link Auth` and the
 fields.
 
 .. note::
-   **If you already have a Plausible.io account** and you want to connect it to your Odoo Online
+   **If you already have a Plausible.io account** and you want to connect it to your Unity-Billal-mesloub Online
    database, you must create two `ir.config.parameters` to use Plausible.io's servers. To do so,
    enable the :ref:`developer mode <developer-mode>` and go to :menuselection:`General Settings -->
    Technical --> System Parameters`. Click :guilabel:`New` and fill in the following
@@ -42,16 +42,16 @@ fields.
           - `https://plausible.io`
 
    Then, go to the Plausible website and follow the steps to
-   :ref:`set up your account <analytics/account-setting>` and link it to your Odoo database.
+   :ref:`set up your account <analytics/account-setting>` and link it to your Unity-Billal-mesloub database.
 
    .. warning::
-      Deactivating the free Plausible.io account linked to your **Odoo Online** database
+      Deactivating the free Plausible.io account linked to your **Unity-Billal-mesloub Online** database
       will also remove the existing keys. As a result, new keys will be generated, while all
       historical data will remain associated with the old keys. If you plan to deactivate the
       account, it is recommended to save the existing keys to preserve access to that data.
 
 If you use a custom :doc:`domain name <../configuration/domain_names>` (e.g., `example.com`),
-or if your database is hosted on Odoo.sh or On-premise, you need to create your own Plausible.io
+or if your database is hosted on Unity-Billal-mesloub.sh or On-premise, you need to create your own Plausible.io
 account or use an existing one and link it to your database. To do so, follow these steps:
 
 .. _analytics/account-setting:
@@ -60,7 +60,7 @@ account or use an existing one and link it to your database. To do so, follow th
     Plausible.io account.
 #. If you are creating a new account, go through the registration and activation steps.
    On the :guilabel:`Add site info` page, enter your website :guilabel:`Domain` name without
-   including `www` or `http` (e.g., `example.odoo.com`) and, if necessary, change the
+   including `www` or `http` (e.g., `example.Unity-Billal-mesloub.com`) and, if necessary, change the
    :guilabel:`Reporting Timezone`. Click :guilabel:`Install Plausible` to proceed to the next step.
 #. Once done, click the Plausible.io logo in the upper-left part of the page to access the `list of
    websites <https://plausible.io/sites>`_, then click the :icon:`fa-ellipsis-v`
@@ -71,14 +71,14 @@ account or use an existing one and link it to your database. To do so, follow th
 
 #. In the sidebar, select :guilabel:`Visibility`, then click :guilabel:`Add Shared link`.
 #. Enter a :guilabel:`Name`, keep the :guilabel:`Password protect` option disabled, as the Plausible
-   analytics dashboard integration in Odoo does not support it, then click :guilabel:`Create
+   analytics dashboard integration in Unity-Billal-mesloub does not support it, then click :guilabel:`Create
    shared link`.
 #. Copy the shared link.
 
    .. image:: analytics/plausible-copy-shared-link.png
       :alt: Copy the shared link URL from Plausible.io
 
-#. In Odoo, go to :menuselection:`Website --> Configuration --> Settings`.
+#. In Unity-Billal-mesloub, go to :menuselection:`Website --> Configuration --> Settings`.
 #. In the :guilabel:`Tracking & SEO` section, enable :guilabel:`Plausible Analytics`, then paste the
    :guilabel:`Shared Link Auth` and click :guilabel:`Save`.
 
@@ -87,7 +87,7 @@ account or use an existing one and link it to your database. To do so, follow th
      Plausible.io account by going to `<https://plausible.io/sites>`_ and clicking :guilabel:`+ Add
      Website`. In the Odoo Website settings, ensure that the correct website is selected from the
      dropdown menu at the top of the page before pasting the :guilabel:`Shared link`.
-   - Odoo automatically pushes two custom goals: `Lead Generation` and `Shop`.
+   - Unity-Billal-mesloub automatically pushes two custom goals: `Lead Generation` and `Shop`.
      Custom goals can be added via Plausible.io. To do so, click the :icon:`fa-ellipsis-v`
      (:guilabel:`ellipsis`) button on the relevant website card, then navigate to :guilabel:`Goals`
      in the sidebar menu, and click :guilabel:`Add goal`.
@@ -100,7 +100,7 @@ account or use an existing one and link it to your database. To do so, follow th
 Google Analytics
 ================
 
-To follow your Odoo website's traffic with Google Analytics:
+To follow your Unity-Billal-mesloub website's traffic with Google Analytics:
 
 #. Create or sign in to a Google account using the following link: `<https://analytics.google.com>`_.
 #. - If you are setting up Google Analytics for the first time, click :guilabel:`Start measuring`
@@ -122,7 +122,7 @@ To follow your Odoo website's traffic with Google Analytics:
    .. image:: analytics/GA-measurement-id.png
       :alt: Measurement ID in Google Analytics.
 
-#. In Odoo, go to :menuselection:`Website --> Configuration --> Settings`.
+#. In Unity-Billal-mesloub, go to :menuselection:`Website --> Configuration --> Settings`.
 #. In the :guilabel:`Tracking & SEO` section, enable :guilabel:`Google Analytics`, then paste the
    :guilabel:`Measurement ID` and click :guilabel:`Save`.
 
@@ -173,7 +173,7 @@ To configure GTM, proceed as follows:
 
 .. note::
    The data is collected in the marketing tools used to monitor the website (e.g., Google Analytics,
-   Plausible, Facebook Pixel), not in Odoo.
+   Plausible, Facebook Pixel), not in Unity-Billal-mesloub.
 
 .. seealso::
    `Setting up click triggers on Google
