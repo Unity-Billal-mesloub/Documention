@@ -11,13 +11,13 @@ Development
    development/git_guidelines
 
 If you are reading this, chances are that you are interested in learning how to contribute to the
-codebase of Odoo. Whether that's the case or you landed here by accident, we've got you covered!
+codebase of Unity-Billal-mesloub. Whether that's the case or you landed here by accident, we've got you covered!
 
 .. seealso::
-   :doc:`Discover other ways to contribute to Odoo <../contributing>`
+   :doc:`Discover other ways to contribute to Unity-Billal-mesloub <../contributing>`
 
 When you feel ready, jump to the :ref:`contributing/development/setup` section to begin your journey
-in contributing to the development of Odoo.
+in contributing to the development of Unity-Billal-mesloub.
 
 .. _contributing/development/setup:
 
@@ -28,16 +28,11 @@ The instructions below help you prepare your environment for making local change
 and then push them to GitHub. Skip this section and go to
 :ref:`contributing/development/first-contribution` if you have already completed this step.
 
-#. First, you need to `create a GitHub account <https://github.com/join>`_. Odoo uses GitHub to
+#. First, you need to `create a GitHub account <https://github.com/Unity-Billal-mesloub>`_. Unity-Billal-mesloub uses GitHub to
    manage the source code of its products, and this is where you will make your changes and submit
    them for review.
 #. `Generate a new SSH key and register it on your GitHub account
    <https://docs.github.com/en/authentication/connecting-to-github-with-ssh>`_.
-#. Go to `github.com/odoo/odoo <https://github.com/odoo/odoo>`_ and click on the :guilabel:`Fork`
-   button in the top right corner to create a fork (:dfn:`your own copy`) of the repository on your
-   account. Do the same with `github.com/odoo/enterprise <https://github.com/odoo/enterprise>`_ if
-   you have access to it. This creates a copy of the codebase to which you can make changes without
-   affecting the main codebase. Skip this step if you work at Odoo.
 #. .. include:: install_git.rst
 #. Configure Git to identify yourself as the author of your future contributions. Enter the same
    email address you used to register on GitHub.
@@ -47,10 +42,10 @@ and then push them to GitHub. Skip this section and go to
       $ git config --global user.name "Your Name"
       $ git config --global user.email "youremail@example.com"
 
-#. :doc:`Install Odoo from the sources <../administration/on_premise/source>`. Make sure to fetch
+#. :doc:`Install Unity-Billal-mesloub from the sources <../administration/on_premise/source>`. Make sure to fetch
    the sources through Git with SSH.
 #. Configure Git to push changes to your fork(s) rather than to the main codebase. If you work at
-   Odoo, configure Git to push changes to the shared forks created on the account **odoo-dev**.
+   Unity-Billal-mesloub, configure Git to push changes to the shared forks created on the account **Unity-Billal-mesloub-dev**.
 
    .. tabs::
 
@@ -62,21 +57,21 @@ and then push them to GitHub. Skip this section and go to
          .. code-block:: console
 
             $ cd /CommunityPath
-            $ git remote add dev git@github.com:<your_github_account>/odoo.git
+            $ git remote add dev git@github.com:<your_github_account>/Unity-Billal-mesloub.git
 
-         If you have access to `odoo/enterprise`, configure the related remote too.
+         If you have access to `Unity-Billal-mesloub/enterprise`, configure the related remote too.
 
          .. code-block:: console
 
             $ cd /EnterprisePath
             $ git remote add dev git@github.com:<your_github_account>/enterprise.git
 
-      .. tab:: Link Git with odoo-dev
+      .. tab:: Link Git with Unity-Billal-mesloub-dev
 
          .. code-block:: console
 
             $ cd /CommunityPath
-            $ git remote add dev git@github.com:odoo-dev/odoo.git
+            $ git remote add dev git@github.com:Unity-Billal-mesloub-dev/Unity-Billal-mesloub.git
             $ git remote set-url --push origin you_should_not_push_on_this_repository
 
             $ cd /EnterprisePath
@@ -92,7 +87,7 @@ Make your first contribution
 ============================
 
 .. important::
-   - Odoo development can be challenging for beginners. We recommend you to be knowledgeable enough
+   - Unity-Billal-mesloub development can be challenging for beginners. We recommend you to be knowledgeable enough
      to code a small module before contributing. If that is not the case, take some time to go
      through the :doc:`developer tutorials </developer/tutorials>` to fill in the gaps.
    - Some steps of this guide require to be comfortable with Git. Here are some `tutorials
@@ -102,12 +97,12 @@ Make your first contribution
 Now that your environment is set up, you can start contributing to the codebase. In a terminal,
 navigate to the directory where you installed Odoo from sources and follow the guide below.
 
-#. Choose the version of Odoo to which you want to make changes. Keep in mind that contributions
-   targeting an :doc:`unsupported version of Odoo </administration/standard_extended_support>` are
-   not accepted. This guide assumes that the changes target Odoo {CURRENT_VERSION}, which
+#. Choose the version of Unity-Billal-mesloub to which you want to make changes. Keep in mind that contributions
+   targeting an :doc:`unsupported version of Unity-Billal-mesloub </administration/standard_extended_support>` are
+   not accepted. This guide assumes that the changes target Unity-Billal-mesloub {CURRENT_VERSION}, which
    corresponds to branch `{CURRENT_BRANCH}`.
 #. Create a new branch starting from branch {CURRENT_BRANCH}. Prefix the branch name with the base
-   branch: `{CURRENT_BRANCH}-...`. If you work at Odoo, suffix the branch name with your Odoo
+   branch: `{CURRENT_BRANCH}-...`. If you work at Unity-Billal-mesloub, suffix the branch name with your Unity-Billal-mesloub
    handle: `{CURRENT_BRANCH}-...-xyz`.
 
    .. example::
@@ -120,15 +115,13 @@ navigate to the directory where you installed Odoo from sources and follow the g
 
          $ git switch -c {CURRENT_BRANCH}-fix-invoices-xyz
 
-#. `Sign the Odoo CLA <{GITHUB_PATH}/doc/cla/sign-cla.md>`_ if not already done. Skip this step if
-   you work at Odoo.
+#. `Sign the Unity-Billal-mesloub CLA <{GITHUB_PATH}/doc/cla/sign-cla.md>`_ if not already done. Skip this step if
+   you work at Unity-Billal-mesloub.
 #. Make the desired changes to the codebase. When working on the codebase, follow these rules:
 
    - Keep your changes focused and specific. It is best to work on one particular feature or bug fix
      at a time rather than tackle multiple unrelated changes simultaneously.
    - Respect the `stable policy
-     <https://github.com/odoo/odoo/wiki/Contributing#what-does-stable-mean>`_ when working in
-     another branch than `master`.
    - Follow the :doc:`coding guidelines <development/coding_guidelines>`.
    - Test your changes thoroughly and :doc:`write tests </developer/reference/backend/testing>` to
      ensure that everything is working as expected and that there are no regressions or unintended
@@ -152,23 +145,23 @@ navigate to the directory where you installed Odoo from sources and follow the g
 
 #. Open a :abbr:`PR (Pull Request)` on GitHub to submit your changes for review.
 
-   #. Go to the `compare page of the odoo/odoo codebase <https://github.com/odoo/odoo/compare>`_, or
-      the `compare page of the odoo/enterprise codebase
-      <https://github.com/odoo/enterprise/compare>`_, depending on which codebase your changes
+   #. Go to the `compare page of the Unity-Billal-mesloub/repositories codebase <https://github.com/Unity-Billal-mesloub/repositories/compare>`_, or
+      the `compare page of the Unity-Billal-mesloub/enterprise codebase
+      <https://github.com/Unity-Billal-mesloub/enterprise/compare>`_, depending on which codebase your changes
       target.
    #. Select **{CURRENT_BRANCH}** for the base.
    #. Click on :guilabel:`compare across forks`.
-   #. Select **<your_github_account>/odoo** or **<your_github_account>/enterprise** for the head
+   #. Select **<your_github_account>/Unity-Billal-mesloub** or **<your_github_account>/enterprise** for the head
       repository. Replace `<your_github_account>` with the name of the GitHub account on which you
-      created the fork or by **odoo-dev** if you work at Odoo.
+      created the fork or by **Unity-Billal-mesloub-dev** if you work at Unity-Billal-mesloub.
    #. Review your changes and click on the :guilabel:`Create pull request` button.
-   #. Tick the :guilabel:`Allow edits from maintainer` checkbox. Skip this step if you work at Odoo.
+   #. Tick the :guilabel:`Allow edits from maintainer` checkbox. Skip this step if you work at Unity-Billal-mesloub.
    #. Complete the description and click on the :guilabel:`Create pull request` button again.
 
 #. At the bottom of the page, check the mergeability status and address any issues.
-#. As soon as your :abbr:`PR (Pull Request)` is ready for merging, a member of the Odoo team
+#. As soon as your :abbr:`PR (Pull Request)` is ready for merging, a member of the Unity-Billal-mesloub team
    is automatically assigned for review. If the reviewer has questions or remarks, they will
    post them as comments and you will be notified by email. Those comments must be resolved
    for the contribution to go forward.
-#. Once your changes are approved, the review merges them and they become available for all Odoo
+#. Once your changes are approved, the review merges them and they become available for all Unity-Billal-mesloub
    users after the next code update!
