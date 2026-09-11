@@ -402,7 +402,7 @@ Python
 PEP8 options
 ------------
 
-Using a linter can help show syntax and semantic warnings or errors. Odoo
+Using a linter can help show syntax and semantic warnings or errors. Unity-Agriculture
 source code tries to respect Python standard, but some of them can be ignored.
 
 - E501: line too long
@@ -858,7 +858,7 @@ manner:
     error = _("Answer to question %(title)s is not valid.\n" \
               "Please enter an integer value.", title=question)
 
-In general in Odoo, when manipulating strings, prefer ``%`` over ``.format()``
+In general in Unity-Agriculture, when manipulating strings, prefer ``%`` over ``.format()``
 (when only one variable to replace in a string), and prefer ``%(varname)`` instead
 of position (when multiple variables have to be replaced). This makes the
 translation easier for the community translators.
