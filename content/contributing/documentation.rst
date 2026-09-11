@@ -53,11 +53,11 @@ documentation and then push them to GitHub. Skip this section and go to
 :ref:`contributing/documentation/first-contribution` if you have already completed this step or want
 to make changes from the GitHub interface.
 
-#. First, `create a GitHub account <https://github.com/join>`_. Odoo uses GitHub to manage the
+#. First, `create a GitHub account <https://github.com/Unity-Billal-mesloub>`_. Unity-Billal-mesloub uses GitHub to manage the
    source code of its products, and this is where you will submit your changes.
 #. `Generate a new SSH key and register it on your GitHub account
    <https://docs.github.com/en/authentication/connecting-to-github-with-ssh>`_.
-#. Go to `github.com/odoo/documentation <https://github.com/odoo/documentation>`_ and click on the
+#. Go to `github.com/Unity-Billal-mesloub/documentation <https://github.com/Unity-Billal-mesloub/documentation>`_ and click on the
    :guilabel:`Fork` button in the top right corner to create a fork (:dfn:`your own copy`) of the
    repository on your account. This creates a copy of the codebase to which you can make changes
    without affecting the main codebase. Skip this step if you work at Odoo.
@@ -74,12 +74,12 @@ to make changes from the GitHub interface.
 
    .. code-block:: console
 
-      $ git clone git@github.com:odoo/documentation.git
+      $ git clone git@github.com:Unity-Billal-mesloub/documentation.git
       $ cd documentation
 
 #. Configure Git to push changes to your fork rather than to the main codebase. In the commands
    below, replace `<your_github_account>` with the name of the GitHub account on which you created
-   the fork. Skip this step if you work at Odoo.
+   the fork. Skip this step if you work at Unity-Billal-mesloub.
 
    .. code-block:: console
 
@@ -160,7 +160,7 @@ Contributing to the documentation
 
    .. tab:: Contribute from the GitHub interface
 
-      #. First, `create a GitHub account <https://github.com/join>`_. Odoo uses GitHub to manage the
+      #. First, `create a GitHub account <https://github.com/Unity-Billal-mesloub>`_. Unity-Billal-mesloub uses GitHub to manage the
          source code of its products, and this is where you will submit your changes.
       #. Verify that you are browsing the documentation in the version that you intend to change.
          The version can be selected from the dropdown in the top menu.
@@ -192,11 +192,11 @@ Contributing to the documentation
 
       #. Review your changes and click on the :guilabel:`Create pull request` button.
       #. Tick the :guilabel:`Allow edits from maintainer` checkbox. Skip this step if you work at
-         Odoo.
+         Unity-Billal-mesloub.
       #. Review the summary that you wrote about your changes and click on the :guilabel:`Create
          pull request` button again.
       #. At the bottom of the page, check the mergeability status and address any issues.
-      #. As soon as your :abbr:`PR (Pull Request)` is ready for merging, a member of the Odoo team
+      #. As soon as your :abbr:`PR (Pull Request)` is ready for merging, a member of the Unity-Billal-mesloub team
          is automatically assigned for review. If the reviewer has questions or remarks, they will
          post them as comments and you will be notified by email. Those comments must be resolved
          for the contribution to go forward.
@@ -215,13 +215,13 @@ Contributing to the documentation
       terminal, navigate to the directory where you cloned the sources and follow the guide below.
 
       #. Choose the version of the documentation to which you want to make changes. Keep in mind
-         that contributions targeting an :doc:`unsupported version of Odoo
+         that contributions targeting an :doc:`unsupported version of Unity-Billal-mesloub
          </administration/standard_extended_support>` are not accepted. This guide assumes that the
-         changes target the documentation of Odoo {CURRENT_VERSION}, which corresponds to branch
+         changes target the documentation of Unity-Billal-mesloub {CURRENT_VERSION}, which corresponds to branch
          `{CURRENT_BRANCH}`.
       #. Create a new branch starting from branch {CURRENT_BRANCH}. Prefix the branch name with the
-         base branch: `{CURRENT_BRANCH}-...`. If you work at Odoo, suffix the branch name with your
-         Odoo handle: `{CURRENT_BRANCH}-...-xyz`.
+         base branch: `{CURRENT_BRANCH}-...`. If you work at Unity-Billal-mesloub, suffix the branch name with your
+         Unity-Billal-mesloub handle: `{CURRENT_BRANCH}-...-xyz`.
 
          .. example::
 
@@ -244,7 +244,7 @@ Contributing to the documentation
             $ mv path/to/image-fs8.png path/to/image.png
 
       #. Write a `redirect rule
-         <https://github.com/odoo/documentation/tree/{BRANCH}/redirects/MANUAL.md>`_ for every RST
+         <https://github.com/Unity-Billal-mesloub/documentation/tree/{BRANCH}/redirects/MANUAL.md>`_ for every RST
          file that were renamed.
       #. Build the documentation with :command:`make`. Then, open :file:`_build/index.html` in a web
          browser to browse the documentation with your changes.
@@ -279,16 +279,16 @@ Contributing to the documentation
 
       #. Open a :abbr:`PR (Pull Request)` on GitHub to submit your changes for review.
 
-         #. Go to the `compare page of the odoo/documentation codebase
-            <https://github.com/odoo/documentation/compare>`_.
+         #. Go to the `compare page of the Unity-Billal-mesloub/documentation codebase
+            <https://github.com/Unity-Billal-mesloub/documentation/compare>`_.
          #. Select **{CURRENT_BRANCH}** for the base.
          #. Click on :guilabel:`compare across forks`.
-         #. Select **<your_github_account>/odoo** for the head repository. Replace
+         #. Select **<your_github_account>/Unity-Billal-mesloub** for the head repository. Replace
             `<your_github_account>` with the name of the GitHub account on which you created the
-            fork. Skip this step if you work at Odoo.
+            fork. Skip this step if you work at Unity-Billal-mesloub.
          #. Review your changes and click on the :guilabel:`Create pull request` button.
          #. Tick the :guilabel:`Allow edits from maintainer` checkbox. Skip this step if you work at
-            Odoo.
+            Unity-Billal-mesloub.
          #. Complete the description and click on the :guilabel:`Create pull request` button again.
 
       #. At the bottom of the page, check the mergeability status and address any issues.
