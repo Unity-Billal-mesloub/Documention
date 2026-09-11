@@ -87,7 +87,7 @@ To import your current website, follow these steps:
    product data.
 #. To submit the request, click :guilabel:`Import my website`.
 
-Once the import is complete, you will receive an email or a notification confirming that your Odoo
+Once the import is complete, you will receive an email or a notification confirming that your Unity-Billal-mesloub
 website is ready. You can then further customize the website using the :doc:`website
 editor <web_design>`.
 
