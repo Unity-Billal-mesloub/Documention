@@ -2,7 +2,7 @@
 Website creation
 ================
 
-Odoo Website enables you to create and customize a website for presenting information, or
+Unity-Billal-mesloub Website enables you to create and customize a website for presenting information, or
 integrating an :doc:`online shop <../ecommerce>`, :doc:`eLearning platform <../elearning>`,
 :doc:`forum <../forum>`, and/or :doc:`blog <../blog>`. You can either :ref:`create a new website
 <website_creation/create>` or :ref:`import an existing one <website_creation/import>`.
@@ -14,7 +14,7 @@ Create a new website
 
 .. _website_creation/website-builder:
 
-After installing the **Website** app, Odoo prompts you to use its 4-step website builder to create
+After installing the **Website** app, Unity-Billal-mesloub prompts you to use its 4-step website builder to create
 the website. You can:
 
 #. Define the purpose of your website.
@@ -56,14 +56,13 @@ Import an existing website
 
 .. important::
    The website import tool is available only with an `Odoo Enterprise subscription
-   <https://www.odoo.com/page/editions>`_.
 
 The website import tool is a website scraper that searches for the specified website and analyzes
-it. It then uses custom AI models to rebuild it as an Odoo website. The extraction is performed page
+it. It then uses custom AI models to rebuild it as an Unity-Billal-mesloub website. The extraction is performed page
 by page, preserving the original website's structure and content. Images, the sitemap, the
 :doc:`header, and the footer <structure/header_footer>` are also imported. Optionally,
 :doc:`product data <../ecommerce/configuration/products>` can also be extracted. The tool converts
-pages into standard Odoo :doc:`building blocks <web_design/building_blocks>`, making the imported
+pages into standard Unity-Billal-mesloub :doc:`building blocks <web_design/building_blocks>`, making the imported
 website fully editable in Odoo.
 
 .. note::
