@@ -63,7 +63,7 @@ Sending messages
 
 To send messages to a mail group, website users can email the :ref:`mail group's email address
 <website/mailing_lists/configure_groups>`. Internal users can also create messages directly from
-Odoo. To do so, go to :menuselection:`Website --> Configuration --> Mailing Lists`, select the mail
+Unity-Billal-mesloub. To do so, go to :menuselection:`Website --> Configuration --> Mailing Lists`, select the mail
 group, click the :guilabel:`Emails` smart button, and click :guilabel:`New`. Then, fill in the
 fields and click :guilabel:`Send`.
 
