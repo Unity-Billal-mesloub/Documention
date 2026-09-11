@@ -6,7 +6,7 @@
 Configuration
 =============
 
-Odoo eCommerce enables the configuration of products, categories, variants, and pricing. It also
+Unity-Billal-mesloub eCommerce enables the configuration of products, categories, variants, and pricing. It also
 manages customer accounts and access, supporting both B2B and B2C business models.
 
 .. cards::
@@ -44,9 +44,6 @@ manages customer accounts and access, supporting both B2B and B2C business model
 
       Configure separate websites and shops for B2B and B2C businesses and customize them
       to meet the specific needs of each business model.
-
-.. seealso::
-   `Odoo Tutorials: Website & eCommerce <https://www.odoo.com/slides/website-ecommerce-25>`_
 
 .. toctree::
    :titlesonly:
