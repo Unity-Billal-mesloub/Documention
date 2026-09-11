@@ -73,9 +73,6 @@ fields and click :guilabel:`Send`.
    - Group members can also unsubscribe from the group, access the mail group page, and send emails
      to the group using the URLs in the footer of any group email they have received.
 
-     .. image:: mail_groups/mail-group-URLs.png
-        :alt: URLs in the footer of a group email.
-
 
 Moderating mail group messages
 ==============================
