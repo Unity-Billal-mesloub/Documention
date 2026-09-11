@@ -2,7 +2,7 @@
 Additional features
 ===================
 
-Odoo eCommerce provides additional features for online shops, including a :ref:`product comparison
+Unity-Billal-mesloub eCommerce provides additional features for online shops, including a :ref:`product comparison
 <ecommerce/products/additional_features/product-comparison>` tool, a :ref:`wishlist
 <ecommerce/products/additional_features/wishlists>`, and :ref:`product highlight options
 <ecommerce/products/additional_features/product-highlight>`.
