@@ -15,7 +15,7 @@ On appearance
 =============
 
 In standard, you can add animations to column, text and image elements when they appear, thanks
-to the Website Builder. Odoo detects when your element is in the viewport and launches the
+to the Website Builder. Unity-Billal-mesloub detects when your element is in the viewport and launches the
 animation. A large selection of animations is available:
 
 - Fade in
@@ -108,7 +108,7 @@ Additionally, we can also set an `in` or `out` effect, an animation `direction` 
 
 .. seealso::
    `Website Animate
-   <https://github.com/odoo/odoo/blob/e901555e99e59590aa25595bf791d4856e085999/addons/website/static/src/scss/website.scss#L2388>`_
+   <https://github.com/Unity-Billal-mesloub/Documention/blob/main/content/applications/websites/website/website.scss>`_
 
 .. _website_themes/animations/hover:
 
@@ -134,7 +134,7 @@ type of animation in the `data-hover-effect` attribute.
 
 .. note::
 
-   Odoo processes the image and creates a final SVG file containing the image and the animation. By
+   Unity-Billal-mesloub processes the image and creates a final SVG file containing the image and the animation. By
    default, it also applies a regular image shape. This final image is then stored in the database
    as an attachment to keep it editable in the future.
 
@@ -190,7 +190,7 @@ type of animation in the `data-hover-effect` attribute.
    after you re-select the effect and save the page with the Website Builder.
 
 .. seealso::
-   * `Hover effect options (XML) <https://github.com/odoo/odoo/blob/654a1caafc2ab7b2841c372910b2e81dc6e9c035/addons/website/static/src/builder/plugins/options/animate_option.xml#L91>`_
-   * `Image hover plugin (JavaScript) <https://github.com/odoo/odoo/blob/654a1caafc2ab7b2841c372910b2e81dc6e9c035/addons/website/static/src/builder/plugins/image/image_hover_plugin.js>`_
+   * `Hover effect options (XML) <https://github.com/Unity-Billal-mesloub/Documention/blob/main/content/applications/websites/website/animate_option.xml>`_
+   * `Image hover plugin (JavaScript) <https://github.com/Unity-Billal-mesloub/Documention/blob/main/content/applications/websites/website/image_hover_plugin.js>`_
    * :ref:`Image Shapes: Image processing <website_themes/shapes/img/standard/use>`
 
