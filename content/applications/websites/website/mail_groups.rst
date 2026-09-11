@@ -76,7 +76,6 @@ fields and click :guilabel:`Send`.
      .. image:: mail_groups/mail-group-URLs.png
         :alt: URLs in the footer of a group email.
 
-.. _website/mailing_lists/moderate:
 
 Moderating mail group messages
 ==============================
