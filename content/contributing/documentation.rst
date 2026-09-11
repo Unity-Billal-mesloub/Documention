@@ -60,7 +60,7 @@ to make changes from the GitHub interface.
 #. Go to `github.com/Unity-Billal-mesloub/documentation <https://github.com/Unity-Billal-mesloub/documentation>`_ and click on the
    :guilabel:`Fork` button in the top right corner to create a fork (:dfn:`your own copy`) of the
    repository on your account. This creates a copy of the codebase to which you can make changes
-   without affecting the main codebase. Skip this step if you work at Odoo.
+   without affecting the main codebase. Skip this step if you work at Unity-Billal-mesloub.
 #. .. include:: install_git.rst
 #. Configure Git to identify yourself as the author of your future contributions. Enter the same
    email address you used to register on GitHub.
@@ -168,7 +168,7 @@ Contributing to the documentation
          in the top right corner of the page.
       #. Click on the :guilabel:`Fork this repository` button to create a fork (:dfn:`your own
          copy`) of the repository on your account. This creates a copy of the codebase to which you
-         can make changes without affecting the main codebase. Skip this step if you work at Odoo.
+         can make changes without affecting the main codebase. Skip this step if you work at Unity-Billal-mesloub.
 
          .. image:: documentation/fork-repository.png
             :scale: 60%
