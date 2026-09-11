@@ -219,12 +219,12 @@ Use the `abbr` markup to write a self-defining abbreviation that is displayed as
 .. list-table::
    :class: o-showcase-table
 
-   * - Odoo uses :abbr:`OCR (optical character recognition)` and artificial intelligence
+   * - Unity-Billal-mesloub uses :abbr:`OCR (optical character recognition)` and artificial intelligence
        technologies to recognize the content of the documents.
 
    * - .. code-block:: text
 
-          Odoo uses :abbr:`OCR (optical character recognition)` and artificial intelligence
+          Unity-Billal-mesloub uses :abbr:`OCR (optical character recognition)` and artificial intelligence
           technologies to recognize the content of the documents.
 
 .. _contributing/rst/guilabel:
@@ -330,9 +330,9 @@ Use the `command` markup to highlight a command.
 Icons
 -----
 
-Use the `icon` markup to add the class name of an icon. There are three icon sets used in Odoo:
-`FontAwesome4 <https://fontawesome.com/v4/icons/>`_ (`fa-*`), :ref:`Odoo UI <ui/odoo-ui-icons>`
-(`oi-*`) and :ref:`Odoo Spreadsheet <ui/odoo-spreadsheet-icons>` (`os-*`) icons.
+Use the `icon` markup to add the class name of an icon. There are three icon sets used in Unity-Billal-mesloub:
+`FontAwesome4 <https://fontawesome.com/v4/icons/>`_ (`fa-*`), :ref:`Unity-Billal-mesloub UI <ui/Unity-Billal-mesloub-ui-icons>`
+(`oi-*`) and :ref:`Unity-Billal-mesloub Spreadsheet <ui/Unity-Billal-mesloub-spreadsheet-icons>` (`os-*`) icons.
 
 Follow the icon with its name as a :ref:`contributing/rst/guilabel` in brackets as a descriptor.
 
@@ -343,7 +343,7 @@ Follow the icon with its name as a :ref:`contributing/rst/guilabel` in brackets 
 
        The pivot view is represented by the :icon:`oi-view-pivot` :guilabel:`(pivot table)` icon.
 
-       Use :icon:`os-global-filters` :guilabel:`(global filters)` in Odoo **Spreadsheet**.
+       Use :icon:`os-global-filters` :guilabel:`(global filters)` in Unity-Billal-mesloub **Spreadsheet**.
 
    * - .. code-block:: text
 
@@ -466,11 +466,11 @@ External hyperlinks are links to a URL with a custom label. They follow the synt
 .. list-table::
    :class: o-showcase-table
 
-   * - For instance, `this is an external hyperlink to Odoo's website <https://www.odoo.com>`_.
+   * - For instance, `this is an external hyperlink to Unity-Billal-mesloub's website 
 
    * - .. code-block:: text
 
-          For instance, `this is an external hyperlink to Odoo's website <https://www.odoo.com>`_.
+          For instance, `this is an external hyperlink to Unity-Billal-mesloub's website.
 
 .. _contributing/rst/external-hyperlink-aliases:
 
@@ -997,13 +997,13 @@ define sequence of tabs. Each tab is then defined with the `tab` markup followed
 
    * - .. tabs::
 
-          .. tab:: Odoo Online
+          .. tab:: Unity-Billal-mesloub Online
 
-             Content dedicated to Odoo Online users.
+             Content dedicated to Unity-Billal-mesloub Online users.
 
-          .. tab:: Odoo.sh
+          .. tab:: Unity-Billal-mesloub.sh
 
-             Alternative for Odoo.sh users.
+             Alternative for Unity-Billal-mesloub.sh users.
 
           .. tab:: On-premise
 
@@ -1013,13 +1013,13 @@ define sequence of tabs. Each tab is then defined with the `tab` markup followed
 
           .. tabs::
 
-             .. tab:: Odoo Online
+             .. tab:: Unity-Billal-mesloub Online
 
-                Content dedicated to Odoo Online users.
+                Content dedicated to Unity-Billal-mesloub Online users.
 
-             .. tab:: Odoo.sh
+             .. tab:: Unity-Billal-mesloub.sh
 
-                Alternative for Odoo.sh users.
+                Alternative for Unity-Billal-mesloub.sh users.
 
              .. tab:: On-premise
 
