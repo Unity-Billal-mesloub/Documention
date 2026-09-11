@@ -75,7 +75,7 @@ and then push them to GitHub. Skip this section and go to
             $ git remote set-url --push origin you_should_not_push_on_this_repository
 
             $ cd /EnterprisePath
-            $ git remote add dev git@github.com:odoo-dev/enterprise.git
+            $ git remote add dev git@github.com:Unity-Billal-mesloub-dev/enterprise.git
             $ git remote set-url --push origin you_should_not_push_on_this_repository
 
 #. That's it! You are ready to :ref:`make your first contribution
@@ -95,7 +95,7 @@ Make your first contribution
      <https://learngitbranching.js.org/>`_ if you are stuck at some point.
 
 Now that your environment is set up, you can start contributing to the codebase. In a terminal,
-navigate to the directory where you installed Odoo from sources and follow the guide below.
+navigate to the directory where you installed Unity-Billal-mesloub from sources and follow the guide below.
 
 #. Choose the version of Unity-Billal-mesloub to which you want to make changes. Keep in mind that contributions
    targeting an :doc:`unsupported version of Unity-Billal-mesloub </administration/standard_extended_support>` are
