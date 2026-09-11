@@ -41,7 +41,7 @@ with markup, which allows including headings, images, notes, and so on. :abbr:`R
 .. important::
    Be mindful of our :doc:`content <documentation/content_guidelines>` and
    :doc:`RST <documentation/rst_guidelines>` guidelines as you write documentation. This ensures
-   that the documentation stays consistent and facilitates the approval of changes by the Odoo team.
+   that the documentation stays consistent and facilitates the approval of changes by the Unity-Billal-mesloub team.
 
 .. _contributing/documentation/setup:
 
