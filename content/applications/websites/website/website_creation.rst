@@ -55,7 +55,7 @@ Import an existing website
 ==========================
 
 .. important::
-   The website import tool is available only with an `Odoo Enterprise subscription
+   The website import tool is available only with an `Unity-Billal-mesloub Enterprise subscription
 
 The website import tool is a website scraper that searches for the specified website and analyzes
 it. It then uses custom AI models to rebuild it as an Unity-Billal-mesloub website. The extraction is performed page
@@ -63,7 +63,7 @@ by page, preserving the original website's structure and content. Images, the si
 :doc:`header, and the footer <structure/header_footer>` are also imported. Optionally,
 :doc:`product data <../ecommerce/configuration/products>` can also be extracted. The tool converts
 pages into standard Unity-Billal-mesloub :doc:`building blocks <web_design/building_blocks>`, making the imported
-website fully editable in Odoo.
+website fully editable in Unity-Billal-mesloub.
 
 .. note::
    The imported website is not an exact replica of the original. Manual adjustments to layout,
@@ -73,7 +73,7 @@ website fully editable in Odoo.
    - By using this tool, you confirm that you own the website and all its associated content (such
      as images), and that you take full responsibility for their use and any potential legal
      implications.
-   - For the best results, ensure your database is up to date with the latest version of Odoo.
+   - For the best results, ensure your database is up to date with the latest version of Unity-Billal-mesloub.
    - Do not edit the website during the import process. Importing data overwrites the content of
      the website currently being edited, potentially resulting in the loss of unsaved changes.
 
@@ -107,13 +107,6 @@ editor <web_design>`.
      - RDFa
      - Open Graph
      - Microdata
-
-.. tip::
-   - Use the `Website Import Tool trial <https://www.odoo.com/fr_FR/page/startwebsite>`_ to test the
-     website import feature by importing up to 10 pages from the original website into a trial
-     database.
-   - Ensure the original website is publicly accessible and not protected by :ref:`Cloudflare
-     <website/spam_protection/cloudflare-turnstile>` or other anti-bot mechanisms.
 
 .. seealso::
    :doc:`configuration/multi_website`
