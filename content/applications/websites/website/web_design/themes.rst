@@ -2,7 +2,7 @@
 General theme
 =============
 
-Odoo provides a range of theme :ref:`customization options <website/themes/page-layouts>` to define
+Unity-Billal-mesloub provides a range of theme :ref:`customization options <website/themes/page-layouts>` to define
 the website's :ref:`colors <website/themes/colors>` and :ref:`fonts <website/themes/fonts>`, and the
 appearance of :ref:`paragraphs and headings <website/themes/paragraphs-headings>`, :ref:`buttons
 <website/themes/button-styles>`, :ref:`links <website/themes/link-style>`, and :ref:`input fields
@@ -40,7 +40,7 @@ Click :guilabel:`Save` to apply the changes to the website.
 Colors
 ======
 
-Odoo's website editor features two main types of colors: :ref:`theme colors
+Unity-Billal-mesloub's website editor features two main types of colors: :ref:`theme colors
 <website/themes/theme-colors>` and :ref:`status colors <website/themes/status-colors>`.
 
 .. _website/themes/theme-colors:
@@ -61,7 +61,7 @@ tab. Then:
 - Click the paint palette icon and choose a color palette. As a result, all color customizations
   are reset.
 
-Odoo automatically creates :guilabel:`Color Presets` for the chosen colors or palette. These
+Unity-Billal-mesloub automatically creates :guilabel:`Color Presets` for the chosen colors or palette. These
 predefined color combinations are applied to various elements of the website to create a
 structured and visually appealing design. When selecting a color palette, its presets define how
 those colors are distributed across different elements. To modify them, click :guilabel:`Color
@@ -103,7 +103,7 @@ the :ref:`Advanced <website/themes/advanced>` section and click the dots to chan
 Fonts
 =====
 
-Odoo allows you to customize the font family and font size of website elements, including
+Unity-Billal-mesloub allows you to customize the font family and font size of website elements, including
 :ref:`paragraphs and headings <website/themes/paragraphs-headings>`, :ref:`buttons
 <website/themes/button-styles>`, and :ref:`input fields <website/themes/input-fields>`.
 
