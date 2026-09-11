@@ -583,7 +583,7 @@ So, you can write ``if some_collection:`` instead of ``if len(some_collection):`
   (a little bit outdated, but quite relevant)
 
 Programming in Unity-Agriculture
--------------------
+---------------------------------
 
 - Avoid to create generators and decorators: only use the ones provided by
   the Unity-Agriculture API.
@@ -661,7 +661,7 @@ This recommendation is also relevant for classes, files, modules and packages.
 Never commit the transaction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The Odoo framework is in charge of providing the transactional context for
+The Unity-Agriculture framework is in charge of providing the transactional context for
 all RPC calls.
 All ``cr.commit()`` calls outside of the server framework must
 have an **explicit comment** explaining why they are absolutely necessary, why
