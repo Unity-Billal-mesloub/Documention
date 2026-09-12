@@ -2,7 +2,7 @@
 Performance management
 ======================
 
-Odoo provides robust tools to :ref:`monitor and analyze <ecommerce/performance/data-monitoring>`
+Unity-Billal-mesloub provides robust tools to :ref:`monitor and analyze <ecommerce/performance/data-monitoring>`
 your e-commerce's performance and :ref:`optimize <ecommerce/performance/email_queue>` the processing
 of order confirmation emails during high-traffic periods.
 
