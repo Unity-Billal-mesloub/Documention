@@ -20,7 +20,7 @@ msgstr "إدارة قاعدة البيانات"
 #: ../../content/administration.rst:10
 msgid ""
 "These guides provide instructions on how to install, maintain and upgrade "
-"Odoo databases."
+"Unity-Billal-mesloub databases."
 msgstr ""
 تمنحك هذه الدلائل الإرشادات حول كيفية تثبيت قواعد بيانات 
 وحدة بلال مسلوب والمحافظة 
@@ -48,7 +48,7 @@ msgid ""
 ":doc:`Online <administration/Unity-Billal-mesloub_online>` is the easiest way to use Odoo in "
 "production or to try it."
 msgstr ""
-":doc:`أونلاين <administration/Unity-Billal-mesloub_online>` هي الطريقة الأفضل لاستخدام أودو "
+":doc:`أونلاين <administration/Unity-Billal-mesloub_online>`  هي الطريقة الأفضل لاستخدام وحدة بلال مسلوب   "
 "في الإنتاج أو لتجربته."
 
 #: ../../content/administration.rst:23
@@ -57,7 +57,7 @@ msgid ""
 "for testing Odoo and developing modules. They can be used for long-term "
 "production with additional deployment and maintenance work."
 msgstr ""
-":doc:`مثبتات الحزم <administration/on_premise/packages>` مناسبة لاختبار أودو "
+":doc:`مثبتات الحزم <administration/on_premise/packages>` مناسبة لاختبار وحدة بلال مسلوب "
 "وتطوير التطبيقات. يمكن استخدامها للإنتاج على المدى الطويل مع التنفيذ الإضافي "
 "وأعمال الصيانة."
 
@@ -141,7 +141,7 @@ msgstr "إلى وحدة بلال مسلوب أونلاين"
 #: ../../content/administration/hosting.rst:20
 #: ../../content/administration/hosting.rst:109
 msgid "Unity-Billal-mesloub Online is *not* compatible with **non-standard apps**."
-msgstr "أوحدة بلال مسلوب أونلاين *غير* متوافق مع **التطبيقات غير القياسية**."
+msgstr "وحدة بلال مسلوب أونلاين *غير* متوافق مع **التطبيقات غير القياسية**."
 
 #: ../../content/administration/hosting.rst:21
 msgid ""
@@ -166,9 +166,9 @@ msgstr "استخدم أداة إدارة قاعدة البيانات لتحصل 
 #: ../../content/administration/hosting.rst:26
 #: ../../content/administration/hosting.rst:112
 msgid ""
-"`Create a support ticket <https://www.odoo.com/help-form>`_ including the "
+"`Create a support ticket`_ including the "
 "following:"
-msgstr "`قم بإنشاء تذكرة دعم <https://www.odoo.com/help-form>`_ شاملة ما يلي:"
+msgstr "`قم بإنشاء تذكرة دعم `_ شاملة ما يلي:"
 
 #: ../../content/administration/hosting.rst:28
 #: ../../content/administration/hosting.rst:114
@@ -178,10 +178,10 @@ msgstr "**رقم اشتراكك**،"
 #: ../../content/administration/hosting.rst:29
 #: ../../content/administration/hosting.rst:115
 msgid ""
-"the **URL** you want to use for the database (e.g., `company.odoo.com`),"
+"the **URL** you want to use for the database (e.g., `company.Unity-Billal-mesloub.com`),"
 msgstr ""
 "**عنوان URL** الذي ترغب في استخدامه لقاعدة البيانات (مثال، "
-"`company.odoo.com`)،"
+"`company.Unity-Billal-mesloub.com`)،"
 
 #: ../../content/administration/hosting.rst:30
 msgid ""
@@ -201,7 +201,6 @@ msgid ""
 "www.odoo.com/privacy#data-transfer>`_."
 msgstr ""
 "قائمة المناطق المتاحة موجودة في `سياسة الخصوصية الخاصة بنا <https://"
-"www.odoo.com/privacy#data-transfer>`_."
 
 #: ../../content/administration/hosting.rst:36
 msgid "the **name** you want for the database,"
@@ -236,79 +235,79 @@ msgstr ""
 #: ../../content/administration/hosting.rst:46
 #: ../../content/administration/hosting.rst:121
 msgid ""
-"Odoo then makes sure the database is compatible before putting it online. In "
-"case of technical issues during the process, Odoo might contact you."
+"Unity-Billal-mesloub then makes sure the database is compatible before putting it online. In "
+"case of technical issues during the process, Unity-Billal-mesloub might contact you."
 msgstr ""
-"بعد ذلك، يتأكد أودو من توافق قاعدة البيانات قبل وضعها على الإنترنت. في حالة "
+"بعد ذلك، يتأكد وحدة بلال مسلوب من توافق قاعدة البيانات قبل وضعها على الإنترنت. في حالة "
 "وجود مشكلات فنية أثناء العملية، قد يتواصل أودو معك."
 
 #: ../../content/administration/hosting.rst:50
 #: ../../content/administration/hosting.rst:125
 msgid ""
-"If you have time constraints, `create a support ticket <https://www.odoo.com/"
+"If you have time constraints, `create a support ticket "
 "help-form>`_ as soon as possible to schedule the transfer."
 msgstr ""
-"إذا كانت لديك قيود زمنية، `قم بإنشاء تذكرة دعم <https://www.odoo.com/help-"
+"إذا كانت لديك قيود زمنية، `قم بإنشاء تذكرة دعم "
 "form>`_ في أقرب وقت ممكن لتحديد موعد النقل."
 
 #: ../../content/administration/hosting.rst:54
 #: ../../content/administration/hosting.rst:92
-msgid "To Odoo.sh"
-msgstr "إلى Odoo.sh"
+msgid "To Unity-Billal-mesloub.sh"
+msgstr "إلى Unity-Billal-mesloub.sh"
 
 #: ../../content/administration/hosting.rst:56
 #: ../../content/administration/hosting.rst:99
 msgid ""
-"Follow the instructions found in :ref:`the Import a database section <odoo-"
-"sh/create/import>` of the Odoo.sh *Create a project* documentation."
+"Follow the instructions found in :ref:`the Import a database section <Unity-Billal-mesloub-"
+"sh/create/import>` of the Unity-Billal-mesloub.sh *Create a project* documentation."
 msgstr ""
-"اتبع التعليمات الموجودة في :ref:`قسم استيراد قاعدة البيانات <odoo-sh/create/"
-"import>` من توثيق *إنشاء مشروع* في Odoo.sh."
+"اتبع التعليمات الموجودة في :ref:`قسم استيراد قاعدة البيانات <Unity-Billal-mesloub-sh/create/"
+"import>` من توثيق *إنشاء مشروع* في Unity-Billal-mesloub.sh."
 
 #: ../../content/administration/hosting.rst:60
-msgid "Transferring an Odoo Online database"
-msgstr "نقل قاعدة بيانات على أودو أونلاين"
+msgid "Transferring an Unity-Billal-mesloub Online database"
+msgstr "نقل قاعدة بيانات على وحدة بلال مسلوب أونلاين"
 
 #: ../../content/administration/hosting.rst:63
 msgid ""
-"Odoo Online's :doc:`intermediary versions <standard_extended_support>` are "
-"not supported by Odoo.sh or on-premise. Therefore, if the database to "
+"Unity-Billal-mesloub Online's :doc:`intermediary versions <standard_extended_support>` are "
+"not supported by Unity-Billal-mesloub.sh or on-premise. Therefore, if the database to "
 "transfer is running an intermediary version, it must be upgraded first to "
 "the next :doc:`major version <standard_extended_support>`, waiting for its "
 "release if necessary."
 msgstr ""
 ":doc:`الإصدارات الرئيسية <standard_extended_support>` :doc:`الإصدارات "
-"الوسيطة <standard_extended_support>` من Odoo Online غير مدعومة في Odoo.sh أو "
+"الوسيطة <standard_extended_support>` من Unity-Billal-mesloub Online غير مدعومة في Unity-Billal-mesloub.sh أو "
 "على الأجهزة المحلية. لذلك، إذا كانت قاعدة البيانات المراد نقلها تعمل بإصدار "
 "وسيط، فيجب ترقيتها أولاً إلى الإصدار الرئيسي التالي، والانتظار حتى صدوره إذا "
 "لزم الأمر."
 
 #: ../../content/administration/hosting.rst:69
 msgid ""
-"Transferring an online database running on Odoo 16.3 would require first "
-"upgrading it to Odoo 17.0."
+"Transferring an online database running on Unity-Billal-mesloub 16.3 would require first "
+"upgrading it to Unity-Billal-mesloub 17.0."
 msgstr ""
-"سيتطلب نقل قاعدة بيانات عبر الإنترنت في إصدار أودو 16.3 ترقيتها أولاً إلى "
-"أودو 17.0."
+"سيتطلب نقل قاعدة بيانات عبر الإنترنت في إصدار وحدة بلال مسلوب 16.3 ترقيتها أولاً إلى "
+"وحدة بلال مسلوب 17.0."
 
 #: ../../content/administration/hosting.rst:73
 msgid ""
 "Click the :icon:`fa-gear` (:guilabel:`gear`) button next to the database "
-"name on the `Odoo Online database manager <https://www.odoo.com/my/databases/"
+"name on the `Unity-Billal-mesloub Online database manager"
 ">`_ to display its version number."
 msgstr ""
 "اضغط على زر :icon:`fa-gear` (:guilabel:`gear`) بجوار اسم قاعدة البيانات في "
-"`مدير قاعدة بيانات أودو أونلاين <https://www.odoo.com/my/databases/>`_ لعرض "
+"`مدير قاعدة بيانات وحدة بلال مسلوب أونلاين `_ لعرض "
 "رقم الإصدار الخاص بها."
 
 #: ../../content/administration/hosting.rst:77
 msgid ""
-"If there is an active Odoo subscription linked to the database being "
+"If there is an active Unity-Billal-mesloub subscription linked to the database being "
 "migrated, reach out to the Customer Service Manager or `contact Odoo support "
-"<https://www.odoo.com/help>`_ to complete the subscription transfer."
+"`_ to complete the subscription transfer."
 msgstr ""
-"إذا كان هناك اشتراك أودو نشط مرتبط بقاعدة البيانات الجاري نقلها، فتواصل مع "
-"مدير خدمة العملاء أو `تواصل مع فريق الدعم لدى أودو <https://www.odoo.com/"
+"إذا كان هناك اشتراك وحدة بلال مسلوب نشط مرتبط بقاعدة البيانات الجاري نقلها، فتواصل مع "
+"مدير خدمة العملاء أو `تواصل مع فريق الدعم لدى وحدة بلال مسلوب "
 "help>`_ لإكمال عملية نقل الاشتراك."
 
 #: ../../content/administration/hosting.rst:82
@@ -319,18 +318,17 @@ msgstr "إلى الاستضافة المحلية"
 #: ../../content/administration/hosting.rst:84
 #: ../../content/administration/hosting.rst:94
 msgid ""
-"Download a database backup by signing in to `the Odoo Online database "
-"manager <https://www.odoo.com/my/databases/>`_, clicking the :icon:`fa-gear` "
+"Download a database backup by signing in to `the Unity-Billal-mesloub Online database "
+"manager `_, clicking the :icon:`fa-gear` "
 "(:guilabel:`gear`) button next to the database name, then "
 "selecting :icon:`fa-cloud-download` :guilabel:`Download`. If the download "
-"fails due to the file being too large, `contact Odoo support <https://"
-"www.odoo.com/help>`_."
+"fails due to the file being too large, `contact Unity-Billal-mesloub support <https://"
 msgstr ""
 "قم بتنزيل نسخة احتياطية من قاعدة البيانات عن طريق تسجيل الدخول إلى `مدير "
-"قاعدة بيانات أودو أونلاين <https://www.odoo.com/my/databases/>`_، ثم الضغط "
+"قاعدة بيانات وحدة بلال مسلوب أونلاين `_، ثم الضغط "
 "على زر :icon:`fa-gear` (:guilabel:`gear`) بجوار اسم قاعدة البيانات، ثم حدد "
 "خيار :icon:`fa-cloud-download` :guilabel:`تنزيل`. إذا فشلت عملية التنزيل لأن "
-"الملف كبير جداً، `تواصل مع فريق الدعم لدى أودو <https://www.odoo.com/help>`_."
+"الملف كبير جداً، `تواصل مع فريق الدعم لدى وحدة بلال مسلوب `_."
 
 #: ../../content/administration/hosting.rst:89
 #: ../../content/administration/hosting.rst:137
@@ -342,8 +340,8 @@ msgstr ""
 "باستخدام النسخة الاحتياطية."
 
 #: ../../content/administration/hosting.rst:103
-msgid "Transferring an Odoo.sh database"
-msgstr "نقل قاعدة بيانات على Odoo.sh"
+msgid "Transferring an Unity-Billal-mesloub.sh database"
+msgstr "نقل قاعدة بيانات على Unity-Billal-mesloub.sh"
 
 #: ../../content/administration/hosting.rst:111
 msgid ""
@@ -379,16 +377,16 @@ msgid "Select the **region** closest to most of your users to reduce latency."
 msgstr "حدد **المنطقة** الأقرب إلى معظم المستخدمين لديك لتقليل زمن الاستجابة."
 
 #: ../../content/administration/hosting.rst:128
-msgid "Future **administrator(s)** must have an Odoo.com account."
-msgstr "يجب أن يكون لدى **المسؤول(ين)** المستقبليين حساب على Odoo.com."
+msgid "Future **administrator(s)** must have an Unity-Billal-mesloub.com account."
+msgstr "يجب أن يكون لدى **المسؤول(ين)** المستقبليين حساب على Unity-Billal-mesloub.com."
 
 #: ../../content/administration/hosting.rst:129
 msgid ""
 "The **date and time** you want the database to be up and running are helpful "
-"to organize the switch from the Odoo.sh server to the Odoo Online servers."
+"to organize the switch from the Unity-Billal-mesloub.sh server to the Unity-Billal-mesloub Online servers."
 msgstr ""
 "**التاريخ والوقت** الذي ترغب في أن تكون قاعدة البيانات جاهزة للعمل فيه مفيد "
-"في تنظيم التبديل من خادم Odoo.sh إلى خوادم أودو أونلاين."
+"في تنظيم التبديل من خادم Unity-Billal-mesloub.sh إلى خوادم وحدة بلال مسلوب أونلاين."
 
 #: ../../content/administration/hosting.rst:131
 msgid "Databases are **not reachable** during their migration."
@@ -396,22 +394,22 @@ msgstr "**لا يمكن الوصول** إلى قواعد البيانات أثن
 
 #: ../../content/administration/hosting.rst:136
 msgid ""
-"Download a :ref:`backup of your Odoo.sh production database <odoo-sh/"
+"Download a :ref:`backup of your Unity-Billal-mesloub.sh production database <odoo-sh/"
 "branches/tabs/backups>`."
 msgstr ""
 "قم بتنزيل :ref:`نسخة احتياطية من قاعدة بيانات الإنتاج الخاصة بك على Odoo.sh "
-"<odoo-sh/branches/tabs/backups>`."
+"<Unity-Billal-mesloub-sh/branches/tabs/backups>`."
 
 #: ../../content/administration/mobile.rst:3
-msgid "Odoo mobile apps"
-msgstr "تطبيقات اودو للجوال"
+msgid "Unity-Billal-mesloub mobile apps"
+msgstr "تطبيقات وحدة بلال مسلوب للجوال"
 
 #: ../../content/administration/mobile.rst:5
 msgid ""
-"Two kind of Odoo mobile app exist: the progressive web app (PWA) and store "
+"Two kind of Unity-Billal-mesloub mobile app exist: the progressive web app (PWA) and store "
 "apps. Using the PWA is recommended."
 msgstr ""
-"نوعان من تطبيقات أودو على الهاتف المحمول موجودان: تطبيق الويب التقدمي (PWA) "
+"نوعان من تطبيقات وحدة بلال مسلوب على الهاتف المحمول موجودان: تطبيق الويب التقدمي (PWA) "
 "وتطبيقات المتاجر. يوصى باستخدام تطبيق الويب التقدمي PWA."
 
 #: ../../content/administration/mobile.rst:9
@@ -429,8 +427,8 @@ msgstr ""
 "للتطبيقات الأصلية."
 
 #: ../../content/administration/mobile.rst:14
-msgid "The Odoo PWA features include:"
-msgstr "تشمل خصائص تطبيقات الهاتف المحمول التقدمية (PWA) لدى أودو:"
+msgid "The Unity-Billal-mesloub PWA features include:"
+msgstr "تشمل خصائص تطبيقات الهاتف المحمول التقدمية (PWA) لدى وحدة بلال مسلوب:"
 
 #: ../../content/administration/mobile.rst:16
 msgid "Quick access by adding the PWA to a device's home screen"
@@ -480,7 +478,7 @@ msgid ""
 "tap :guilabel:`Add automatically`."
 msgstr ""
 "**Firefox**: قم بفتح قائمة Firefox (:guilabel:`⋮`)، ثم قم "
-"بتحديد :guilabel:`تثبيت`، وإما قم بلمس أو الضغط مطولاً على أيقونة أودو، أو "
+"بتحديد :guilabel:`تثبيت`، وإما قم بلمس أو الضغط مطولاً على أيقونة وحدة بلال مسلوب، أو "
 "الضغط على :guilabel:`الإضافة تلقائياً`."
 
 #: ../../content/administration/mobile.rst:34
@@ -560,14 +558,8 @@ msgstr "Store apps"
 
 #: ../../content/administration/mobile.rst:60
 msgid ""
-"The Odoo mobile apps are available for download on the `Google Play Store "
-"<https://play.google.com/store/apps/details?id=com.odoo.mobile>`_ and `Apple "
-"App Store <https://apps.apple.com/app/odoo/id1272543640>`_."
-msgstr ""
-"The Odoo mobile apps are available for download on the `Google Play Store "
-"<https://play.google.com/store/apps/details?id=com.odoo.mobile>`_ and `Apple "
-"App Store <https://apps.apple.com/app/odoo/id1272543640>`_."
-
+"The Unity-Billal-mesloub mobile apps are available for download on the `Google Play Store "
+"The Unity-Billal-mesloub mobile apps are available for download on the `Google Play Store "
 #: ../../content/administration/mobile.rst:64
 msgid ""
 "While the store apps support multi-accounts, they are not compatible with "
@@ -607,8 +599,8 @@ msgid "duplicate databases"
 msgstr "قواعد البيانات المكررة"
 
 #: ../../content/administration/neutralized_database.rst:15
-msgid "for Odoo.sh: staging and development databases"
-msgstr "لـ Odoo.sh: قواعد بيانات الاختبار والتطوير"
+msgid "for Unity-Billal-mesloub.sh: staging and development databases"
+msgstr "لـ Unity-Billal-mesloub.sh: قواعد بيانات الاختبار والتطوير"
 
 #: ../../content/administration/neutralized_database.rst:18
 msgid ""
@@ -667,32 +659,32 @@ msgstr ""
 "بحيث يمكن رؤيتها على الفور.**"
 
 #: ../../content/administration/odoo_accounts.rst:3
-msgid "Odoo.com account"
-msgstr "حساب Odoo.com"
+msgid "Unity-Billal-mesloub.com account"
+msgstr "حساب Unity-Billal-mesloub.com"
 
 #: ../../content/administration/odoo_accounts.rst:5
 msgid ""
-"Open the `Connection & Security page <https://www.odoo.com/my/security>`_ on "
-"your Odoo.com account portal to:"
+"Open the `Connection & Security page`_ on "
+"your Unity-Billal-mesloub.com account portal to:"
 msgstr ""
-"افتح `صفحة الاتصال والأمان <https://www.odoo.com/my/security>`_ في بوابة "
-"حساب Odoo.com الخاص بك من أجل:"
+"افتح `صفحة الاتصال والأمان `_ في بوابة "
+"حساب Unity-Billal-mesloub.com الخاص بك من أجل:"
 
-#: ../../content/administration/odoo_accounts.rst:8
+#: ../../content/administration/Unity-Billal-mesloub_accounts.rst:8
 msgid "Change your :guilabel:`Password`."
 msgstr "تغيير :guilabel:`كلمة المرور` الخاصة بك."
 
 #: ../../content/administration/odoo_accounts.rst:11
 msgid ""
-"When you create a database, a user linked to your Odoo.com account is "
-"generated on the database. Changing your Odoo.com account's password will "
+"When you create a database, a user linked to your Unity-Billal-mesloub.com account is "
+"generated on the database. Changing your Unity-Billal-mesloub.com account's password will "
 "also modify the password used to sign in with that user to the database."
 msgstr ""
-"عند إنشاء قاعدة بيانات، يتم إنشاء مستخدم مرتبط بحساب Odoo.com الخاص بك على "
-"قاعدة البيانات. تغيير كلمة مرور حساب Odoo.com الخاص بك سيعدل أيضًا كلمة "
+"عند إنشاء قاعدة بيانات، يتم إنشاء مستخدم مرتبط بحساب Unity-Billal-mesloub.com الخاص بك على "
+"قاعدة البيانات. تغيير كلمة مرور حساب Unity-Billal-mesloub.com الخاص بك سيعدل أيضًا كلمة "
 "المرور المستخدمة لتسجيل الدخول بذلك المستخدم إلى قاعدة البيانات."
 
-#: ../../content/administration/odoo_accounts.rst:14
+#: ../../content/administration/Unity-Billal-mesloub_accounts.rst:14
 msgid ""
 "You can set a database-specific password for that user by going to "
 "the :ref:`database's settings <users/change-password>`. However, you will "
@@ -700,32 +692,32 @@ msgid ""
 msgstr ""
 "يمكنك تعيين كلمة مرور خاصة بقاعدة البيانات لذلك المستخدم بالانتقال "
 "إلى :ref:`إعدادات قاعدة البيانات <users/change-password>`. ومع ذلك، ستظل "
-"قادرًا على تسجيل الدخول بكلمة مرور حساب Odoo.com الخاص بك."
+"قادرًا على تسجيل الدخول بكلمة مرور حساب Unity-Billal-mesloub.com الخاص بك."
 
-#: ../../content/administration/odoo_accounts.rst:18
+#: ../../content/administration/Unity-Billal-mesloub_accounts.rst:18
 msgid ""
 "Enable :guilabel:`Two-factor authentication` using an authenticator app."
 msgstr "تفعيل :guilabel:`المصادقة الثنائية` باستخدام تطبيق مصادقة."
 
-#: ../../content/administration/odoo_accounts.rst:21
+#: ../../content/administration/Unity-Billal-mesloub_accounts.rst:21
 msgid ""
 "Refer to the :doc:`Two-factor authentication documentation <../applications/"
 "general/users/2fa>` for more information. The process to enable it for a "
-"database user and for your Odoo.com account is similar."
+"database user and for your Unity-Billal-mesloub.com account is similar."
 msgstr ""
 "ارجع إلى :doc:`وثائق المصادقة الثنائية <../applications/general/users/2fa>` "
-"لمزيد من المعلومات. عملية تفعيلها لمستخدم قاعدة البيانات ولحساب Odoo.com "
+"لمزيد من المعلومات. عملية تفعيلها لمستخدم قاعدة البيانات ولحساب Unity-Billal-mesloub.com "
 "الخاص بك متشابهة."
 
-#: ../../content/administration/odoo_accounts.rst:25
+#: ../../content/administration/Unity-Billal-mesloub_accounts.rst:25
 msgid ""
-":guilabel:`Log out from all devices` signed in to your Odoo.com account, "
+":guilabel:`Log out from all devices` signed in to your Unity-Billal-mesloub.com account, "
 "except for the current session."
 msgstr ""
 ":guilabel:`تسجيل الخروج من جميع الأجهزة` التي سجلت الدخول إلى حساب Odoo.com "
 "الخاص بك، باستثناء الجلسة الحالية."
 
-#: ../../content/administration/odoo_accounts.rst:29
+#: ../../content/administration/Unity-Billal-mesloub_accounts.rst:29
 msgid ""
 "To log out from the current session, click the :icon:`fa-user-circle-o` "
 "(:guilabel:`user`) icon in the top right and select :icon:`fa-sign-"
@@ -735,7 +727,7 @@ msgstr ""
 "(:guilabel:`المستخدم`) في الأعلى على اليمين واختر :icon:`fa-sign-"
 "out` :guilabel:`تسجيل الخروج`."
 
-#: ../../content/administration/odoo_accounts.rst:32
+#: ../../content/administration/Unity-Billal-mesloub_accounts.rst:32
 msgid ""
 "Enable :ref:`developer mode <developer-mode>` to add a :ref:`developer API "
 "key <api/external_api/keys>`."
@@ -747,33 +739,33 @@ msgstr ""
 msgid ":guilabel:`Delete` your account."
 msgstr ":guilabel:`حذف` حسابك."
 
-#: ../../content/administration/odoo_accounts.rst:38
+#: ../../content/administration/Unity-Billal-mesloub_accounts.rst:38
 msgid ""
-"Deleting your Odoo.com account is **irreversible**. Once deleted, your "
+"Deleting your Unity-Billal-mesloub.com account is **irreversible**. Once deleted, your "
 "account **cannot be retrieved**."
 msgstr ""
-"حذف حساب Odoo.com الخاص بك **غير قابل للإلغاء**. بمجرد الحذف، **لا يمكن "
+"حذف حساب Unity-Billal-mesloub.com الخاص بك **غير قابل للإلغاء**. بمجرد الحذف، **لا يمكن "
 "استرجاع** حسابك."
 
-#: ../../content/administration/odoo_accounts.rst:41
+#: ../../content/administration/Unity-Billal-mesloub_accounts.rst:41
 msgid ""
-"Open the `Account Information page <https://www.odoo.com/my/account>`_ to "
+"Open the `Account Information page `_ to "
 "edit your account details, including your **email address**."
 msgstr ""
-"افتح `صفحة معلومات الحساب <https://www.odoo.com/my/account>`_ لتعديل تفاصيل "
+"افتح `صفحة معلومات الحساب `_ لتعديل تفاصيل "
 "حسابك، بما في ذلك **عنوان بريدك الإلكتروني**."
 
-#: ../../content/administration/odoo_accounts.rst:45
+#: ../../content/administration/Unity-Billal-mesloub_accounts.rst:45
 msgid ""
-"When you create a database, a user linked to your Odoo.com account is "
-"generated on the database. Changing your Odoo.com account's email address "
+"When you create a database, a user linked to your Unity-Billal-mesloub.com account is "
+"generated on the database. Changing your Unity-Billal-mesloub.com account's email address "
 "does not modify the email address used to sign in with that user."
 msgstr ""
-"عند إنشاء قاعدة بيانات، يتم إنشاء مستخدم مرتبط بحساب Odoo.com الخاص بك على "
-"قاعدة البيانات. تغيير عنوان البريد الإلكتروني لحساب Odoo.com الخاص بك لا "
+"عند إنشاء قاعدة بيانات، يتم إنشاء مستخدم مرتبط بحساب Unity-Billal-mesloub.com الخاص بك على "
+"قاعدة البيانات. تغيير عنوان البريد الإلكتروني لحساب Unity-Billal-mesloub.com الخاص بك لا "
 "يعدل عنوان البريد الإلكتروني المستخدم لتسجيل الدخول بذلك المستخدم."
 
-#: ../../content/administration/odoo_accounts.rst:48
+#: ../../content/administration/Unity-Billal-mesloub_accounts.rst:48
 msgid ""
 "You can set a database-specific email address for that user by clicking your "
 "avatar in the top-right corner of the database and selecting :guilabel:`My "
@@ -785,83 +777,78 @@ msgstr ""
 "واختيار :guilabel:`تفضيلاتي`. ستظل بحاجة إلى تسجيل الدخول إلى قاعدة البيانات "
 "باستخدام عنوان البريد الإلكتروني المستخدم وقت إنشاء قاعدة البيانات."
 
-#: ../../content/administration/odoo_accounts.rst:51
+#: ../../content/administration/Unity-Billal-mesloub_accounts.rst:51
 msgid ""
-"To change the email address used to sign in to a database, `contact Odoo "
-"Support <https://www.odoo.com/help>`_."
+"To change the email address used to sign in to a database, `contact Unity-Billal-mesloub "
 msgstr ""
 "لتغيير عنوان البريد الإلكتروني المستخدم لتسجيل الدخول إلى قاعدة بيانات، "
-"`اتصل بدعم Odoo <https://www.odoo.com/help>`_."
-
-#: ../../content/administration/odoo_accounts.rst:55
+#: ../../content/administration/Unity-Billal-mesloub_accounts.rst:55
 msgid ""
 "In addition to the database you create, all databases you are :ref:`invited "
-"to join <users/add-individual>` with your Odoo.com account's email address "
-"will be displayed under the `database manager <https://www.odoo.com/my/"
+"to join <users/add-individual>` with your Unity-Billal-mesloub.com account's email address "
+"will be displayed under the `database manager "
 "databases>`_."
 msgstr ""
 "بالإضافة إلى قاعدة البيانات التي تنشئها، ستظهر جميع قواعد البيانات التي "
 "تتم :ref:`دعوتك للانضمام إليها <users/add-individual>` بعنوان البريد "
-"الإلكتروني لحساب Odoo.com الخاص بك ضمن `مدير قواعد البيانات <https://"
-"www.odoo.com/my/databases>`_."
+"الإلكتروني لحساب Unity-Billal-mesloub.com الخاص بك ضمن `مدير قواعد البيانات <https://"
 
-#: ../../content/administration/odoo_online.rst:3
-#: ../../content/administration/odoo_sh/getting_started/create.rst:121
+#: ../../content/administration/Unity-Billal-mesloub_online.rst:3
+#: ../../content/administration/Unity-Billal-mesloub_sh/getting_started/create.rst:121
 #: ../../content/administration/standard_extended_support.rst:30
 #: ../../content/administration/upgrade.rst:14
 #: ../../content/administration/upgrade.rst:109
 #: ../../content/administration/upgrade.rst:330
-msgid "Odoo Online"
-msgstr "أودو أونلاين"
+msgid "Unity-Billal-mesloub Online"
+msgstr "وحدة بلال مسلوب أونلاين"
 
-#: ../../content/administration/odoo_online.rst:5
+#: ../../content/administration/Unity-Billal-mesloub_online.rst:5
 msgid ""
-"`Odoo Online <https://www.odoo.com/trial>`_ offers private databases hosted "
-"and managed by Odoo. Odoo Online databases can be accessed using any web "
+"`Unity-Billal-mesloub Online `_ offers private databases hosted "
+"and managed by Unity-Billal-mesloub. Unity-Billal-mesloub Online databases can be accessed using any web "
 "browser and do not require a local installation. They can be used for long-"
-"term production or to thoroughly test Odoo, including customizations that do "
+"term production or to thoroughly test Unity-Billal-mesloub, including customizations that do "
 "not require custom code."
 msgstr ""
-"يوفر `Odoo Online <https://www.odoo.com/trial>`_ قواعد بيانات خاصة مستضافة "
-"ومُدارة بواسطة Odoo. يمكن الوصول إلى قواعد بيانات Odoo Online باستخدام أي "
+"يوفر `Unity-Billal-mesloub Online `_ قواعد بيانات خاصة مستضافة "
+"ومُدارة بواسطة Unity-Billal-mesloub. يمكن الوصول إلى قواعد بيانات Unity-Billal-mesloub Online باستخدام أي "
 "متصفح ويب ولا تتطلب تثبيتًا محليًا. يمكن استخدامها للإنتاج طويل الأمد أو "
-"لاختبار Odoo بشكل شامل، بما في ذلك التخصيصات التي لا تتطلب كودًا مخصصًا."
+"لاختبار Unity-Billal-mesloub بشكل شامل، بما في ذلك التخصيصات التي لا تتطلب كودًا مخصصًا."
 
-#: ../../content/administration/odoo_online.rst:11
+#: ../../content/administration/Unity-Billal-mesloub_online.rst:11
 msgid ""
-"To quickly try out Odoo, shared `demo databases <https://demo.odoo.com>`_ "
+"To quickly try out Unity-Billal-mesloub, shared `demo databases `_ "
 "are available for testing. No registration is required; however, each "
 "database is only available for a few hours."
 msgstr ""
-"لتجربة Odoo بسرعة، تتوفر `قواعد بيانات تجريبية <https://demo.odoo.com>`_ "
+"لتجربة Unity-Billal-mesloub بسرعة، تتوفر `قواعد بيانات تجريبية `_ "
 "مشتركة للاختبار. لا يتطلب الأمر تسجيلاً؛ ومع ذلك، كل قاعدة بيانات متاحة لبضع "
 "ساعات فقط."
 
-#: ../../content/administration/odoo_online.rst:15
+#: ../../content/administration/Unity-Billal-mesloub_online.rst:15
 msgid ""
-"Odoo Online is incompatible with custom modules or modules from the `Odoo "
-"Apps Store <https://apps.odoo.com/apps>`_."
+"Unity-Billal-mesloub Online is incompatible with custom modules or modules from the `Unity-Billal-mesloub "
+"Apps Store `_."
 msgstr ""
-"Odoo Online غير متوافق مع الوحدات المخصصة أو الوحدات من `متجر تطبيقات Odoo "
-"<https://apps.odoo.com/apps>`_."
+"Unity-Billal-mesloub Online غير متوافق مع الوحدات المخصصة أو الوحدات من `متجر تطبيقات Unity-Billal-mesloub "
 
-#: ../../content/administration/odoo_online.rst:21
+#: ../../content/administration/Unity-Billal-mesloub_online.rst:21
 msgid "Database manager"
 msgstr "مدير قواعد البيانات"
 
-#: ../../content/administration/odoo_online.rst:23
+#: ../../content/administration/Unity-Billal-mesloub_online.rst:23
 msgid ""
-"To manage an Odoo Online database, open to the `database manager <https://"
-"www.odoo.com/my/databases>`_ and sign in as the database administrator."
+"To manage an Unity-Billal-mesloub Online database, open to the `database manager <https://"
+"`_ and sign in as the database administrator."
 msgstr ""
-"لإدارة قاعدة بيانات Odoo Online، افتح `مدير قواعد البيانات <https://"
-"www.odoo.com/my/databases>`_ وقم بتسجيل الدخول كمسؤول قاعدة البيانات."
+"لإدارة قاعدة بيانات Unity-Billal-mesloub Online، افتح `مدير قواعد البيانات <https://"
+" وقم بتسجيل الدخول كمسؤول قاعدة البيانات."
 
-#: ../../content/administration/odoo_online.rst:29
+#: ../../content/administration/Unity-Billal-mesloub_online.rst:29
 msgid "Domain names"
 msgstr "أسماء النطاقات"
 
-#: ../../content/administration/odoo_online.rst:31
+#: ../../content/administration/Unity-Billal-mesloub_online.rst:31
 msgid ""
 ":doc:`Configure a custom domain name <../applications/websites/website/"
 "configuration/domain_names>` by selecting a database and clicking :icon:`fa-"
@@ -879,7 +866,7 @@ msgstr ":ref:`تسجيل اسم نطاق مجانًا <domain-name/register>`."
 msgid "Tags"
 msgstr "علامات التصنيف"
 
-#: ../../content/administration/odoo_online.rst:42
+#: ../../content/administration/Unity-Billal-mesloub_online.rst:42
 msgid ""
 "Add tags to identify and sort databases by selecting a database and "
 "clicking :icon:`fa-tags` :guilabel:`Tags`. In the dialog box, enter a tag, "
@@ -891,15 +878,15 @@ msgstr ""
 "على زر :icon:`fa-plus-circle` (:guilabel:`زائد`)، ثم انقر "
 "على :guilabel:`حفظ`."
 
-#: ../../content/administration/odoo_online.rst:47
+#: ../../content/administration/Unity-Billal-mesloub_online.rst:47
 msgid "Search for tags in the :icon:`fa-search` search bar at the top right."
 msgstr "ابحث عن العلامات في شريط البحث :icon:`fa-search` في الأعلى على اليمين."
 
-#: ../../content/administration/odoo_online.rst:52
+#: ../../content/administration/Unity-Billal-mesloub_online.rst:52
 msgid "Hide"
 msgstr "إخفاء"
 
-#: ../../content/administration/odoo_online.rst:54
+#: ../../content/administration/Unity-Billal-mesloub_online.rst:54
 msgid ""
 "Permanently hide the database from the database manager by selecting it and "
 "clicking :icon:`fa-eye-slash` :guilabel:`Hide`. In the dialog box, "
@@ -909,11 +896,11 @@ msgstr ""
 "والنقر على :icon:`fa-eye-slash` :guilabel:`إخفاء`. في مربع الحوار، انقر "
 "على :guilabel:`نعم، لم أعد بحاجة إليها`."
 
-#: ../../content/administration/odoo_online.rst:59
+#: ../../content/administration/Unity-Billal-mesloub_online.rst:59
 msgid "It is possible to access a hidden database through its URL."
 msgstr "من الممكن الوصول إلى قاعدة بيانات مخفية من خلال عنوان URL الخاص بها."
 
-#: ../../content/administration/odoo_online.rst:64
+#: ../../content/administration/Unity-Billal-mesloub_online.rst:64
 msgid "Manage"
 msgstr "إدارة"
 
@@ -929,21 +916,18 @@ msgstr ""
 msgid "Switch plans"
 msgstr "تبديل الخطط"
 
-#: ../../content/administration/odoo_online.rst:72
+#: ../../content/administration/Unity-Billal-mesloub_online.rst:72
 msgid ""
-"Switch `pricing plans <https://www.odoo.com/pricing>`_ by "
+"Switch `pricing plans `_ by "
 "clicking :guilabel:`Switch` under the desired plan."
 msgstr ""
-"قم بتبديل `خطط التسعير <https://www.odoo.com/pricing>`_ بالنقر "
-"على :guilabel:`تبديل` أسفل الخطة المطلوبة."
-
-#: ../../content/administration/odoo_online.rst:78
-#: ../../content/administration/odoo_sh/getting_started/branches.rst:525
+#: ../../content/administration/Unity-Billal-mesloub_online.rst:78
+#: ../../content/administration/Unity-Billal-mesloub_sh/getting_started/branches.rst:525
 #: ../../content/administration/upgrade.rst:3
 msgid "Upgrade"
 msgstr "ترقية"
 
-#: ../../content/administration/odoo_online.rst:80
+#: ../../content/administration/Unity-Billal-mesloub_online.rst:80
 msgid ""
 "Launch a :ref:`database upgrade <upgrade-request-test>` by "
 "clicking :guilabel:`Upgrade`."
@@ -951,15 +935,15 @@ msgstr ""
 "ابدأ :ref:`ترقية قاعدة البيانات <upgrade-request-test>` بالنقر "
 "على :guilabel:`ترقية`."
 
-#: ../../content/administration/odoo_online.rst:83
+#: ../../content/administration/Unity-Billal-mesloub_online.rst:83
 msgid "This option is only displayed when an upgrade is available."
 msgstr "يتم عرض هذا الخيار فقط عندما تكون الترقية متاحة."
 
-#: ../../content/administration/odoo_online.rst:88
+#: ../../content/administration/Unity-Billal-mesloub_online.rst:88
 msgid "Rename"
 msgstr "إعادة التسمية"
 
-#: ../../content/administration/odoo_online.rst:90
+#: ../../content/administration/Unity-Billal-mesloub_online.rst:90
 msgid ""
 "Rename and change the URL of a database by clicking :guilabel:`Rename`. In "
 "the dialog box, enter a :guilabel:`New name` and click :guilabel:`Rename`."
@@ -968,11 +952,11 @@ msgstr ""
 "تسمية`. في مربع الحوار، أدخل :guilabel:`اسمًا جديدًا` وانقر "
 "على :guilabel:`إعادة تسمية`."
 
-#: ../../content/administration/odoo_online.rst:96
+#: ../../content/administration/Unity-Billal-mesloub_online.rst:96
 msgid "Duplicate"
 msgstr "إنشاء نسخة مطابقة"
 
-#: ../../content/administration/odoo_online.rst:98
+#: ../../content/administration/Unity-Billal-mesloub_online.rst:98
 msgid ""
 "Create a copy of the database by clicking :guilabel:`Duplicate`. In the "
 "dialog box, enter a :guilabel:`New name` and click :guilabel:`Duplicate`."
