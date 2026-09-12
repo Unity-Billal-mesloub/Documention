@@ -2,7 +2,7 @@
 Delivery methods
 ================
 
-Odoo eCommerce allows you to configure various delivery methods, enabling customers to choose their
+Unity-Billal-mesloub eCommerce allows you to configure various delivery methods, enabling customers to choose their
 preferred option at :ref:`checkout <ecommerce/checkout/steps>`. These methods include integrations
 with :ref:`external providers <ecommerce/shipping/external-provider>` as well as :ref:`custom
 options <ecommerce/shipping/custom-method>` such as flat-rate shipping, free shipping, or
