@@ -34,9 +34,6 @@ customer's shopping experience.
       Enable additional features, such as the wishlist and product comparison, and highlight
       products using ribbons.
 
-.. seealso::
-   `Odoo Tutorials: Website & eCommerce <https://www.odoo.com/slides/website-ecommerce-25>`_
-
 .. toctree::
    :titlesonly:
 
